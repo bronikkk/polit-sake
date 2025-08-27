@@ -12,6 +12,11 @@ PrisonersListModel::PrisonersListModel(const QStringList &strings,
 
 }
 
+int PrisonersListModel::getSize() const
+{
+    return static_cast<int>(checkedItems.size());
+}
+
 Qt::ItemFlags PrisonersListModel::flags(const QModelIndex &index) const
 {
     Qt::ItemFlags defaultFlags = QStringListModel::flags(index);
@@ -55,5 +60,4 @@ bool PrisonersListModel::setData(const QModelIndex &index, const QVariant &value
 
 void PrisonersListModel::save()
 {
-
 }

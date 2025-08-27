@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/pics">
+        <file>couvert.bmp</file>
+        <file>favicon.ico</file>
+    </qresource>
+</RCC>

@@ -10,19 +10,19 @@ CONFIG += c++17
 
 SOURCES += \
     main.cpp \
-    mainwindow.cpp \
+    politsake.cpp \
     prisonerslistmodel.cpp \
     prisonerslistview.cpp
 
 HEADERS += \
-    mainwindow.h \
+    politsake.h \
     prisonerslistmodel.h \
     prisonerslistview.h
-
-FORMS += \
-    mainwindow.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RESOURCES += \
+    politsakeressource.qrc

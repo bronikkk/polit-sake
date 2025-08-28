@@ -1,5 +1,6 @@
 #include "politsake.h"
 
+#include <QDesktopServices>
 #include <QIcon>
 #include <QMessageBox>
 
@@ -13,11 +14,21 @@ PolitSake::PolitSake()
 
     lineEditURL = new QLineEdit(this);
     lineEditURL->setText(prisonersListURL);
-    lineEditURL->setGeometry(10, 30, 350, 22);
+    lineEditURL->setGeometry(10, 10, 350, 22);
 
-    pushButtonOpen = new QPushButton(this);
-    pushButtonOpen->setText("Open");
-    pushButtonOpen->setGeometry(380, 30, 100, 22);
+    pushButtonLoad = new QPushButton(this);
+    pushButtonLoad->setText("Load");
+    pushButtonLoad->setGeometry(380, 10, 100, 22);
+    pushButtonLoad->setEnabled(false);
+
+    pushButtonBrowse = new QPushButton(this);
+    pushButtonBrowse->setText("Browse");
+    pushButtonBrowse->setGeometry(380, 40, 100, 22);
+
+    pushButtonQR = new QPushButton(this);
+    pushButtonQR->setText("QR Code");
+    pushButtonQR->setGeometry(380, 70, 100, 22);
+    pushButtonQR->setEnabled(false);
 
     pushButtonWriteLetter = new QPushButton(this);
     pushButtonWriteLetter->setIcon(QIcon(":/pics/couvert.bmp"));
@@ -31,6 +42,10 @@ PolitSake::PolitSake()
     listView = new PrisonersListView(this);
     listView->setGeometry(10, 100, 350, 470);
 
+    frameViewWeb = new QFrame(this);
+    frameViewWeb->setFrameStyle(QFrame::Panel | QFrame::Raised);
+    frameViewWeb->setGeometry(380, 100, 410, 470);
+
     labelCurrentPrisonerIntro = new QLabel(this);
     labelCurrentPrisonerIntro->setText("Prisoner:");
     labelCurrentPrisonerIntro->setGeometry(10, 570, 60, 22);
@@ -38,12 +53,19 @@ PolitSake::PolitSake()
     labelCurrentPrisonerText = new QLabel(this);
     labelCurrentPrisonerText->setGeometry(70, 570, 350, 22);
 
+    QObject::connect(pushButtonBrowse, SIGNAL(clicked()), this, SLOT(browseURL()));
+
     QObject::connect(pushButtonWriteLetter, SIGNAL(clicked()), this, SLOT(writeLetter()));
 
     QObject::connect(listView, SIGNAL(clicked(QModelIndex)), this,
                      SLOT(updateCurrentPrisoner(QModelIndex)));
     QObject::connect(listView->model(), SIGNAL(dataChanged(QModelIndex,QModelIndex)), this,
                      SLOT(updateLettersCount()));
+}
+
+void PolitSake::browseURL()
+{
+    QDesktopServices::openUrl(QUrl(lineEditURL->text()));
 }
 
 void PolitSake::updateCurrentPrisoner(QModelIndex modelIndex)

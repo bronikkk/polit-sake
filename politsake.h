@@ -6,6 +6,7 @@
 #include <QLCDNumber>
 #include <QLabel>
 #include <QLineEdit>
+#include <QMap>
 #include <QPushButton>
 #include <QWidget>
 
@@ -18,16 +19,20 @@ class PolitSake : public QWidget
 public:
     PolitSake();
 
-private:
-    static constexpr auto prisonersListURL =
-        "https://docs.google.com/spreadsheets/d/12YNoH7w86lw2NfCbMZaa9t0TiAaECTyIKbEvn2MEwp8/edit";
+    static constexpr auto prisonersListURL = "https://api.airtable.com/v0/appaVayeFV2RS6Ihv/PZK";
+    static constexpr auto airTableToken =
+        "patkxJoU705lxPpKs.6e7432e3ace8f9f5b0416f32c11031c49c7d928145418458ed7670b784eca4ba";
 
+private:
     QFrame *frameViewWeb;
     QLabel *labelCurrentPrisonerIntro, *labelCurrentPrisonerText;
     QLCDNumber *lcdNumberLettersCount;
     QLineEdit *lineEditURL;
     QPushButton *pushButtonBrowse, *pushButtonLoad, *pushButtonQR, *pushButtonWriteLetter;
     PrisonersListView *listView;
+
+    // TODO: Fix this
+    QMap<QString, QString> lettersAddresses;
 
     QModelIndex currentPrisonerIndex;
 

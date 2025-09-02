@@ -1,16 +1,9 @@
 #include "prisonerslistview.h"
 
-PrisonersListView::PrisonersListView(QWidget *parent) : QListView{parent}
+PrisonersListView::PrisonersListView(QWidget *parent,
+                                     QMap<QString, QString> &lettersAddresses) : QListView{parent}
 {
-    QStringList prisonersList;
-
-    prisonersList.append("Ivanov Ivan Ivanovich");
-    prisonersList.append("Martynova Martyna Martynovna");
-    prisonersList.append("Sidorov Sidor Sidorovich");
-
-    prisonersListModel = new PrisonersListModel(this);
-    prisonersListModel->setStringList(prisonersList);
-
+    prisonersListModel = new PrisonersListModel(this, lettersAddresses);
     setModel(prisonersListModel);
 }
 

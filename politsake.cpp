@@ -39,7 +39,7 @@ PolitSake::PolitSake()
     lcdNumberLettersCount->setDigitCount(5);
     lcdNumberLettersCount->setGeometry(50, 60, 80, 32);
 
-    listView = new PrisonersListView(this);
+    listView = new PrisonersListView(this, lettersAddresses);
     listView->setGeometry(10, 100, 350, 470);
 
     frameViewWeb = new QFrame(this);
@@ -51,7 +51,7 @@ PolitSake::PolitSake()
     labelCurrentPrisonerIntro->setGeometry(10, 570, 60, 22);
 
     labelCurrentPrisonerText = new QLabel(this);
-    labelCurrentPrisonerText->setGeometry(70, 570, 350, 22);
+    labelCurrentPrisonerText->setGeometry(70, 570, 720, 22);
 
     QObject::connect(pushButtonBrowse, SIGNAL(clicked()), this, SLOT(browseURL()));
 
@@ -65,7 +65,7 @@ PolitSake::PolitSake()
 
 void PolitSake::browseURL()
 {
-    QDesktopServices::openUrl(QUrl(lineEditURL->text()));
+    QDesktopServices::openUrl(QUrl{lineEditURL->text()});
 }
 
 void PolitSake::updateCurrentPrisoner(QModelIndex modelIndex)
@@ -89,6 +89,13 @@ void PolitSake::writeLetter()
 
     listView->model()->setData(currentPrisonerIndex, Qt::Checked, Qt::CheckStateRole);
 
-    QString letterAddress = currentPrisonerIndex.data().toString();
-    QMessageBox::information(this, "Letter Address", letterAddress);
+    QString currentPrisoner = currentPrisonerIndex.data().toString();
+    auto currentLetterAddressIndex = lettersAddresses.find(currentPrisoner);
+
+    QString currentLetterAddress;
+    if (currentLetterAddressIndex != lettersAddresses.end()) {
+        currentLetterAddress = *currentLetterAddressIndex;
+    }
+
+    QMessageBox::information(this, "Letter Address", currentLetterAddress);
 }

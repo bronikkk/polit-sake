@@ -7,7 +7,7 @@
 class PrisonersListView : public QListView
 {
 public:
-    PrisonersListView(QWidget *parent = nullptr);
+    PrisonersListView(QWidget *parent, QMap<QString, QString> &lettersAddresses);
 
     int getSize() const;
 

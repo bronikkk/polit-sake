@@ -67,9 +67,36 @@ QString appendToPrisonersList(QStringList &prisonersList, const QString &records
             continue;
         }
 
-        if (letterAddressString.startsWith(",")) {
-            letterAddressString = letterAddressString.mid(1);
+        if (letterAddressString.startsWith("\"")) {
+            letterAddressString.removeFirst();
         }
+
+        if (letterAddressString.startsWith(",")) {
+            letterAddressString.removeFirst();
+        }
+
+        int verticalBarIndex = letterAddressString.indexOf("| ФКУ");
+        if (-1 != verticalBarIndex) {
+            letterAddressString = letterAddressString.remove(0, verticalBarIndex + 1);
+        }
+
+        letterAddressString = letterAddressString.trimmed();
+
+        if (letterAddressString.endsWith("\"")) {
+            letterAddressString.removeLast();
+        }
+
+        if (letterAddressString.endsWith(",")) {
+            letterAddressString.removeLast();
+        }
+
+        verticalBarIndex = letterAddressString.lastIndexOf(" |");
+        if (-1 != verticalBarIndex) {
+            letterAddressString = letterAddressString.remove(verticalBarIndex,
+                                                             letterAddressString.length() - verticalBarIndex);
+        }
+
+        letterAddressString = letterAddressString.trimmed();
 
         auto initials = prisonerFields[QString("ФИО")];
         if (initials.isString()) {

@@ -97,5 +97,6 @@ void PolitSake::writeLetter()
         currentLetterAddress = *currentLetterAddressIndex;
     }
 
-    QMessageBox::information(this, "Letter Address", currentLetterAddress);
+    QMessageBox::information(this, "Letter Address", QString{"%1\n%2"}.arg(currentPrisoner,
+                                                                           currentLetterAddress));
 }

@@ -10,11 +10,13 @@ CONFIG += c++17
 
 SOURCES += \
     main.cpp \
+    penitentiarydatabase.cpp \
     politsake.cpp \
     prisonerslistmodel.cpp \
     prisonerslistview.cpp
 
 HEADERS += \
+    penitentiarydatabase.h \
     politsake.h \
     prisonerslistmodel.h \
     prisonerslistview.h

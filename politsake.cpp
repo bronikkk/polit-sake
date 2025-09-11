@@ -39,8 +39,11 @@ PolitSake::PolitSake()
     lcdNumberLettersCount->setDigitCount(5);
     lcdNumberLettersCount->setGeometry(50, 60, 80, 32);
 
-    listView = new PrisonersListView(this, lettersAddresses);
-    listView->setGeometry(10, 100, 350, 470);
+    penitentiaryDatabase = new PenitentiaryDatabase(this);
+    penitentiaryDatabase->setVisible(false);
+
+    prisonersListView = new PrisonersListView(this, lettersAddresses);
+    prisonersListView->setGeometry(10, 100, 350, 470);
 
     frameViewWeb = new QFrame(this);
     frameViewWeb->setFrameStyle(QFrame::Panel | QFrame::Raised);
@@ -57,9 +60,9 @@ PolitSake::PolitSake()
 
     QObject::connect(pushButtonWriteLetter, SIGNAL(clicked()), this, SLOT(writeLetter()));
 
-    QObject::connect(listView, SIGNAL(clicked(QModelIndex)), this,
+    QObject::connect(prisonersListView, SIGNAL(clicked(QModelIndex)), this,
                      SLOT(updateCurrentPrisoner(QModelIndex)));
-    QObject::connect(listView->model(), SIGNAL(dataChanged(QModelIndex,QModelIndex)), this,
+    QObject::connect(prisonersListView->model(), SIGNAL(dataChanged(QModelIndex, QModelIndex)), this,
                      SLOT(updateLettersCount()));
 }
 
@@ -77,7 +80,7 @@ void PolitSake::updateCurrentPrisoner(QModelIndex modelIndex)
 
 void PolitSake::updateLettersCount()
 {
-    lcdNumberLettersCount->display(listView->getSize());
+    lcdNumberLettersCount->display(prisonersListView->getSize());
 }
 
 void PolitSake::writeLetter()
@@ -87,7 +90,7 @@ void PolitSake::writeLetter()
         return;
     }
 
-    listView->model()->setData(currentPrisonerIndex, Qt::Checked, Qt::CheckStateRole);
+    prisonersListView->model()->setData(currentPrisonerIndex, Qt::Checked, Qt::CheckStateRole);
 
     QString currentPrisoner = currentPrisonerIndex.data().toString();
     auto currentLetterAddressIndex = lettersAddresses.find(currentPrisoner);

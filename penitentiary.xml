@@ -1,0 +1,14 @@
+<penitentiary>
+    <amenity>
+        <name>ФКУ СИЗО-1 УФСИН России по Тюменской области</name>
+        <location>Тюменская обл., г. Тюмень, ул. Ялуторовская, д. 42, стр. 2</location>
+        <state>Россия</state>
+        <zip>625000</zip>
+    </amenity>
+    <amenity>
+        <name>ФКУ «ИК № 7 УФСИН России по Костромской области»</name>
+        <location>Костромская обл., Костромской район, пос. Бычиха-12</location>
+        <state>Россия</state>
+        <zip>156522</zip>
+    </amenity>
+</penitentiary>

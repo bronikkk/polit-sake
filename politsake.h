@@ -10,6 +10,7 @@
 #include <QPushButton>
 #include <QWidget>
 
+#include "penitentiarydatabase.h"
 #include "prisonerslistview.h"
 
 class PolitSake : public QWidget
@@ -29,12 +30,13 @@ private:
     QLCDNumber *lcdNumberLettersCount;
     QLineEdit *lineEditURL;
     QPushButton *pushButtonBrowse, *pushButtonLoad, *pushButtonQR, *pushButtonWriteLetter;
-    PrisonersListView *listView;
 
     // TODO: Fix this
     QMap<QString, QString> lettersAddresses;
-
     QModelIndex currentPrisonerIndex;
+
+    PenitentiaryDatabase *penitentiaryDatabase;
+    PrisonersListView *prisonersListView;
 
 private slots:
     void browseURL();

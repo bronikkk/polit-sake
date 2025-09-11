@@ -13,7 +13,7 @@ private:
 
 public:
     PrisonersListModel(QObject *parent, QMap<QString, QString> &lettersAddresses);
-    PrisonersListModel(const QStringList &strings, QObject *parent = nullptr);
+    PrisonersListModel(QObject *parent, const QStringList &strings);
 
     int getSize() const;
 

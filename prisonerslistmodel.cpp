@@ -142,8 +142,8 @@ PrisonersListModel::PrisonersListModel(QObject *parent,
     setStringList(prisonersList);
 }
 
-PrisonersListModel::PrisonersListModel(const QStringList &strings,
-                                       QObject *parent) : QStringListModel{strings, parent}
+PrisonersListModel::PrisonersListModel(QObject *parent,
+                                       const QStringList &strings) : QStringListModel{strings, parent}
 {
 
 }

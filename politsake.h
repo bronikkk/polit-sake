@@ -32,7 +32,7 @@ private:
     QPushButton *pushButtonBrowse, *pushButtonLoad, *pushButtonQR, *pushButtonWriteLetter;
 
     // TODO: Fix this
-    QMap<QString, QString> lettersAddresses;
+    QMap<QString, QString> prisonersToAmenities;
     QModelIndex currentPrisonerIndex;
 
     PenitentiaryDatabase *penitentiaryDatabase;

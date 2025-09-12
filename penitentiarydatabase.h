@@ -10,8 +10,16 @@ class PenitentiaryDatabase : public QListView
 public:
     PenitentiaryDatabase(QWidget *parent, QString filename = ":/data/penitentiary.xml");
 
+    struct Address {
+        QString location;
+        QString state;
+        QString zip;
+    };
+
+    Address getAddressForPenitentiary(QString name) const;
+
 private:
-    QMap<QString, QString> locations;
+    QMap<QString, Address> addresses;
 };
 
 #endif // PENITENTIARYDATABASE_H

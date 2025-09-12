@@ -12,7 +12,7 @@ private:
     QSet<QPersistentModelIndex> checkedItems;
 
 public:
-    PrisonersListModel(QObject *parent, QMap<QString, QString> &lettersAddresses);
+    PrisonersListModel(QObject *parent, QMap<QString, QString> &prisonersToAmenities);
     PrisonersListModel(QObject *parent, const QStringList &strings);
 
     int getSize() const;

@@ -14,7 +14,7 @@
 namespace {
 
 QString appendToPrisonersList(QStringList &prisonersList, const QString &recordsOffset,
-                              QSet<QString> &uniquePrisoners, QMap<QString, QString> &lettersAddresses)
+                              QSet<QString> &uniquePrisoners, QMap<QString, QString> &prisonersToAmenities)
 {
     QString fullURL = PolitSake::prisonersListURL;
     if (!recordsOffset.isEmpty()) {
@@ -34,7 +34,7 @@ QString appendToPrisonersList(QStringList &prisonersList, const QString &records
     QNetworkReply *reply = networkAccessManager.get(exampleApi.createRequest());
 
     QEventLoop loop;
-    loop.connect(&networkAccessManager, SIGNAL(finished(QNetworkReply *)), SLOT(quit()));
+    loop.connect(&networkAccessManager, SIGNAL(finished(QNetworkReply*)), SLOT(quit()));
     loop.exec();
 
     if (reply->error()) {
@@ -109,7 +109,7 @@ QString appendToPrisonersList(QStringList &prisonersList, const QString &records
             uniquePrisoners.insert(initialsString);
             prisonersList.append(initialsString);
 
-            lettersAddresses[initialsString] = letterAddressString;
+            prisonersToAmenities[initialsString] = letterAddressString;
         }
     }
 
@@ -124,7 +124,7 @@ QString appendToPrisonersList(QStringList &prisonersList, const QString &records
 }
 
 PrisonersListModel::PrisonersListModel(QObject *parent,
-                                       QMap<QString, QString> &letterAddresses) : QStringListModel{parent}
+                                       QMap<QString, QString> &prisonersToAmenities) : QStringListModel{parent}
 {
     QStringList prisonersList;
 
@@ -134,7 +134,7 @@ PrisonersListModel::PrisonersListModel(QObject *parent,
 
     do {
         recordsOffset = appendToPrisonersList(prisonersList, recordsOffset, uniquePrisoners,
-                                              letterAddresses);
+                                              prisonersToAmenities);
     } while (!recordsOffset.isEmpty());
 
     prisonersList.sort();

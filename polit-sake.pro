@@ -10,12 +10,14 @@ CONFIG += c++17
 
 SOURCES += \
     main.cpp \
+    memopzkconverter.cpp \
     penitentiarydatabase.cpp \
     politsake.cpp \
     prisonerslistmodel.cpp \
     prisonerslistview.cpp
 
 HEADERS += \
+    memopzkconverter.h \
     penitentiarydatabase.h \
     politsake.h \
     prisonerslistmodel.h \

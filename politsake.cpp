@@ -1,5 +1,7 @@
 #include "politsake.h"
 
+#include "memopzkconverter.h"
+
 #include <QDesktopServices>
 #include <QIcon>
 #include <QMessageBox>
@@ -68,7 +70,13 @@ PolitSake::PolitSake()
 
 void PolitSake::browseURL()
 {
-    QDesktopServices::openUrl(QUrl{lineEditURL->text()});
+    if (!currentPrisonerIndex.isValid()) {
+        QMessageBox::information(this, "Information", "Prisoner not clicked");
+        return;
+    }
+
+    QString currentPrisoner = currentPrisonerIndex.data().toString();
+    QDesktopServices::openUrl(QUrl{MemoPZKConverter::convertToURL(currentPrisoner)});
 }
 
 void PolitSake::updateCurrentPrisoner(QModelIndex modelIndex)

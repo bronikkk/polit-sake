@@ -30,4 +30,10 @@
         <state>Россия</state>
         <zip>625000</zip>
     </amenity>
+     <amenity>
+        <name>ФКУ СИЗО-6 УФСИН России по г. Москве (""Печатники"")</name>
+        <location>ул. Шоссейная д. 92, г. Москва</location>
+        <state>Россия</state>
+        <zip>109383</zip>
+    </amenity>
 </penitentiary>

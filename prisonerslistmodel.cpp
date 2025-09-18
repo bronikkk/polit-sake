@@ -51,27 +51,35 @@ QString appendToPrisonersList(QStringList &prisonersList, const QString &records
         return {};
     }
 
-    auto prisonersArray = prisonersRecords.toArray();
+    const auto prisonersArray = prisonersRecords.toArray();
 
-    for (auto prisoner = prisonersArray.cbegin(); prisoner != prisonersArray.cend(); ++prisoner) {
-        auto prisonerFields = (*prisoner)[QString("fields")];
+    for (const auto &prisoner : prisonersArray) {
+        auto prisonerFields = prisoner[QString("fields")];
 
         auto letterAddress =
             prisonerFields[QString("Текущее место отбывания наказания")];
-        if (!letterAddress.isString()) {
-            continue;
-        }
 
-        QString letterAddressString = letterAddress.toString();
-        if (letterAddressString.isEmpty()) {
-            continue;
-        }
+        QString letterAddressString;
+        if (!letterAddress.isString() || (letterAddressString = letterAddress.toString()).isEmpty()) {
+            letterAddress =
+                prisonerFields[QString("Текущее место меры пресечения")];
+            if (!letterAddress.isString()) {
+                continue;
+            }
 
-        if (letterAddressString.startsWith("\"")) {
-            letterAddressString.removeFirst();
+            letterAddressString = letterAddress.toString();
+            if (letterAddressString.isEmpty()) {
+                continue;
+            }
         }
 
         if (letterAddressString.startsWith(",")) {
+            letterAddressString.removeFirst();
+        }
+
+        letterAddressString = letterAddressString.trimmed();
+
+        if (letterAddressString.startsWith("\"")) {
             letterAddressString.removeFirst();
         }
 

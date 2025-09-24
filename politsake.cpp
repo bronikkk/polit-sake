@@ -58,14 +58,14 @@ PolitSake::PolitSake()
     labelCurrentPrisonerText = new QLabel{this};
     labelCurrentPrisonerText->setGeometry(70, 570, 720, 22);
 
-    QObject::connect(pushButtonBrowse, SIGNAL(clicked()), this, SLOT(browseURL()));
+    connect(pushButtonBrowse, SIGNAL(clicked()), this, SLOT(browseURL()));
 
-    QObject::connect(pushButtonWriteLetter, SIGNAL(clicked()), this, SLOT(writeLetter()));
+    connect(pushButtonWriteLetter, SIGNAL(clicked()), this, SLOT(writeLetter()));
 
-    QObject::connect(prisonersListView, SIGNAL(clicked(QModelIndex)), this,
-                     SLOT(updateCurrentPrisoner(QModelIndex)));
-    QObject::connect(prisonersListView->model(), SIGNAL(dataChanged(QModelIndex,QModelIndex)), this,
-                     SLOT(updateLettersCount()));
+    connect(prisonersListView, SIGNAL(clicked(QModelIndex)), this,
+            SLOT(updateCurrentPrisoner(QModelIndex)));
+    connect(prisonersListView->model(), SIGNAL(dataChanged(QModelIndex,QModelIndex)), this,
+            SLOT(updateLettersCount()));
 }
 
 void PolitSake::browseURL()

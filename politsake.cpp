@@ -18,14 +18,13 @@ PolitSake::PolitSake()
     lineEditURL->setText(prisonersListURL);
     lineEditURL->setGeometry(10, 10, 350, 22);
 
-    pushButtonLoad = new QPushButton{this};
-    pushButtonLoad->setText("Load");
-    pushButtonLoad->setGeometry(380, 10, 100, 22);
-    pushButtonLoad->setEnabled(false);
-
     pushButtonBrowse = new QPushButton{this};
     pushButtonBrowse->setText("Browse");
-    pushButtonBrowse->setGeometry(380, 40, 100, 22);
+    pushButtonBrowse->setGeometry(380, 10, 100, 22);
+
+    pushButtonSearch = new QPushButton{this};
+    pushButtonSearch->setText("Search");
+    pushButtonSearch->setGeometry(380, 40, 100, 22);
 
     pushButtonQR = new QPushButton{this};
     pushButtonQR->setText("QR Code");
@@ -58,7 +57,9 @@ PolitSake::PolitSake()
     labelCurrentPrisonerText = new QLabel{this};
     labelCurrentPrisonerText->setGeometry(70, 570, 720, 22);
 
-    connect(pushButtonBrowse, SIGNAL(clicked()), this, SLOT(browseURL()));
+    connect(pushButtonBrowse, SIGNAL(clicked()), this, SLOT(browsePrisoner()));
+
+    connect(pushButtonSearch, SIGNAL(clicked()), this, SLOT(searchPrisoner()));
 
     connect(pushButtonWriteLetter, SIGNAL(clicked()), this, SLOT(writeLetter()));
 
@@ -68,7 +69,7 @@ PolitSake::PolitSake()
             SLOT(updateLettersCount()));
 }
 
-void PolitSake::browseURL()
+void PolitSake::browsePrisoner()
 {
     if (!currentPrisonerIndex.isValid()) {
         QMessageBox::information(this, "Information", "Prisoner not clicked");
@@ -77,6 +78,36 @@ void PolitSake::browseURL()
 
     QString currentPrisoner = currentPrisonerIndex.data().toString();
     QDesktopServices::openUrl(QUrl{MemoPZKConverter::convertToURL(currentPrisoner)});
+}
+
+void PolitSake::searchPrisoner()
+{
+    if (!currentPrisonerIndex.isValid()) {
+        QMessageBox::information(this, "Information", "Prisoner not clicked");
+        return;
+    }
+
+    const QString currentPrisoner = currentPrisonerIndex.data().toString();
+    QString searchString = "https://memopzk.org/search/?q=";
+
+    for (auto character : currentPrisoner) {
+        if (character == '(' || character == ')') {
+            continue;
+        }
+
+        if (character == ' ') {
+            searchString += '+';
+            continue;
+        }
+
+        searchString += character;
+    }
+
+    if (searchString.endsWith("+")) {
+        searchString.removeLast();
+    }
+
+    QDesktopServices::openUrl(QUrl{searchString});
 }
 
 void PolitSake::updateCurrentPrisoner(QModelIndex modelIndex)

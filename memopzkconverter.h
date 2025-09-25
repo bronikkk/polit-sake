@@ -6,6 +6,8 @@
 class MemoPZKConverter
 {
 public:
+    static QString convertToSearchURL(QString prisonerName);
+
     static QString convertToURL(QString prisonerName);
 };
 

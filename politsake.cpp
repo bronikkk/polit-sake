@@ -87,27 +87,8 @@ void PolitSake::searchPrisoner()
         return;
     }
 
-    const QString currentPrisoner = currentPrisonerIndex.data().toString();
-    QString searchString = "https://memopzk.org/search/?q=";
-
-    for (auto character : currentPrisoner) {
-        if (character == '(' || character == ')') {
-            continue;
-        }
-
-        if (character == ' ') {
-            searchString += '+';
-            continue;
-        }
-
-        searchString += character;
-    }
-
-    if (searchString.endsWith("+")) {
-        searchString.removeLast();
-    }
-
-    QDesktopServices::openUrl(QUrl{searchString});
+    QString currentPrisoner = currentPrisonerIndex.data().toString();
+    QDesktopServices::openUrl(QUrl{MemoPZKConverter::convertToSearchURL(currentPrisoner)});
 }
 
 void PolitSake::updateCurrentPrisoner(QModelIndex modelIndex)

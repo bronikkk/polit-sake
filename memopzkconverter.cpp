@@ -2,10 +2,35 @@
 
 #include <QMap>
 
+QString MemoPZKConverter::convertToSearchURL(QString prisonerName)
+{
+    QString result = "https://memopzk.org/search/?q=";
+
+    for (auto character : prisonerName) {
+        if (character == '(' || character == ')' || (character >= 'A' && character <= 'Z')
+                || (character >= 'a' && character <= 'z')) {
+            continue;
+        }
+
+        if (character == ' ') {
+            result += '+';
+            continue;
+        }
+
+        result += character;
+    }
+
+    if (result.endsWith("+")) {
+        result.removeLast();
+    }
+
+    return result;
+}
+
 QString MemoPZKConverter::convertToURL(QString prisonerName)
 {
     static QMap<QChar, QString> transliterationMap{
-        {QChar{0x0020}, "-"},   //
+        {QChar{0x0020}, "-"},   // ␣
         {QChar{0x0410}, "a"},   // А
         {QChar{0x0411}, "b"},   // Б
         {QChar{0x0412}, "v"},   // В

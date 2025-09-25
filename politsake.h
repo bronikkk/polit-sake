@@ -29,7 +29,7 @@ private:
     QLabel *labelCurrentPrisonerIntro, *labelCurrentPrisonerText;
     QLCDNumber *lcdNumberLettersCount;
     QLineEdit *lineEditURL;
-    QPushButton *pushButtonBrowse, *pushButtonSearch, *pushButtonQR, *pushButtonWriteLetter;
+    QPushButton *pushButtonBrowse, *pushButtonCopy, *pushButtonSearch, *pushButtonWriteLetter;
 
     // TODO: Fix this
     QMap<QString, QString> prisonersToAmenities;
@@ -40,6 +40,8 @@ private:
 
 private slots:
     void browsePrisoner();
+
+    void copyPrisonerInformation();
 
     void searchPrisoner();
 

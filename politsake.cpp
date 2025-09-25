@@ -2,7 +2,9 @@
 
 #include "memopzkconverter.h"
 
+#include <QClipboard>
 #include <QDesktopServices>
+#include <QGuiApplication>
 #include <QIcon>
 #include <QMessageBox>
 
@@ -26,10 +28,9 @@ PolitSake::PolitSake()
     pushButtonSearch->setText("Search");
     pushButtonSearch->setGeometry(380, 40, 100, 22);
 
-    pushButtonQR = new QPushButton{this};
-    pushButtonQR->setText("QR Code");
-    pushButtonQR->setGeometry(380, 70, 100, 22);
-    pushButtonQR->setEnabled(false);
+    pushButtonCopy = new QPushButton{this};
+    pushButtonCopy->setText("Copy");
+    pushButtonCopy->setGeometry(380, 70, 100, 22);
 
     pushButtonWriteLetter = new QPushButton{this};
     pushButtonWriteLetter->setIcon(QIcon(":/pics/couvert.bmp"));
@@ -78,6 +79,17 @@ void PolitSake::browsePrisoner()
 
     QString currentPrisoner = currentPrisonerIndex.data().toString();
     QDesktopServices::openUrl(QUrl{MemoPZKConverter::convertToURL(currentPrisoner)});
+}
+
+void PolitSake::copyPrisonerInformation()
+{
+    if (!currentPrisonerIndex.isValid()) {
+        QMessageBox::information(this, "Information", "Prisoner not clicked");
+        return;
+    }
+
+    QString currentPrisoner = currentPrisonerIndex.data().toString();
+    QGuiApplication::clipboard()->setText(currentPrisoner);
 }
 
 void PolitSake::searchPrisoner()

@@ -73,6 +73,22 @@ QString appendToPrisonersList(QStringList &prisonersList, const QString &records
             }
         }
 
+        auto initials = prisonerFields[QString("ФИО")];
+
+        if (!initials.isString()) {
+            continue;
+        }
+
+        QString initialsString = initials.toString();
+
+        if (initialsString.startsWith("Неизвестное лицо")) {
+            continue;
+        }
+
+        if (uniquePrisoners.contains(initialsString)) {
+            continue;
+        }
+
         if (letterAddressString.startsWith(",")) {
             letterAddressString.removeFirst();
         }
@@ -106,19 +122,10 @@ QString appendToPrisonersList(QStringList &prisonersList, const QString &records
 
         letterAddressString = letterAddressString.trimmed();
 
-        auto initials = prisonerFields[QString("ФИО")];
-        if (initials.isString()) {
-            QString initialsString = initials.toString();
+        uniquePrisoners.insert(initialsString);
+        prisonersList.append(initialsString);
 
-            if (uniquePrisoners.contains(initialsString)) {
-                continue;
-            }
-
-            uniquePrisoners.insert(initialsString);
-            prisonersList.append(initialsString);
-
-            prisonersToAmenities[initialsString] = letterAddressString;
-        }
+        prisonersToAmenities[initialsString] = letterAddressString;
     }
 
     auto offsetObject = prisonersObject["offset"];

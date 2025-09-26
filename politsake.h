@@ -8,6 +8,7 @@
 #include <QLineEdit>
 #include <QMap>
 #include <QPushButton>
+#include <QStatusBar>
 #include <QWidget>
 
 #include "penitentiarydatabase.h"
@@ -26,10 +27,10 @@ public:
 
 private:
     QFrame *frameViewWeb;
-    QLabel *labelCurrentPrisonerIntro, *labelCurrentPrisonerText;
     QLCDNumber *lcdNumberLettersCount;
     QLineEdit *lineEditURL;
     QPushButton *pushButtonBrowse, *pushButtonCopy, *pushButtonSearch, *pushButtonWriteLetter;
+    QStatusBar *statusBar;
 
     // TODO: Fix this
     QMap<QString, QString> prisonersToAmenities;

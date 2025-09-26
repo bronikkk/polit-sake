@@ -51,14 +51,12 @@ PolitSake::PolitSake()
     frameViewWeb->setFrameStyle(QFrame::Panel | QFrame::Raised);
     frameViewWeb->setGeometry(380, 100, 410, 470);
 
-    labelCurrentPrisonerIntro = new QLabel{this};
-    labelCurrentPrisonerIntro->setText("Prisoner:");
-    labelCurrentPrisonerIntro->setGeometry(10, 570, 60, 22);
-
-    labelCurrentPrisonerText = new QLabel{this};
-    labelCurrentPrisonerText->setGeometry(70, 570, 720, 22);
+    statusBar = new QStatusBar{this};
+    statusBar->setGeometry(0, 570, 800, 30);
 
     connect(pushButtonBrowse, SIGNAL(clicked()), this, SLOT(browsePrisoner()));
+
+    connect(pushButtonCopy, SIGNAL(clicked()), this, SLOT(copyPrisonerInformation()));
 
     connect(pushButtonSearch, SIGNAL(clicked()), this, SLOT(searchPrisoner()));
 
@@ -90,6 +88,8 @@ void PolitSake::copyPrisonerInformation()
 
     QString currentPrisoner = currentPrisonerIndex.data().toString();
     QGuiApplication::clipboard()->setText(currentPrisoner);
+
+    statusBar->showMessage("Copied: " + currentPrisoner);
 }
 
 void PolitSake::searchPrisoner()
@@ -107,7 +107,7 @@ void PolitSake::updateCurrentPrisoner(QModelIndex modelIndex)
 {
     currentPrisonerIndex = modelIndex;
 
-    labelCurrentPrisonerText->setText(currentPrisonerIndex.data().toString());
+    statusBar->showMessage(currentPrisonerIndex.data().toString());
 }
 
 void PolitSake::updateLettersCount()

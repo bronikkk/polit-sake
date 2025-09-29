@@ -135,9 +135,9 @@ void PolitSake::writeLetter()
     PenitentiaryDatabase::Address amenityAddress = penitentiaryDatabase->getAddressForPenitentiary(
                                                        amenityName);
 
-    QMessageBox::information(this, "Letter Address", QString{"%1\n%2\n%3\n%4 %5"}.arg(currentPrisoner,
-                                                                                      amenityName,
-                                                                                      amenityAddress.location,
-                                                                                      amenityAddress.zip,
-                                                                                      amenityAddress.state));
+    QMessageBox::information(this, "Letter Address", QString{"%1\n%2\n%3\n%4 %5"}.arg(currentPrisoner)
+                             .arg(amenityName)
+                             .arg(amenityAddress.location)
+                             .arg(amenityAddress.zip)
+                             .arg(amenityAddress.state));
 }

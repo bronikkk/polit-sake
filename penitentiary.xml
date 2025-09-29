@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <penitentiary>
     <amenity>
+        <name>ФКУ «ИК № 2 ГУФСИН России по Иркутской области»</name>
+        <location>1-й промышленный массив, квартал 47 д. 6, г. Ангарск, Иркутская область</location>
+        <state>Россия</state>
+        <zip>665809</zip>
+    </amenity>
+    <amenity>
         <name>ФКУ «ИК № 3 УФСИН России по Тамбовской области»</name>
         <location>ул. Центральная д. 6, п. Зеленый, Тамбовская область</location>
         <state>Россия</state>

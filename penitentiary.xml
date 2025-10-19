@@ -50,9 +50,15 @@
         <zip>346408</zip>
     </amenity>
     <amenity>
-        <name>ФКУ СИЗО-6 УФСИН России по г. Москве (""Печатники"")</name>
+        <name>ФКУ СИЗО-6 УФСИН России по г. Москве («Печатники»)</name>
         <location>ул. Шоссейная д. 92, г. Москва</location>
         <state>Россия</state>
         <zip>109383</zip>
+    </amenity>
+    <amenity>
+        <name>ФКУ СИЗО-2 ФСИН России («Лефортово»)</name>
+        <location>Лефортовский вал д. 5, г. Москва</location>
+        <state>Россия</state>
+        <zip>111020</zip>
     </amenity>
 </penitentiary>

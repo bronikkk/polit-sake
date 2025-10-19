@@ -208,7 +208,3 @@ bool PrisonersListModel::setData(const QModelIndex &index, const QVariant &value
     emit dataChanged(index, index);
     return true;
 }
-
-void PrisonersListModel::save()
-{
-}

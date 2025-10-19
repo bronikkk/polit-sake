@@ -10,49 +10,54 @@
 
 PolitSake::PolitSake()
 {
-    resize(800, 600);
-    setMinimumSize(800, 600);
+    resize(800, 570);
+    setMinimumSize(800, 570);
 
     setWindowIcon(QIcon(":/pics/favicon.ico"));
     setWindowTitle("PolitSake");
 
-    lineEditURL = new QLineEdit{this};
+    personsTab = new QWidget{this};
+
+    lineEditURL = new QLineEdit{personsTab};
     lineEditURL->setText(prisonersListURL);
     lineEditURL->setGeometry(10, 10, 350, 22);
 
-    pushButtonBrowse = new QPushButton{this};
+    pushButtonBrowse = new QPushButton{personsTab};
     pushButtonBrowse->setText("Browse");
     pushButtonBrowse->setGeometry(380, 10, 100, 22);
 
-    pushButtonSearch = new QPushButton{this};
+    pushButtonSearch = new QPushButton{personsTab};
     pushButtonSearch->setText("Search");
     pushButtonSearch->setGeometry(380, 40, 100, 22);
 
-    pushButtonCopy = new QPushButton{this};
+    pushButtonCopy = new QPushButton{personsTab};
     pushButtonCopy->setText("Copy");
     pushButtonCopy->setGeometry(380, 70, 100, 22);
 
-    pushButtonWriteLetter = new QPushButton{this};
+    pushButtonWriteLetter = new QPushButton{personsTab};
     pushButtonWriteLetter->setIcon(QIcon(":/pics/couvert.bmp"));
     pushButtonWriteLetter->setGeometry(10, 60, 32, 32);
 
-    lcdNumberLettersCount = new QLCDNumber{this};
+    lcdNumberLettersCount = new QLCDNumber{personsTab};
     lcdNumberLettersCount->display(0);
     lcdNumberLettersCount->setDigitCount(5);
     lcdNumberLettersCount->setGeometry(50, 60, 80, 32);
 
-    penitentiaryDatabase = new PenitentiaryDatabase{this};
+    penitentiaryDatabase = new PenitentiaryDatabase{personsTab};
     penitentiaryDatabase->setVisible(false);
 
-    prisonersListView = new PrisonersListView{this, prisonersToAmenities};
-    prisonersListView->setGeometry(10, 100, 350, 470);
+    prisonersListView = new PrisonersListView{personsTab, prisonersToAmenities};
+    prisonersListView->setGeometry(10, 100, 350, 440);
 
-    frameViewWeb = new QFrame{this};
+    frameViewWeb = new QFrame{personsTab};
     frameViewWeb->setFrameStyle(QFrame::Panel | QFrame::Raised);
-    frameViewWeb->setGeometry(380, 100, 410, 470);
+    frameViewWeb->setGeometry(380, 100, 410, 440);
 
-    statusBar = new QStatusBar{this};
-    statusBar->setGeometry(0, 570, 800, 30);
+    addTab(personsTab, "Persons");
+
+    prisonsTab = new QWidget{this};
+
+    addTab(prisonsTab, "Prisons");
 
     connect(pushButtonBrowse, SIGNAL(clicked()), this, SLOT(browsePrisoner()));
 
@@ -88,8 +93,6 @@ void PolitSake::copyPrisonerInformation()
 
     QString currentPrisoner = currentPrisonerIndex.data().toString();
     QGuiApplication::clipboard()->setText(currentPrisoner);
-
-    statusBar->showMessage("Copied: " + currentPrisoner);
 }
 
 void PolitSake::searchPrisoner()
@@ -106,8 +109,6 @@ void PolitSake::searchPrisoner()
 void PolitSake::updateCurrentPrisoner(QModelIndex modelIndex)
 {
     currentPrisonerIndex = modelIndex;
-
-    statusBar->showMessage(currentPrisonerIndex.data().toString());
 }
 
 void PolitSake::updateLettersCount()

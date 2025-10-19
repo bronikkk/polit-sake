@@ -2,6 +2,7 @@
 #define POLITSAKE_H
 
 #include <QAbstractTableModel>
+#include <QBoxLayout>
 #include <QFrame>
 #include <QLCDNumber>
 #include <QLabel>
@@ -9,12 +10,12 @@
 #include <QMap>
 #include <QPushButton>
 #include <QStatusBar>
-#include <QWidget>
+#include <QTabWidget>
 
 #include "penitentiarydatabase.h"
 #include "prisonerslistview.h"
 
-class PolitSake : public QWidget
+class PolitSake : public QTabWidget
 {
     Q_OBJECT
 
@@ -30,7 +31,7 @@ private:
     QLCDNumber *lcdNumberLettersCount;
     QLineEdit *lineEditURL;
     QPushButton *pushButtonBrowse, *pushButtonCopy, *pushButtonSearch, *pushButtonWriteLetter;
-    QStatusBar *statusBar;
+    QWidget *personsTab, *prisonsTab;
 
     // TODO: Fix this
     QMap<QString, QString> prisonersToAmenities;

@@ -14,7 +14,7 @@
 namespace {
 
 QString appendToPrisonersList(QStringList &prisonersList, const QString &recordsOffset,
-                              QSet<QString> &uniquePrisoners, QMap<QString, QString> &prisonersToAmenities)
+                              QSet<QString> &uniquePrisoners, QMap<QString, QString> &prisonersToFacilities)
 {
     QString fullURL = PolitSake::prisonersListURL;
     if (!recordsOffset.isEmpty()) {
@@ -128,7 +128,7 @@ QString appendToPrisonersList(QStringList &prisonersList, const QString &records
         uniquePrisoners.insert(initialsString);
         prisonersList.append(initialsString);
 
-        prisonersToAmenities[initialsString] = letterAddressString;
+        prisonersToFacilities[initialsString] = letterAddressString;
     }
 
     auto offsetObject = prisonersObject["offset"];
@@ -142,7 +142,7 @@ QString appendToPrisonersList(QStringList &prisonersList, const QString &records
 }
 
 PrisonersListModel::PrisonersListModel(QObject *parent,
-                                       QMap<QString, QString> &prisonersToAmenities) : QStringListModel{parent}
+                                       QMap<QString, QString> &prisonersToFacilities) : QStringListModel{parent}
 {
     QStringList prisonersList;
 
@@ -152,7 +152,7 @@ PrisonersListModel::PrisonersListModel(QObject *parent,
 
     do {
         recordsOffset = appendToPrisonersList(prisonersList, recordsOffset, uniquePrisoners,
-                                              prisonersToAmenities);
+                                              prisonersToFacilities);
     } while (!recordsOffset.isEmpty());
 
     prisonersList.sort();

@@ -17,6 +17,7 @@ PolitSake::PolitSake()
     setWindowTitle("PolitSake");
 
     personsTab = new QWidget{this};
+    prisonsTab = new QWidget{this};
 
     lineEditURL = new QLineEdit{personsTab};
     lineEditURL->setText(prisonersListURL);
@@ -38,26 +39,22 @@ PolitSake::PolitSake()
     pushButtonWriteLetter->setIcon(QIcon(":/pics/couvert.bmp"));
     pushButtonWriteLetter->setGeometry(10, 60, 32, 32);
 
-    lcdNumberLettersCount = new QLCDNumber{personsTab};
-    lcdNumberLettersCount->display(0);
-    lcdNumberLettersCount->setDigitCount(5);
-    lcdNumberLettersCount->setGeometry(50, 60, 80, 32);
-
-    penitentiaryDatabase = new PenitentiaryDatabase{personsTab};
-    penitentiaryDatabase->setVisible(false);
-
-    prisonersListView = new PrisonersListView{personsTab, prisonersToAmenities};
+    prisonersListView = new PrisonersListView{personsTab, prisonersToFacilities};
     prisonersListView->setGeometry(10, 100, 350, 440);
 
     frameViewWeb = new QFrame{personsTab};
     frameViewWeb->setFrameStyle(QFrame::Panel | QFrame::Raised);
     frameViewWeb->setGeometry(380, 100, 410, 440);
 
-    addTab(personsTab, "Persons");
+    addTab(personsTab, "&Persons");
 
-    prisonsTab = new QWidget{this};
+    labelFacilityAddress = new QLabel{prisonsTab};
+    labelFacilityAddress->setGeometry(10, 10, 780, 80);
 
-    addTab(prisonsTab, "Prisons");
+    penitentiaryDatabase = new PenitentiaryDatabase{prisonsTab};
+    penitentiaryDatabase->setGeometry(10, 100, 780, 440);
+
+    addTab(prisonsTab, "&Facilities");
 
     connect(pushButtonBrowse, SIGNAL(clicked()), this, SLOT(browsePrisoner()));
 
@@ -67,10 +64,13 @@ PolitSake::PolitSake()
 
     connect(pushButtonWriteLetter, SIGNAL(clicked()), this, SLOT(writeLetter()));
 
-    connect(prisonersListView, SIGNAL(clicked(QModelIndex)), this,
-            SLOT(updateCurrentPrisoner(QModelIndex)));
     connect(prisonersListView->model(), SIGNAL(dataChanged(QModelIndex,QModelIndex)), this,
             SLOT(updateLettersCount()));
+    connect(prisonersListView->selectionModel(), SIGNAL(currentChanged(QModelIndex,QModelIndex)), this,
+            SLOT(updateCurrentPrisoner(QModelIndex)));
+
+    connect(penitentiaryDatabase->selectionModel(), SIGNAL(currentChanged(QModelIndex,QModelIndex)),
+            this, SLOT(updateCurrentFacility(QModelIndex)));
 }
 
 void PolitSake::browsePrisoner()
@@ -106,6 +106,19 @@ void PolitSake::searchPrisoner()
     QDesktopServices::openUrl(QUrl{MemoPZKConverter::convertToSearchURL(currentPrisoner)});
 }
 
+void PolitSake::updateCurrentFacility(QModelIndex modelIndex)
+{
+    QString facilityName = modelIndex.data().toString();
+
+    PenitentiaryDatabase::Address facilityAddress = penitentiaryDatabase->getAddressForPenitentiary(
+                                                        facilityName);
+
+    labelFacilityAddress->setText(QString{"%1\n%2\n%3 %4"}.arg(facilityName)
+                                  .arg(facilityAddress.location)
+                                  .arg(facilityAddress.zip)
+                                  .arg(facilityAddress.state));
+}
+
 void PolitSake::updateCurrentPrisoner(QModelIndex modelIndex)
 {
     currentPrisonerIndex = modelIndex;
@@ -113,7 +126,7 @@ void PolitSake::updateCurrentPrisoner(QModelIndex modelIndex)
 
 void PolitSake::updateLettersCount()
 {
-    lcdNumberLettersCount->display(prisonersListView->getSize());
+    lcdNumberLettersCount->display(prisonersListView->getModelSize());
 }
 
 void PolitSake::writeLetter()
@@ -126,19 +139,19 @@ void PolitSake::writeLetter()
     prisonersListView->model()->setData(currentPrisonerIndex, Qt::Checked, Qt::CheckStateRole);
 
     QString currentPrisoner = currentPrisonerIndex.data().toString();
-    auto amenityNameIndex = prisonersToAmenities.find(currentPrisoner);
+    auto facilityNameIndex = prisonersToFacilities.find(currentPrisoner);
 
-    QString amenityName;
-    if (amenityNameIndex != prisonersToAmenities.end()) {
-        amenityName = *amenityNameIndex;
+    QString facilityName;
+    if (facilityNameIndex != prisonersToFacilities.end()) {
+        facilityName = *facilityNameIndex;
     }
 
-    PenitentiaryDatabase::Address amenityAddress = penitentiaryDatabase->getAddressForPenitentiary(
-                                                       amenityName);
+    PenitentiaryDatabase::Address facilityAddress = penitentiaryDatabase->getAddressForPenitentiary(
+                                                        facilityName);
 
     QMessageBox::information(this, "Letter Address", QString{"%1\n%2\n%3\n%4 %5"}.arg(currentPrisoner)
-                             .arg(amenityName)
-                             .arg(amenityAddress.location)
-                             .arg(amenityAddress.zip)
-                             .arg(amenityAddress.state));
+                             .arg(facilityName)
+                             .arg(facilityAddress.location)
+                             .arg(facilityAddress.zip)
+                             .arg(facilityAddress.state));
 }

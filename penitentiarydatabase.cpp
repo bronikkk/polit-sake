@@ -2,6 +2,7 @@
 
 #include <QFile>
 #include <QMessageBox>
+#include <QStringListModel>
 #include <QVector>
 #include <QXmlStreamReader>
 
@@ -17,6 +18,8 @@ PenitentiaryDatabase::PenitentiaryDatabase(QWidget *parent, QString filename) : 
     QXmlStreamReader *xmlReader = new QXmlStreamReader{databaseFile};
     xmlReader->readNext();
 
+    QStringList facilities;
+
     QVector<QString> names;
     QString location;
     QString state;
@@ -24,7 +27,7 @@ PenitentiaryDatabase::PenitentiaryDatabase(QWidget *parent, QString filename) : 
 
     while (!(xmlReader->atEnd())) {
         if (xmlReader->readNext() == QXmlStreamReader::StartElement) {
-            if (xmlReader->name() == "amenity") {
+            if (xmlReader->name() == "facility") {
                 names.clear();
                 location.clear();
                 state.clear();
@@ -38,9 +41,17 @@ PenitentiaryDatabase::PenitentiaryDatabase(QWidget *parent, QString filename) : 
             } else if (xmlReader->name() == "zip") {
                 zip = xmlReader->readElementText();
             }
-        } else if (xmlReader->name() == "amenity") {
-            for (auto &name : names) {
+        } else if (xmlReader->name() == "facility") {
+            bool nameAlreadyAdded = false;
+
+            for (const auto &name : names) {
                 addresses[name] = Address{location, state, zip};
+
+                if (!nameAlreadyAdded) {
+                    facilities.emplaceBack(name);
+
+                    nameAlreadyAdded = true;
+                }
             }
         }
     }
@@ -50,6 +61,10 @@ PenitentiaryDatabase::PenitentiaryDatabase(QWidget *parent, QString filename) : 
     }
 
     databaseFile->close();
+
+    QStringListModel *listModel = new QStringListModel{this};
+    listModel->setStringList(facilities);
+    setModel(listModel);
 }
 
 PenitentiaryDatabase::Address PenitentiaryDatabase::getAddressForPenitentiary(QString name) const

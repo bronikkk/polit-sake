@@ -7,7 +7,7 @@ PrisonersListView::PrisonersListView(QWidget *parent,
     setModel(prisonersListModel);
 }
 
-int PrisonersListView::getSize() const
+int PrisonersListView::getModelSize() const
 {
     return prisonersListModel->getSize();
 }

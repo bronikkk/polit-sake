@@ -29,13 +29,14 @@ public:
 private:
     QFrame *frameViewWeb;
     QLCDNumber *lcdNumberLettersCount;
+    QLabel *labelFacilityAddress;
     QLineEdit *lineEditURL;
     QPushButton *pushButtonBrowse, *pushButtonCopy, *pushButtonSearch, *pushButtonWriteLetter;
     QWidget *personsTab, *prisonsTab;
 
     // TODO: Fix this
-    QMap<QString, QString> prisonersToAmenities;
     QModelIndex currentPrisonerIndex;
+    QMap<QString, QString> prisonersToFacilities;
 
     PenitentiaryDatabase *penitentiaryDatabase;
     PrisonersListView *prisonersListView;
@@ -46,6 +47,8 @@ private slots:
     void copyPrisonerInformation();
 
     void searchPrisoner();
+
+    void updateCurrentFacility(QModelIndex modelIndex);
 
     void updateCurrentPrisoner(QModelIndex modelIndex);
 

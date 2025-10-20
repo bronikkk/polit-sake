@@ -1,64 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <penitentiary>
-    <amenity>
+    <facility>
         <name>ФКУ «ИК № 2 ГУФСИН России по Иркутской области»</name>
         <location>1-й промышленный массив, квартал 47 д. 6, г. Ангарск, Иркутская область</location>
         <state>Россия</state>
         <zip>665809</zip>
-    </amenity>
-    <amenity>
+    </facility>
+    <facility>
         <name>ФКУ «ИК № 3 УФСИН России по Тамбовской области»</name>
         <location>ул. Центральная д. 6, п. Зеленый, Тамбовская область</location>
         <state>Россия</state>
         <zip>393265</zip>
-    </amenity>
-    <amenity>
+    </facility>
+    <facility>
         <name>ФКУ «ИК № 4 УФСИН России по Тверской области»</name>
         <name>ФКУ «ИК № 4 УФСИН России по Тверской области»</name>
         <location>ул. Старицкая д. 79, г. Торжок, Тверская область</location>
         <state>Россия</state>
         <zip>172011</zip>
-    </amenity>
-    <amenity>
+    </facility>
+    <facility>
         <name>ФКУ «ИК № 6 УФСИН России по Республике Мордовия» (Торбеевский централ)</name>
         <location>ул. Весенняя д. 50, п. Торбеево, Мордовия</location>
         <state>Россия</state>
         <zip>431030</zip>
-    </amenity>
-    <amenity>
+    </facility>
+    <facility>
         <name>ФКУ «ИК № 7 УФСИН России по Костромской области»</name>
         <location>п. Бычиха-12, Костромской район, Костромская область</location>
         <state>Россия</state>
         <zip>156522</zip>
-    </amenity>
-    <amenity>
+    </facility>
+    <facility>
         <name>ФКУ «Тюрьма ГУФСИН России по Челябинской области»</name>
         <location>ул. Северная д. 1, г. Верхнеуральск, Челябинская область</location>
         <state>Россия</state>
         <zip>457670</zip>
-    </amenity>
-    <amenity>
+    </facility>
+    <facility>
         <name>ФКУ СИЗО-1 УФСИН России по Тюменской области</name>
         <location>ул. Ялуторовская д. 42, г. Тюмень, Тюменская область</location>
         <state>Россия</state>
         <zip>625000</zip>
-    </amenity>
-    <amenity>
+    </facility>
+    <facility>
         <name>ФКУ СИЗО-3 ГУФСИН России по Ростовской области</name>
         <location> ул. Украинская д. 1, г. Новочеркасск, Ростовская область</location>
         <state>Россия</state>
         <zip>346408</zip>
-    </amenity>
-    <amenity>
+    </facility>
+    <facility>
         <name>ФКУ СИЗО-6 УФСИН России по г. Москве («Печатники»)</name>
         <location>ул. Шоссейная д. 92, г. Москва</location>
         <state>Россия</state>
         <zip>109383</zip>
-    </amenity>
-    <amenity>
+    </facility>
+    <facility>
         <name>ФКУ СИЗО-2 ФСИН России («Лефортово»)</name>
         <location>Лефортовский вал д. 5, г. Москва</location>
         <state>Россия</state>
         <zip>111020</zip>
-    </amenity>
+    </facility>
 </penitentiary>

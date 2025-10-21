@@ -29,7 +29,7 @@ public:
 private:
     QFrame *frameViewWeb;
     QLCDNumber *lcdNumberLettersCount;
-    QLabel *labelFacilityAddress;
+    QLabel *labelFacilityAddress, *labelWriteLetter;
     QLineEdit *lineEditURL;
     QPushButton *pushButtonBrowse, *pushButtonCopy, *pushButtonSearch, *pushButtonWriteLetter;
     QWidget *personsTab, *prisonsTab;

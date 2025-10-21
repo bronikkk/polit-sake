@@ -35,9 +35,19 @@ PolitSake::PolitSake()
     pushButtonCopy->setText("Copy");
     pushButtonCopy->setGeometry(380, 70, 100, 22);
 
+    labelWriteLetter = new QLabel{personsTab};
+    labelWriteLetter->setText("Ctrl + w");
+    labelWriteLetter->setGeometry(10, 35, 350, 22);
+
     pushButtonWriteLetter = new QPushButton{personsTab};
     pushButtonWriteLetter->setIcon(QIcon(":/pics/couvert.bmp"));
     pushButtonWriteLetter->setGeometry(10, 60, 32, 32);
+    pushButtonWriteLetter->setShortcut(QKeySequence{Qt::CTRL | Qt::Key_W});
+
+    lcdNumberLettersCount = new QLCDNumber{personsTab};
+    lcdNumberLettersCount->display(0);
+    lcdNumberLettersCount->setDigitCount(5);
+    lcdNumberLettersCount->setGeometry(50, 60, 80, 32);
 
     prisonersListView = new PrisonersListView{personsTab, prisonersToFacilities};
     prisonersListView->setGeometry(10, 100, 350, 440);
@@ -45,6 +55,12 @@ PolitSake::PolitSake()
     frameViewWeb = new QFrame{personsTab};
     frameViewWeb->setFrameStyle(QFrame::Panel | QFrame::Raised);
     frameViewWeb->setGeometry(380, 100, 410, 440);
+
+    setTabOrder(lineEditURL, pushButtonWriteLetter);
+    setTabOrder(pushButtonWriteLetter, prisonersListView);
+    setTabOrder(prisonersListView, pushButtonBrowse);
+    setTabOrder(pushButtonBrowse, pushButtonSearch);
+    setTabOrder(pushButtonSearch, pushButtonCopy);
 
     addTab(personsTab, "&Persons");
 
@@ -64,7 +80,7 @@ PolitSake::PolitSake()
 
     connect(pushButtonWriteLetter, SIGNAL(clicked()), this, SLOT(writeLetter()));
 
-    connect(prisonersListView->model(), SIGNAL(dataChanged(QModelIndex,QModelIndex)), this,
+    connect(prisonersListView->model(), SIGNAL(dataChanged(QModelIndex, QModelIndex)), this,
             SLOT(updateLettersCount()));
     connect(prisonersListView->selectionModel(), SIGNAL(currentChanged(QModelIndex,QModelIndex)), this,
             SLOT(updateCurrentPrisoner(QModelIndex)));
@@ -154,4 +170,6 @@ void PolitSake::writeLetter()
                              .arg(facilityAddress.location)
                              .arg(facilityAddress.zip)
                              .arg(facilityAddress.state));
+
+    prisonersListView->setFocus();
 }

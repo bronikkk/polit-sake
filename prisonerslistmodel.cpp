@@ -162,9 +162,7 @@ PrisonersListModel::PrisonersListModel(QObject *parent,
 
 PrisonersListModel::PrisonersListModel(QObject *parent,
                                        const QStringList &strings) : QStringListModel{strings, parent}
-{
-
-}
+{}
 
 int PrisonersListModel::getSize() const
 {

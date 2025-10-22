@@ -13,11 +13,23 @@
         <zip>393265</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 4 УФСИН по Владимирской области»</name>
+        <location>ул. Железнодорожная д. 37, г. Вязники, Владимирская область</location>
+        <state>Россия</state>
+        <zip>601443</zip>
+    </facility>
+    <facility>
         <name>ФКУ «ИК № 4 УФСИН России по Тверской области»</name>
         <name>ФКУ «ИК № 4 УФСИН России по Тверской области»</name>
         <location>ул. Старицкая д. 79, г. Торжок, Тверская область</location>
         <state>Россия</state>
         <zip>172011</zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 6 УФСИН по Владимирской области»</name>
+        <location>ул. Первомайская д. 261-А, пос. Мелехово, Владимирская область</location>
+        <state>Россия</state>
+        <zip>601967</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 6 УФСИН России по Республике Мордовия» (Торбеевский централ)</name>
@@ -44,6 +56,12 @@
         <zip>625000</zip>
     </facility>
     <facility>
+        <name>ФКУ СИЗО-2 ФСИН России («Лефортово»)</name>
+        <location>Лефортовский вал д. 5, г. Москва</location>
+        <state>Россия</state>
+        <zip>111020</zip>
+    </facility>
+    <facility>
         <name>ФКУ СИЗО-3 ГУФСИН России по Ростовской области</name>
         <location> ул. Украинская д. 1, г. Новочеркасск, Ростовская область</location>
         <state>Россия</state>
@@ -56,9 +74,9 @@
         <zip>109383</zip>
     </facility>
     <facility>
-        <name>ФКУ СИЗО-2 ФСИН России («Лефортово»)</name>
-        <location>Лефортовский вал д. 5, г. Москва</location>
+        <name>ФКУ «ИК № 5 УФСИН России по Кировской области»</name>
+        <location>ул. Овражная д. 16, г. Кирово-Чепецк, Кировская область</location>
         <state>Россия</state>
-        <zip>111020</zip>
+        <zip>613040</zip>
     </facility>
 </penitentiary>

@@ -26,6 +26,12 @@
         <zip>172011</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 5 УФСИН России по Кировской области»</name>
+        <location>ул. Овражная д. 16, г. Кирово-Чепецк, Кировская область</location>
+        <state>Россия</state>
+        <zip>613040</zip>
+    </facility>
+    <facility>
         <name>ФКУ «ИК № 6 УФСИН по Владимирской области»</name>
         <location>ул. Первомайская д. 261-А, пос. Мелехово, Владимирская область</location>
         <state>Россия</state>
@@ -42,6 +48,12 @@
         <location>п. Бычиха-12, Костромской район, Костромская область</location>
         <state>Россия</state>
         <zip>156522</zip>
+    </facility>
+    <facility>
+        <name>ФКУ «Тюрьма № 2 УФСИН по Владимирской области»</name>
+        <location>ул Большая Нижегородская д. 67, г. Владимир, Владимирская область</location>
+        <state>Россия</state>
+        <zip>600020</zip>
     </facility>
     <facility>
         <name>ФКУ «Тюрьма ГУФСИН России по Челябинской области»</name>
@@ -72,11 +84,5 @@
         <location>ул. Шоссейная д. 92, г. Москва</location>
         <state>Россия</state>
         <zip>109383</zip>
-    </facility>
-    <facility>
-        <name>ФКУ «ИК № 5 УФСИН России по Кировской области»</name>
-        <location>ул. Овражная д. 16, г. Кирово-Чепецк, Кировская область</location>
-        <state>Россия</state>
-        <zip>613040</zip>
     </facility>
 </penitentiary>

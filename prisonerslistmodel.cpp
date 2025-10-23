@@ -89,6 +89,8 @@ QString appendToPrisonersList(QStringList &prisonersList, const QString &records
             continue;
         }
 
+        letterAddressString = letterAddressString.split('\n').first();
+
         if (letterAddressString.startsWith(",")) {
             letterAddressString.removeFirst();
         }

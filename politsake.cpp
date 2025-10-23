@@ -10,8 +10,8 @@
 
 PolitSake::PolitSake()
 {
-    resize(800, 570);
-    setMinimumSize(800, 570);
+    resize(1024, 740);
+    setMinimumSize(1024, 740);
 
     setWindowIcon(QIcon(":/pics/favicon.ico"));
     setWindowTitle("PolitSake");
@@ -50,11 +50,12 @@ PolitSake::PolitSake()
     lcdNumberLettersCount->setGeometry(50, 60, 80, 32);
 
     prisonersListView = new PrisonersListView{personsTab, prisonersToFacilities};
-    prisonersListView->setGeometry(10, 100, 350, 440);
+    prisonersListView->setGeometry(10, 100, 350, 630);
 
-    frameViewWeb = new QFrame{personsTab};
-    frameViewWeb->setFrameStyle(QFrame::Panel | QFrame::Raised);
-    frameViewWeb->setGeometry(380, 100, 410, 440);
+#ifdef QT_WEBENGINEWIDGETS_LIB
+    webEngineView = new QWebEngineView{personsTab};
+    webEngineView->setGeometry(380, 100, 644, 630);
+#endif
 
     setTabOrder(lineEditURL, pushButtonWriteLetter);
     setTabOrder(pushButtonWriteLetter, prisonersListView);
@@ -97,7 +98,7 @@ void PolitSake::browsePrisoner()
     }
 
     QString currentPrisoner = currentPrisonerIndex.data().toString();
-    QDesktopServices::openUrl(QUrl{MemoPZKConverter::convertToURL(currentPrisoner)});
+    QDesktopServices::openUrl(MemoPZKConverter::convertToURL(currentPrisoner));
 }
 
 void PolitSake::copyPrisonerInformation()
@@ -119,7 +120,7 @@ void PolitSake::searchPrisoner()
     }
 
     QString currentPrisoner = currentPrisonerIndex.data().toString();
-    QDesktopServices::openUrl(QUrl{MemoPZKConverter::convertToSearchURL(currentPrisoner)});
+    QDesktopServices::openUrl(MemoPZKConverter::convertToSearchURL(currentPrisoner));
 }
 
 void PolitSake::updateCurrentFacility(QModelIndex modelIndex)
@@ -138,6 +139,12 @@ void PolitSake::updateCurrentFacility(QModelIndex modelIndex)
 void PolitSake::updateCurrentPrisoner(QModelIndex modelIndex)
 {
     currentPrisonerIndex = modelIndex;
+
+#ifdef QT_WEBENGINEWIDGETS_LIB
+    QString currentPrisoner = currentPrisonerIndex.data().toString();
+    webEngineView->load(MemoPZKConverter::convertToURL(currentPrisoner));
+    webEngineView->show();
+#endif
 }
 
 void PolitSake::updateLettersCount()

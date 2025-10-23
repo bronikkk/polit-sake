@@ -3,7 +3,6 @@
 
 #include <QAbstractTableModel>
 #include <QBoxLayout>
-#include <QFrame>
 #include <QLCDNumber>
 #include <QLabel>
 #include <QLineEdit>
@@ -11,6 +10,10 @@
 #include <QPushButton>
 #include <QStatusBar>
 #include <QTabWidget>
+
+#ifdef QT_WEBENGINEWIDGETS_LIB
+#include <QtWebEngineWidgets/QWebEngineView>
+#endif
 
 #include "penitentiarydatabase.h"
 #include "prisonerslistview.h"
@@ -27,11 +30,15 @@ public:
         "patkxJoU705lxPpKs.befb0b2bed420853d25fb2908a2496b19df2f44c109d7b36c23cf0236fcf1c83";
 
 private:
-    QFrame *frameViewWeb;
     QLCDNumber *lcdNumberLettersCount;
     QLabel *labelFacilityAddress, *labelWriteLetter;
     QLineEdit *lineEditURL;
     QPushButton *pushButtonBrowse, *pushButtonCopy, *pushButtonSearch, *pushButtonWriteLetter;
+
+#ifdef QT_WEBENGINEWIDGETS_LIB
+    QWebEngineView *webEngineView;
+#endif
+
     QWidget *personsTab, *prisonsTab;
 
     // TODO: Fix this

@@ -13,12 +13,6 @@
         <zip>393265</zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 4 УФСИН по Владимирской области»</name>
-        <location>ул. Железнодорожная д. 37, г. Вязники, Владимирская область</location>
-        <state>Россия</state>
-        <zip>601443</zip>
-    </facility>
-    <facility>
         <name>ФКУ «ИК № 4 УФСИН России по Тверской области»</name>
         <name>ФКУ «ИК № 4 УФСИН России по Тверской области»</name>
         <location>ул. Старицкая д. 79, г. Торжок, Тверская область</location>
@@ -30,12 +24,6 @@
         <location>ул. Овражная д. 16, г. Кирово-Чепецк, Кировская область</location>
         <state>Россия</state>
         <zip>613040</zip>
-    </facility>
-    <facility>
-        <name>ФКУ «ИК № 6 УФСИН по Владимирской области»</name>
-        <location>ул. Первомайская д. 261-А, пос. Мелехово, Владимирская область</location>
-        <state>Россия</state>
-        <zip>601967</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 6 УФСИН России по Республике Мордовия» (Торбеевский централ)</name>
@@ -50,12 +38,6 @@
         <zip>156522</zip>
     </facility>
     <facility>
-        <name>ФКУ «Тюрьма № 2 УФСИН по Владимирской области»</name>
-        <location>ул Большая Нижегородская д. 67, г. Владимир, Владимирская область</location>
-        <state>Россия</state>
-        <zip>600020</zip>
-    </facility>
-    <facility>
         <name>ФКУ «Тюрьма ГУФСИН России по Челябинской области»</name>
         <location>ул. Северная д. 1, г. Верхнеуральск, Челябинская область</location>
         <state>Россия</state>
@@ -68,12 +50,6 @@
         <zip>625000</zip>
     </facility>
     <facility>
-        <name>ФКУ СИЗО-2 ФСИН России («Лефортово»)</name>
-        <location>Лефортовский вал д. 5, г. Москва</location>
-        <state>Россия</state>
-        <zip>111020</zip>
-    </facility>
-    <facility>
         <name>ФКУ СИЗО-3 ГУФСИН России по Ростовской области</name>
         <location> ул. Украинская д. 1, г. Новочеркасск, Ростовская область</location>
         <state>Россия</state>
@@ -84,5 +60,1878 @@
         <location>ул. Шоссейная д. 92, г. Москва</location>
         <state>Россия</state>
         <zip>109383</zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 1 ФСИН»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ СИЗО-2 ФСИН России</name>
+        <name>ФКУ СИЗО-2 ФСИН России («Лефортово»)</name>
+        <location>Лефортовский вал д. 5, г. Москва</location>
+        <state>Россия</state>
+        <zip>111020</zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 3 ФСИН»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 4 ФСИН»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 5 ФСИН»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 6 ФСИН»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 7 ФСИН»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 1 УФСИН России по Алтайскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 2 УФСИН России по Алтайскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 3 УФСИН России по Алтайскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 4 УФСИН России по Алтайскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ЛИУ № 1 УФСИН России по Алтайскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «КП № 2 УФСИН России по Алтайскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 3 УФСИН России по Алтайскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 5 УФСИН России по Алтайскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 6 УФСИН России по Алтайскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ЛИУ № 8 УФСИН России по Алтайскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 9 УФСИН России по Алтайскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 10 УФСИН России по Алтайскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 11 УФСИН России по Алтайскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКЛПУ «КТБ № 12 УФСИН России по Алтайскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 1 УФСИН России по Амурской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 2 УФСИН России по Амурской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 3 УФСИН России по Амурской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «КП № 4 УФСИН России по Амурской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 8 УФСИН России по Амурской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 1 УФСИН России по Архангельской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 3 УФСИН России по Архангельской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 4 УФСИН России по Архангельской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 1 УФСИН России по Архангельской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «КП № 3 УФСИН России по Архангельской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 4 УФСИН России по Архангельской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 5 УФСИН России по Архангельской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 7 УФСИН России по Архангельской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 14 УФСИН России по Архангельской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 16 УФСИН России по Архангельской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «КП № 19 ОУХД УФСИН России по Архангельской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 21 УФСИН России по Архангельской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «КП № 23 УФСИН России по Архангельской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «КП № 27 УФСИН России по Архангельской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 28 УФСИН России по Архангельской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 29 УФСИН России по Архангельской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «Архангельская ВК УФСИН России по Архангельской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 1 УФСИН России по Астраханской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 2 УФСИН России по Астраханской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 6 УФСИН России по Астраханской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 8 УФСИН России по Астраханской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 10 УФСИН России по Астраханской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ЛИУ № 7 УФСИН России по Астраханской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 2 УФСИН по Белгородской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 3 УФСИН по Белгородской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 4 УФСИН по Белгородской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 5 УФСИН по Белгородской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 6 УФСИН по Белгородской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 7 УФСИН по Белгородской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «КП № 8 УФСИН по Белгородской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 9 УФСИН по Белгородской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «Новооскольская ВК УФСИН России по Белгородской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 1 УФСИН по Брянской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 2 УФСИН по Брянской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 1 УФСИН по Брянской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 2 УФСИН по Брянской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «КП № 3 УФСИН по Брянской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 4 УФСИН по Брянской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 5 УФСИН по Брянской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 6 УФСИН по Брянской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «Брянская ВК УФСИН по Брянской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 1 УФСИН по Владимирской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 3 УФСИН по Владимирской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «Тюрьма № 1 УФСИН по Владимирской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «Тюрьма № 2 УФСИН по Владимирской области»</name>
+        <location>ул Большая Нижегородская д. 67, г. Владимир, Владимирская область</location>
+        <state>Россия</state>
+        <zip>600020</zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 1 УФСИН по Владимирской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 2 УФСИН по Владимирской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 3 УФСИН по Владимирской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 4 УФСИН по Владимирской области»</name>
+        <location>ул. Железнодорожная д. 37, г. Вязники, Владимирская область</location>
+        <state>Россия</state>
+        <zip>601443</zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 5 УФСИН по Владимирской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 6 УФСИН по Владимирской области»</name>
+        <location>ул. Первомайская д. 261-А, пос. Мелехово, Владимирская область</location>
+        <state>Россия</state>
+        <zip>601967</zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 7 УФСИН по Владимирской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ЛИУ № 8 УФСИН по Владимирской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «КП № 9 УФСИН по Владимирской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 10 УФСИН по Владимирской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «КП-3 УФСИН России по Волгоградской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК-5 УФСИН России по Волгоградской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК-9 УФСИН России по Волгоградской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК-12 УФСИН России по Волгоградской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ЛИУ-15 УФСИН России по Волгоградской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК-19 УФСИН России по Волгоградской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ЛИУ-23 УФСИН России по Волгоградской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК-24 УФСИН России по Волгоградской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК-25 УФСИН России по Волгоградской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК-26 УФСИН России по Волгоградской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «КП-27 УФСИН России по Волгоградской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК-28 УФСИН России по Волгоградской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «Камышинская ВК УФСИН России по Волгоградской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО-1 УФСИН России по Волгоградской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО-2 УФСИН России по Волгоградской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО-3 УФСИН России по Волгоградской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО-4 УФСИН России по Волгоградской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО-5 УФСИН России по Волгоградской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «Волгоградская ПБСТИН УФСИН России по Волгоградской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 2 УФСИН России по Вологодской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 3 УФСИН России по Вологодской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 1 УФСИН России по Вологодской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 2 УФСИН России по Вологодской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 3 УФСИН России по Вологодской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 4 УФСИН России по Вологодской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 5 УФСИН России по Вологодской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «КП № 6 УФСИН России по Вологодской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «КП № 7 УФСИН России по Вологодской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКЛПУ «МБ № 10 УФСИН России по Вологодской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 12 УФСИН России по Вологодской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 17 УФСИН России по Вологодской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 20 УФСИН России по Вологодской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 1 УФСИН по Воронежской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 2 УФСИН по Воронежской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 3 УФСИН по Воронежской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ОТБ № 1 УФСИН по Воронежской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 1 УФСИН по Воронежской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 2 УФСИН по Воронежской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 3 УФСИН по Воронежской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 8 УФСИН по Воронежской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 9 УФСИН по Воронежской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «КП № 10 УФСИН по Воронежской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 1 УФСИН России по ЕАО»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ЛИУ № 2 УФСИН России по ЕАО»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «КП № 4 УФСИН России по ЕАО»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 10 УФСИН России по ЕАО»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «Биробиджанская ВК УФСИН России по ЕАО»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 1 УФСИН России по Забайкальскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 2 УФСИН России по Забайкальскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 1 УФСИН России по Забайкальскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 2 УФСИН России по Забайкальскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 3 УФСИН России по Забайкальскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ЛИУ № 4 УФСИН России по Забайкальскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 5 УФСИН России по Забайкальскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «КП № 6 УФСИН России по Забайкальскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 7 УФСИН России по Забайкальскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 8 УФСИН России по Забайкальскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 10 УФСИН России по Забайкальскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 1 УФСИН по Ивановской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 2 УФСИН по Ивановской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 2 УФСИН по Ивановской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 3 УФСИН по Ивановской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 4 УФСИН по Ивановской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 5 УФСИН по Ивановской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 6 УФСИН по Ивановской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 7 УФСИН по Ивановской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ЛИУ № 8 УФСИН по Ивановской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 10 УФСИН по Ивановской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «КП № 12 УФСИН по Ивановской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «КП № 13 УФСИН по Ивановской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 1 ГУФСИН России по Иркутской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 2 ГУФСИН России по Иркутской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 3 ГУФСИН России по Иркутской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 5 ГУФСИН России по Иркутской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 6 ГУФСИН России по Иркутской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ОИК № 1 ГУФСИН России по Иркутской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 2 ГУФСИН России по Иркутской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 3 ГУФСИН России по Иркутской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 4 ГУФСИН России по Иркутской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 6 ГУФСИН России по Иркутской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 7 ГУФСИН России по Иркутской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ОИК № 8 ГУФСИН России по Иркутской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 14 ГУФСИН России по Иркутской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 15 ГУФСИН России по Иркутской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 19 ГУФСИН России по Иркутской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «КП № 20 ОУХД ГУФСИН России по Иркутской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 25 ГУФСИН России по Иркутской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ЛИУ № 27 ГУФСИН России по Иркутской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «КП № 39 ОУХД ГУФСИН России по Иркутской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «КП № 51 ГУФСИН России по Иркутской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «Aнгарская ВК ГУФСИН России по Иркутской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 1 УФСИН России по КБР»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 1 УФСИН России по КБР»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 3 УФСИН России по КБР»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 4 УФСИН России по КБР»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «КП № 5 УФСИН России по КБР»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 1 УФСИН России по Калининградской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 2 УФСИН России по Калининградской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 3 УФСИН России по Калининградской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 4 УФСИН России по Калининградской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ЛИУ № 5 УФСИН России по Калининградской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ИК «ИК № 8 УФСИН России по Калининградской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 9 УФСИН России по Калининградской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «КП № 12 УФСИН России по Калининградской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 13 УФСИН России по Калининградской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ОО КПБСТИН УФСИН России по Калининградской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 1 УФСИН по Калужской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 2 УФСИН по Калужской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ЛИУ № 1 УФСИН по Калужской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 2 УФСИН по Калужской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 3 УФСИН по Калужской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 4 УФСИН по Калужской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 5 УФСИН по Калужской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 7 УФСИН по Калужской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 1 УФСИН России по Камчатскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 5 УФСИН России по Камчатскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 6 УФСИН России по Камчатскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 7 УФСИН России по Камчатскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 1 ОФСИН России по КЧР»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 1 ГУФСИН России по Кемеровской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 2 ГУФСИН России по Кемеровской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 3 ГУФСИН России по Кемеровской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 4 ГУФСИН России по Кемеровской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 1 ГУФСИН России по Кемеровской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «КП № 2 ГУФСИН России по Кемеровской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «КП № 3 ГУФСИН России по Кемеровской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 5 ГУФСИН России по Кемеровской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ЛИУ № 16 ГУФСИН России по Кемеровской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ЛИУ № 21 ГУФСИН России по Кемеровской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 22 ГУФСИН России по Кемеровской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 29 ГУФСИН России по Кемеровской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «КП № 31 ГУФСИН России по Кемеровской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ЛИУ № 33 ГУФСИН России по Кемеровской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 35 ГУФСИН России по Кемеровской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 37 ГУФСИН России по Кемеровской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 40 ГУФСИН России по Кемеровской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 41 ГУФСИН России по Кемеровской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ЛИУ № 42 ГУФСИН России по Кемеровской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 43 ГУФСИН России по Кемеровской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 44 ГУФСИН России по Кемеровской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 50 ГУФСИН России по Кемеровской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «Мариинская ВК ГУФСИН России по Кемеровской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 1 УФСИН России по Кировской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 2 УФСИН России по Кировской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 1 УФСИН России по Кировской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 3 УФСИН России по Кировской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 5 УФСИН России по Кировской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 6 УФСИН России по Кировской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 11 УФСИН России по Кировской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ЛИУ № 12 УФСИН России по Кировской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «КП № 15 УФСИН России по Кировской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 17 УФСИН России по Кировской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 18 УФСИН России по Кировской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «КП № 21 УФСИН России по Кировской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 33 УФСИН России по Кировской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 20 УФСИН России по Кировской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 25 УФСИН России по Кировской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 27 ОУХД УФСИН России по Кировской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 29 ОУХД УФСИН России по Кировской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 1 УФСИН России по Костромской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 2 УФСИН России по Костромской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 1 УФСИН России по Костромской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 2 УФСИН России по Костромской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 3 УФСИН России по Костромской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 4 УФСИН России по Костромской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 7 УФСИН России по Костромской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 8 УФСИН России по Костромской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИЦ № 1 УФСИН России по Костромской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «Костромская ПБСТИН УФСИН России по Костромской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ ИК-14 УФСИН России по Краснодарскому Краю</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ КП-10 УФСИН России по Краснодарскому Краю</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ ИК-4 УФСИН России по Краснодарскому Краю</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ ИК-2 УФСИН России по Краснодарскому Краю</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ КП-12 УФСИН России по Краснодарскому Краю</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ ИК-5 УФСИН России по Краснодарскому Краю</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ СИЗО-1 УФСИН России по Краснодарскому Краю</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ ИК-11 УФСИН России по Краснодарскому Краю</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ ЛИУ-8 УФСИН России по Краснодарскому Краю</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ ИК-6 УФСИН России по Краснодарскому Краю</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ ИК-9 УФСИН России по Краснодарскому Краю</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ Белореченская ВК УФСИН России по Краснодарскому Краю</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ СИЗО-2 УФСИН России по Краснодарскому Краю</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ МОТБ УФСИН России по Краснодарскому Краю</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ ИК-3 УФСИН России по Краснодарскому Краю</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ СИЗО-3 УФСИН России по Краснодарскому Краю</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ ЛИУ-1 УФСИН России по Краснодарскому Краю</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 1 ГУФСИН России по Красноярскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 3 ГУФСИН России по Красноярскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 4 ГУФСИН России по Красноярскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 5 ГУФСИН России по Красноярскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 6 ГУФСИН России по Красноярскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «Тюрьма ГУФСИН России по Красноярскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «Т № 2 ГУФСИН России по Красноярскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ОИУ № 1 ГУФСИН России по Красноярскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 6 ГУФСИН России по Красноярскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 7 ГУФСИН России по Красноярскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ОИУ № 8 ГУФСИН России по Красноярскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «КП № 14 ГУФСИН России по Красноярскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 16 ГУФСИН России по Красноярскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 17 ГУФСИН России по Красноярскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «КП № 19 ГУФСИН России по Красноярскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 22 ГУФСИН России по Красноярскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ОИУ № 25 ГУФСИН России по Красноярскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ОИУ № 26 ОУХД ГУФСИН России по Красноярскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «КП № 26 ГУФСИН России по Красноярскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 27 ГУФСИН России по Красноярскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ОИК № 30 ГУФСИН России по Красноярскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 31 ГУФСИН России по Красноярскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ОИК № 36 ГУФСИН России по Красноярскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ОИК № 38 ГУФСИН России по Красноярскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ОИК № 40 ГУФСИН России по Красноярскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «КП № 48 ГУФСИН России по Красноярскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 50 ГУФСИН России по Красноярскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «КП № 51 ГУФСИН России по Красноярскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКЛПУ «КТБ № 1 ГУФСИН России по Красноярскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «Канская ВК ГУФСИН России по Красноярскому краю»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 1 УФСИН России по Курганской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 2 УФСИН России по Курганской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 1 УФСИН России по Курганской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 2 УФСИН России по Курганской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ЛИУ № 3 УФСИН России по Курганской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 4 УФСИН России по Курганской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «КП № 5 УФСИН России по Курганской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 6 УФСИН России по Курганской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 7 УФСИН России по Курганской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «СИЗО № 1 УФСИН России по Курской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 2 УФСИН России по Курской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 3 УФСИН России по Курской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «КП № 8 УФСИН России по Курской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 9 УФСИН России по Курской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 11 УФСИН России по Курской области»</name>
+        <location></location>
+        <state></state>
+        <zip></zip>
     </facility>
 </penitentiary>

@@ -69,7 +69,7 @@ PolitSake::PolitSake()
     labelFacilityAddress->setGeometry(10, 10, 780, 80);
 
     penitentiaryDatabase = new PenitentiaryDatabase{prisonsTab};
-    penitentiaryDatabase->setGeometry(10, 100, 780, 440);
+    penitentiaryDatabase->setGeometry(10, 100, 780, 630);
 
     addTab(prisonsTab, "&Facilities");
 

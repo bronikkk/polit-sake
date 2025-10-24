@@ -63,7 +63,10 @@ PenitentiaryDatabase::PenitentiaryDatabase(QWidget *parent, QString filename) : 
     databaseFile->close();
 
     QStringListModel *listModel = new QStringListModel{this};
+
+    facilities.sort();
     listModel->setStringList(facilities);
+
     setModel(listModel);
 }
 

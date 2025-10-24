@@ -1,4 +1,9 @@
-QT += core gui network widgets webenginewidgets
+# You can make your code get rid of WebEngine.
+DEFINES += USE_WEBENGINE
+
+QT += core gui network widgets
+
+contains(DEFINES, USE_WEBENGINE): QT += webenginewidgets
 
 CONFIG += c++17
 

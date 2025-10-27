@@ -131,10 +131,10 @@ void PolitSake::updateCurrentFacility(QModelIndex modelIndex)
                                                         facilityName);
 
     QString facilityAddressText = facilityName;
-    if (!facilityAddress.location.isEmpty()) {
+    if (!facilityAddress.zip.isEmpty()) {
         facilityAddressText += QString{"\n%1\n%2 %3"}.arg(facilityAddress.location)
-                                  .arg(facilityAddress.zip)
-                                  .arg(facilityAddress.state);
+                               .arg(facilityAddress.zip)
+                               .arg(facilityAddress.state);
     }
 
     labelFacilityAddress->setText(facilityAddressText);

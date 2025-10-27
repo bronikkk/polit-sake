@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <penitentiary>
     <facility>
-        <name>ФКУ «СИЗО № 1 ФСИН»</name>
+        <name>ФКУ СИЗО-1 ФСИН России</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Матросская Тишина д. 18, г. Москва</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>107996</zip>
     </facility>
     <facility>
         <name>ФКУ СИЗО-2 ФСИН России («Лефортово»)</name>
@@ -15,137 +15,130 @@
         <zip>111020</zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 3 ФСИН»</name>
+        <name>ФКУ СИЗО-3 ФСИН России</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>1-й Силикатный проезд д. 11, к. 1, г. Москва</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>123308</zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 4 ФСИН»</name>
+        <name>ФКУ СИЗО-4 ФСИН России</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Вилюйская д. 4, г. Москва</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>127081</zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 5 ФСИН»</name>
+        <name>ФКУ СИЗО-5 ФСИН России</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Выборгская д. 20, г. Москва</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>125130</zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 6 ФСИН»</name>
+        <name>ФКУ СИЗО-6 ФСИН России</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Шоссейная д. 92, г. Москва</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>109383</zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 7 ФСИН»</name>
+        <name>ФКУ СИЗО-7 ФСИН России</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Верхние Поля д. 57, г. Москва</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>109382</zip>
     </facility>
     <facility>
         <name>ФКУ «СИЗО № 1 УФСИН России по Алтайскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Канатный проезд д. 81, г. Барнаул, Алтайский край</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>656081</zip>
     </facility>
     <facility>
         <name>ФКУ «СИЗО № 2 УФСИН России по Алтайскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Чехова д. 2, г. Бийск, Алтайский край</location>
         <state>Россия</state>
-        <zip></zip>
-    </facility>
-    <facility>
-        <name>ФКУ «СИЗО № 3 УФСИН России по Алтайскому краю»</name>
-        <jurisdiction>Russia</jurisdiction>
-        <location></location>
-        <state>Россия</state>
-        <zip></zip>
+        <zip>659303</zip>
     </facility>
     <facility>
         <name>ФКУ «СИЗО № 4 УФСИН России по Алтайскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Тракторная д. 26, г. Рубцовск, Алтайский край</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>658209</zip>
     </facility>
     <facility>
         <name>ФКУ «ЛИУ № 1 УФСИН России по Алтайскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Лесозаводская д. 11, г. Барнаул, Алтайский край</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>656012</zip>
     </facility>
     <facility>
         <name>ФКУ «КП № 2 УФСИН России по Алтайскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Огородная д. 56, г. Бийск, Алтайский край</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>659326</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 3 УФСИН России по Алтайскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Куета д. 29, г. Барнаул, Алтайский край</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>656905</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 5 УФСИН России по Алтайскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Тракторная д. 23, г. Рубцовск, Алтайский край</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>658209</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 6 УФСИН России по Алтайскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Заводская д. 48А, с. Шипуново, Алтайский край</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>658390</zip>
     </facility>
     <facility>
         <name>ФКУ «ЛИУ № 8 УФСИН России по Алтайскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Репина, д. 2, г. Новоалтайск, Алтайский край</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>658081</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 9 УФСИН России по Алтайскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Тракторная д. 26, г. Рубцовск, Алтайский край</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>658209</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 10 УФСИН России по Алтайскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Тракторная д. 26 А, г. Рубцовск, Алтайский край</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>658209</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 11 УФСИН России по Алтайскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Дорожная д. 30, г. Новоалтайск, Алтайский край</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>658080</zip>
     </facility>
     <facility>
         <name>ФКЛПУ «КТБ № 12 УФСИН России по Алтайскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>Канатный проезд д. 83, г. Барнаул, Алтайский край</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>656021</zip>
     </facility>
     <facility>
         <name>ФКУ «СИЗО № 1 УФСИН России по Амурской области»</name>

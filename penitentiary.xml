@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <penitentiary>
     <facility>
-        <name>ФКУ СИЗО-1 ФСИН России</name>
+        <name>ФКУ СИЗО-1 ФСИН России («Кремлёвский централ»)</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Матросская Тишина д. 18, г. Москва</location>
         <state>Россия</state>
@@ -1268,7 +1268,7 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ИК «ИК № 8 УФСИН России по Калининградской области»</name>
+        <name>ФКУ «ИК № 8 УФСИН России по Калининградской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>

@@ -57,7 +57,7 @@ PenitentiaryDatabase::PenitentiaryDatabase(QWidget *parent, QString filename) : 
     }
 
     if (xmlReader->hasError()) {
-        QMessageBox::critical(this, "Error", "Penitentiary database is corrupted");
+        QMessageBox::critical(this, "Error", "Penitentiary database is corrupted: " + xmlReader->errorString());
     }
 
     databaseFile->close();

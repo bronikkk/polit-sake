@@ -50,11 +50,11 @@ PolitSake::PolitSake()
     lcdNumberLettersCount->setGeometry(50, 60, 80, 32);
 
     prisonersListView = new PrisonersListView{personsTab, prisonersToFacilities};
-    prisonersListView->setGeometry(10, 100, 350, 630);
+    prisonersListView->setGeometry(10, 100, 350, 610);
 
 #ifdef QT_WEBENGINEWIDGETS_LIB
     webEngineView = new QWebEngineView{personsTab};
-    webEngineView->setGeometry(380, 100, 644, 630);
+    webEngineView->setGeometry(380, 100, 644, 610);
 #endif
 
     setTabOrder(lineEditURL, pushButtonWriteLetter);
@@ -69,7 +69,7 @@ PolitSake::PolitSake()
     labelFacilityAddress->setGeometry(10, 10, 780, 80);
 
     penitentiaryDatabase = new PenitentiaryDatabase{prisonsTab};
-    penitentiaryDatabase->setGeometry(10, 100, 780, 630);
+    penitentiaryDatabase->setGeometry(10, 100, 780, 610);
 
     addTab(prisonsTab, "&Facilities");
 
@@ -81,7 +81,7 @@ PolitSake::PolitSake()
 
     connect(pushButtonWriteLetter, SIGNAL(clicked()), this, SLOT(writeLetter()));
 
-    connect(prisonersListView->model(), SIGNAL(dataChanged(QModelIndex, QModelIndex)), this,
+    connect(prisonersListView->model(), SIGNAL(dataChanged(QModelIndex,QModelIndex)), this,
             SLOT(updateLettersCount()));
     connect(prisonersListView->selectionModel(), SIGNAL(currentChanged(QModelIndex,QModelIndex)), this,
             SLOT(updateCurrentPrisoner(QModelIndex)));
@@ -130,10 +130,14 @@ void PolitSake::updateCurrentFacility(QModelIndex modelIndex)
     PenitentiaryDatabase::Address facilityAddress = penitentiaryDatabase->getAddressForPenitentiary(
                                                         facilityName);
 
-    labelFacilityAddress->setText(QString{"%1\n%2\n%3 %4"}.arg(facilityName)
-                                  .arg(facilityAddress.location)
+    QString facilityAddressText = facilityName;
+    if (!facilityAddress.location.isEmpty()) {
+        facilityAddressText += QString{"\n%1\n%2 %3"}.arg(facilityAddress.location)
                                   .arg(facilityAddress.zip)
-                                  .arg(facilityAddress.state));
+                                  .arg(facilityAddress.state);
+    }
+
+    labelFacilityAddress->setText(facilityAddressText);
 }
 
 void PolitSake::updateCurrentPrisoner(QModelIndex modelIndex)

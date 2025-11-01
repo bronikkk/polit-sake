@@ -176,11 +176,14 @@ void PolitSake::writeLetter()
     PenitentiaryDatabase::Address facilityAddress = penitentiaryDatabase->getAddressForPenitentiary(
                                                         facilityName);
 
-    QMessageBox::information(this, "Letter Address", QString{"%1\n%2\n%3\n%4 %5"}.arg(currentPrisoner)
-                             .arg(facilityName)
-                             .arg(facilityAddress.location)
-                             .arg(facilityAddress.zip)
-                             .arg(facilityAddress.state));
+    QString letterAddressText = QString{"%1\n%2"}.arg(currentPrisoner).arg(facilityName);
+    if (!facilityAddress.zip.isEmpty()) {
+        letterAddressText += QString{"\n%1\n%2 %3"}.arg(facilityAddress.location).arg(
+                                 facilityAddress.zip).arg(facilityAddress.state);
+    }
+
+    QMessageBox::information(this, "Letter Address", letterAddressText);
+
 
     prisonersListView->setFocus();
 }

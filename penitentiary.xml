@@ -2,13 +2,15 @@
 <penitentiary>
     <facility>
         <name>ФКУ СИЗО-1 ФСИН России («Кремлёвский централ»)</name>
+        <name>ФКУ СИЗО-1 ФСИН России</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Матросская Тишина д. 18, г. Москва</location>
         <state>Россия</state>
-        <zip>107996</zip>
+	<zip>107996</zip>
     </facility>
     <facility>
         <name>ФКУ СИЗО-2 ФСИН России («Лефортово»)</name>
+        <name>ФКУ СИЗО-2 ФСИН России</name>
         <jurisdiction>Russia</jurisdiction>
         <location>Лефортовский вал д. 5, г. Москва</location>
         <state>Россия</state>
@@ -50,21 +52,24 @@
         <zip>109382</zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Алтайскому краю»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Алтайскому краю</name>
+        <name>ФКУ СИЗО-1 УФСИН по Алтайскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Канатный проезд д. 81, г. Барнаул, Алтайский край</location>
         <state>Россия</state>
         <zip>656081</zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 УФСИН России по Алтайскому краю»</name>
+        <name>ФКУ СИЗО-2 УФСИН России по Алтайскому краю</name>
+        <name>ФКУ СИЗО-2 УФСИН по Алтайскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Чехова д. 2, г. Бийск, Алтайский край</location>
         <state>Россия</state>
         <zip>659303</zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 4 УФСИН России по Алтайскому краю»</name>
+        <name>ФКУ СИЗО-4 УФСИН России по Алтайскому краю</name>
+        <name>ФКУ СИЗО-4 УФСИН по Алтайскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Тракторная д. 26, г. Рубцовск, Алтайский край</location>
         <state>Россия</state>
@@ -72,6 +77,7 @@
     </facility>
     <facility>
         <name>ФКУ «ЛИУ № 1 УФСИН России по Алтайскому краю»</name>
+        <name>ФКУ «ЛИУ № 1 УФСИН по Алтайскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Лесозаводская д. 11, г. Барнаул, Алтайский край</location>
         <state>Россия</state>
@@ -79,6 +85,7 @@
     </facility>
     <facility>
         <name>ФКУ «КП № 2 УФСИН России по Алтайскому краю»</name>
+        <name>ФКУ «КП № 2 УФСИН по Алтайскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Огородная д. 56, г. Бийск, Алтайский край</location>
         <state>Россия</state>
@@ -86,6 +93,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 3 УФСИН России по Алтайскому краю»</name>
+        <name>ФКУ «ИК № 3 УФСИН по Алтайскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Куета д. 29, г. Барнаул, Алтайский край</location>
         <state>Россия</state>
@@ -93,6 +101,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 5 УФСИН России по Алтайскому краю»</name>
+        <name>ФКУ «ИК № 5 УФСИН по Алтайскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Тракторная д. 23, г. Рубцовск, Алтайский край</location>
         <state>Россия</state>
@@ -100,6 +109,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 6 УФСИН России по Алтайскому краю»</name>
+        <name>ФКУ «ИК № 6 УФСИН по Алтайскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Заводская д. 48А, с. Шипуново, Алтайский край</location>
         <state>Россия</state>
@@ -107,6 +117,7 @@
     </facility>
     <facility>
         <name>ФКУ «ЛИУ № 8 УФСИН России по Алтайскому краю»</name>
+        <name>ФКУ «ЛИУ № 8 УФСИН по Алтайскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Репина, д. 2, г. Новоалтайск, Алтайский край</location>
         <state>Россия</state>
@@ -114,6 +125,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 9 УФСИН России по Алтайскому краю»</name>
+        <name>ФКУ «ИК № 9 УФСИН по Алтайскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Тракторная д. 26, г. Рубцовск, Алтайский край</location>
         <state>Россия</state>
@@ -121,6 +133,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 10 УФСИН России по Алтайскому краю»</name>
+        <name>ФКУ «ИК № 10 УФСИН по Алтайскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Тракторная д. 26 А, г. Рубцовск, Алтайский край</location>
         <state>Россия</state>
@@ -128,6 +141,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 11 УФСИН России по Алтайскому краю»</name>
+        <name>ФКУ «ИК № 11 УФСИН по Алтайскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Дорожная д. 30, г. Новоалтайск, Алтайский край</location>
         <state>Россия</state>
@@ -135,13 +149,15 @@
     </facility>
     <facility>
         <name>ФКЛПУ «КТБ № 12 УФСИН России по Алтайскому краю»</name>
+        <name>ФКЛПУ «КТБ № 12 УФСИН по Алтайскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>Канатный проезд д. 83, г. Барнаул, Алтайский край</location>
         <state>Россия</state>
         <zip>656021</zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Амурской области»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Амурской области</name>
+        <name>ФКУ СИЗО-1 УФСИН по Амурской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location>переулок Серышевский д. 55, г. Благовещенск, Амурская область</location>
         <state>Россия</state>
@@ -149,6 +165,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 2 УФСИН России по Амурской области»</name>
+        <name>ФКУ «ИК № 2 УФСИН по Амурской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Центральная, село Возжаевка, Амурская область</location>
         <state>Россия</state>
@@ -156,6 +173,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 3 УФСИН России по Амурской области»</name>
+        <name>ФКУ «ИК № 3 УФСИН по Амурской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Герки Рулёва д. 2, село Среднебелая, Амурская область</location>
         <state>Россия</state>
@@ -163,6 +181,7 @@
     </facility>
     <facility>
         <name>ФКУ «КП № 4 УФСИН России по Амурской области»</name>
+        <name>ФКУ «КП № 4 УФСИН по Амурской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Ветеранов д. 1, село Приозёрное, Амурская область</location>
         <state>Россия</state>
@@ -170,27 +189,31 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 8 УФСИН России по Амурской области»</name>
+        <name>ФКУ «ИК № 8 УФСИН по Амурской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Албазинская д. 45, г. Благовещенск, Амурская область</location>
         <state>Россия</state>
         <zip>675020</zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Архангельской области»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Архангельской области</name>
+        <name>ФКУ СИЗО-1 УФСИН по Архангельской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Попова д. 22, г. Архангельск, Архангельская область</location>
         <state>Россия</state>
         <zip>163000</zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 3 УФСИН России по Архангельской области»</name>
+        <name>ФКУ СИЗО-3 УФСИН России по Архангельской области</name>
+        <name>ФКУ СИЗО-3 УФСИН по Архангельской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Конева д. 1, г. Вельск, Архангельская область</location>
         <state>Россия</state>
         <zip>165150</zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 4 УФСИН России по Архангельской области»</name>
+        <name>ФКУ СИЗО-4 УФСИН России по Архангельской области</name>
+        <name>ФКУ СИЗО-4 УФСИН по Архангельской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location>, Архангельская область</location>
         <state>Россия</state>
@@ -198,6 +221,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 1 УФСИН России по Архангельской области»</name>
+        <name>ФКУ «ИК № 1 УФСИН по Архангельской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Силикатчиков д. 20, г. Архангельск, Архангельская область</location>
         <state>Россия</state>
@@ -205,6 +229,7 @@
     </facility>
     <facility>
         <name>ФКУ «КП № 3 УФСИН России по Архангельской области»</name>
+        <name>ФКУ «КП № 3 УФСИН по Архангельской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>п. Талаги, г. Архангельск, Архангельская область</location>
         <state>Россия</state>
@@ -212,6 +237,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 4 УФСИН России по Архангельской области»</name>
+        <name>ФКУ «ИК № 4 УФСИН по Архангельской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Чиркова д. 35, г. Котлас, Архангельская область</location>
         <state>Россия</state>
@@ -219,6 +245,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 5 УФСИН России по Архангельской области»</name>
+        <name>ФКУ «ИК № 5 УФСИН по Архангельской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>Магистральное шоссе д. 101, г. Коряжма, Архангельская область</location>
         <state>Россия</state>
@@ -226,6 +253,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 7 УФСИН России по Архангельской области»</name>
+        <name>ФКУ «ИК № 7 УФСИН по Архангельской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>Лахтинское шоссе д. 105, г. Архангельск, Архангельская область</location>
         <state>Россия</state>
@@ -233,6 +261,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 14 УФСИН России по Архангельской области»</name>
+        <name>ФКУ «ИК № 14 УФСИН по Архангельской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>Спецгородок д. 1А, д. Горка-Муравьевская, Архангельская область</location>
         <state>Россия</state>
@@ -240,6 +269,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 16 УФСИН России по Архангельской области»</name>
+        <name>ФКУ «ИК № 16 УФСИН по Архангельской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Красноармейская д. 60, г. Онега, Архангельская область</location>
         <state>Россия</state>
@@ -247,6 +277,7 @@
     </facility>
     <facility>
         <name>ФКУ «КП № 19 ОУХД УФСИН России по Архангельской области»</name>
+        <name>ФКУ «КП № 19 ОУХД УФСИН по Архангельской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Центральная д. 4, п. Междуреченский, Архангельская область</location>
         <state>Россия</state>
@@ -254,6 +285,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 21 УФСИН России по Архангельской области»</name>
+        <name>ФКУ «ИК № 21 УФСИН по Архангельской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>2 микрорайон д. 10, п. Североонежск, Архангельская область</location>
         <state>Россия</state>
@@ -261,6 +293,7 @@
     </facility>
     <facility>
         <name>ФКУ «КП № 23 УФСИН России по Архангельской области»</name>
+        <name>ФКУ «КП № 23 УФСИН по Архангельской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>п. Мостовица, Архангельская область</location>
         <state>Россия</state>
@@ -268,6 +301,7 @@
     </facility>
     <facility>
         <name>ФКУ «КП № 27 УФСИН России по Архангельской области»</name>
+        <name>ФКУ «КП № 27 УФСИН по Архангельской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>п. Янгоры, Архангельская область</location>
         <state>Россия</state>
@@ -275,6 +309,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 28 УФСИН России по Архангельской области»</name>
+        <name>ФКУ «ИК № 28 УФСИН по Архангельской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>п. Ерцево, Архангельская область</location>
         <state>Россия</state>
@@ -282,6 +317,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 29 УФСИН России по Архангельской области»</name>
+        <name>ФКУ «ИК № 29 УФСИН по Архангельской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>п. река Емца, Архангельская область</location>
         <state>Россия</state>
@@ -289,13 +325,14 @@
     </facility>
     <facility>
         <name>ФКУ «Архангельская ВК УФСИН России по Архангельской области»</name>
+        <name>ФКУ «Архангельская ВК УФСИН по Архангельской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>п. Талаги д. 112, Архангельская область</location>
         <state>Россия</state>
         <zip>163530</zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Астраханской области»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Астраханской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -337,56 +374,56 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 УФСИН по Белгородской области»</name>
+        <name>ФКУ СИЗО-2 УФСИН России по Белгородской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 3 УФСИН по Белгородской области»</name>
+        <name>ФКУ СИЗО-3 УФСИН России по Белгородской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 4 УФСИН по Белгородской области»</name>
+        <name>ФКУ «ИК № 4 УФСИН России по Белгородской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 5 УФСИН по Белгородской области»</name>
+        <name>ФКУ «ИК № 5 УФСИН России по Белгородской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 6 УФСИН по Белгородской области»</name>
+        <name>ФКУ «ИК № 6 УФСИН России по Белгородской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 7 УФСИН по Белгородской области»</name>
+        <name>ФКУ «ИК № 7 УФСИН России по Белгородской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «КП № 8 УФСИН по Белгородской области»</name>
+        <name>ФКУ «КП № 8 УФСИН России по Белгородской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 9 УФСИН по Белгородской области»</name>
+        <name>ФКУ «ИК № 9 УФСИН России по Белгородской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -400,90 +437,91 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН по Брянской области»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Брянской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 УФСИН по Брянской области»</name>
+        <name>ФКУ СИЗО-2 УФСИН России по Брянской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 1 УФСИН по Брянской области»</name>
+        <name>ФКУ «ИК № 1 УФСИН России по Брянской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 2 УФСИН по Брянской области»</name>
+        <name>ФКУ «ИК № 2 УФСИН России по Брянской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «КП № 3 УФСИН по Брянской области»</name>
+        <name>ФКУ «КП № 3 УФСИН России по Брянской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 4 УФСИН по Брянской области»</name>
+        <name>ФКУ «ИК № 4 УФСИН России по Брянской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 5 УФСИН по Брянской области»</name>
+        <name>ФКУ «ИК № 5 УФСИН России по Брянской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 6 УФСИН по Брянской области»</name>
+        <name>ФКУ «ИК № 6 УФСИН России по Брянской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «Брянская ВК УФСИН по Брянской области»</name>
+        <name>ФКУ «Брянская ВК УФСИН России по Брянской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН по Владимирской области»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Владимирской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 3 УФСИН по Владимирской области»</name>
+        <name>ФКУ СИЗО-3 УФСИН России по Владимирской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «Тюрьма № 1 УФСИН по Владимирской области»</name>
+        <name>ФКУ «Тюрьма № 1 УФСИН России по Владимирской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
+        <name>ФКУ «Тюрьма № 2 УФСИН России по Владимирской области»</name>
         <name>ФКУ «Тюрьма № 2 УФСИН по Владимирской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул Большая Нижегородская д. 67, г. Владимир, Владимирская область</location>
@@ -491,6 +529,7 @@
         <zip>600020</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 1 УФСИН России по Владимирской области»</name>
         <name>ФКУ «ИК № 1 УФСИН по Владимирской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
@@ -498,6 +537,7 @@
         <zip></zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 2 УФСИН России по Владимирской области»</name>
         <name>ФКУ «ИК № 2 УФСИН по Владимирской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
@@ -505,6 +545,7 @@
         <zip></zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 3 УФСИН России по Владимирской области»</name>
         <name>ФКУ «ИК № 3 УФСИН по Владимирской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
@@ -512,6 +553,7 @@
         <zip></zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 4 УФСИН России по Владимирской области»</name>
         <name>ФКУ «ИК № 4 УФСИН по Владимирской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Железнодорожная д. 37, г. Вязники, Владимирская область</location>
@@ -519,6 +561,7 @@
         <zip>601443</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 5 УФСИН России по Владимирской области»</name>
         <name>ФКУ «ИК № 5 УФСИН по Владимирской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
@@ -526,6 +569,7 @@
         <zip></zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 6 УФСИН России по Владимирской области»</name>
         <name>ФКУ «ИК № 6 УФСИН по Владимирской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Первомайская д. 261-А, п. Мелехово, Владимирская область</location>
@@ -533,6 +577,7 @@
         <zip>601967</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 7 УФСИН России по Владимирской области»</name>
         <name>ФКУ «ИК № 7 УФСИН по Владимирской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
@@ -540,6 +585,7 @@
         <zip></zip>
     </facility>
     <facility>
+        <name>ФКУ «ЛИУ № 8 УФСИН России по Владимирской области»</name>
         <name>ФКУ «ЛИУ № 8 УФСИН по Владимирской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
@@ -547,6 +593,7 @@
         <zip></zip>
     </facility>
     <facility>
+        <name>ФКУ «КП № 9 УФСИН России по Владимирской области»</name>
         <name>ФКУ «КП № 9 УФСИН по Владимирской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
@@ -554,6 +601,7 @@
         <zip></zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 10 УФСИН России по Владимирской области»</name>
         <name>ФКУ «ИК № 10 УФСИН по Владимирской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
@@ -652,35 +700,35 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО-1 УФСИН России по Волгоградской области»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Волгоградской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО-2 УФСИН России по Волгоградской области»</name>
+        <name>ФКУ СИЗО-2 УФСИН России по Волгоградской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО-3 УФСИН России по Волгоградской области»</name>
+        <name>ФКУ СИЗО-3 УФСИН России по Волгоградской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО-4 УФСИН России по Волгоградской области»</name>
+        <name>ФКУ СИЗО-4 УФСИН России по Волгоградской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО-5 УФСИН России по Волгоградской области»</name>
+        <name>ФКУ СИЗО-5 УФСИН России по Волгоградской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -694,14 +742,14 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 УФСИН России по Вологодской области»</name>
+        <name>ФКУ СИЗО-2 УФСИН России по Вологодской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 3 УФСИН России по Вологодской области»</name>
+        <name>ФКУ СИЗО-3 УФСИН России по Вологодской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -785,77 +833,77 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН по Воронежской области»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Воронежской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 УФСИН по Воронежской области»</name>
+        <name>ФКУ СИЗО-2 УФСИН России по Воронежской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 3 УФСИН по Воронежской области»</name>
+        <name>ФКУ СИЗО-3 УФСИН России по Воронежской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ОТБ № 1 УФСИН по Воронежской области»</name>
+        <name>ФКУ «ОТБ № 1 УФСИН России по Воронежской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 1 УФСИН по Воронежской области»</name>
+        <name>ФКУ «ИК № 1 УФСИН России по Воронежской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 2 УФСИН по Воронежской области»</name>
+        <name>ФКУ «ИК № 2 УФСИН России по Воронежской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 3 УФСИН по Воронежской области»</name>
+        <name>ФКУ «ИК № 3 УФСИН России по Воронежской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 8 УФСИН по Воронежской области»</name>
+        <name>ФКУ «ИК № 8 УФСИН России по Воронежской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 9 УФСИН по Воронежской области»</name>
+        <name>ФКУ «ИК № 9 УФСИН России по Воронежской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «КП № 10 УФСИН по Воронежской области»</name>
+        <name>ФКУ «КП № 10 УФСИН России по Воронежской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по ЕАО»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по ЕАО</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -890,14 +938,14 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Забайкальскому краю»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Забайкальскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 УФСИН России по Забайкальскому краю»</name>
+        <name>ФКУ СИЗО-2 УФСИН России по Забайкальскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -967,119 +1015,119 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН по Ивановской области»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Ивановской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 УФСИН по Ивановской области»</name>
+        <name>ФКУ СИЗО-2 УФСИН России по Ивановской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 2 УФСИН по Ивановской области»</name>
+        <name>ФКУ «ИК № 2 УФСИН России по Ивановской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 3 УФСИН по Ивановской области»</name>
+        <name>ФКУ «ИК № 3 УФСИН России по Ивановской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 4 УФСИН по Ивановской области»</name>
+        <name>ФКУ «ИК № 4 УФСИН России по Ивановской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 5 УФСИН по Ивановской области»</name>
+        <name>ФКУ «ИК № 5 УФСИН России по Ивановской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 6 УФСИН по Ивановской области»</name>
+        <name>ФКУ «ИК № 6 УФСИН России по Ивановской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 7 УФСИН по Ивановской области»</name>
+        <name>ФКУ «ИК № 7 УФСИН России по Ивановской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ЛИУ № 8 УФСИН по Ивановской области»</name>
+        <name>ФКУ «ЛИУ № 8 УФСИН России по Ивановской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 10 УФСИН по Ивановской области»</name>
+        <name>ФКУ «ИК № 10 УФСИН России по Ивановской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «КП № 12 УФСИН по Ивановской области»</name>
+        <name>ФКУ «КП № 12 УФСИН России по Ивановской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «КП № 13 УФСИН по Ивановской области»</name>
+        <name>ФКУ «КП № 13 УФСИН России по Ивановской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 ГУФСИН России по Иркутской области»</name>
+        <name>ФКУ СИЗО-1 ГУФСИН России по Иркутской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 ГУФСИН России по Иркутской области»</name>
+        <name>ФКУ СИЗО-2 ГУФСИН России по Иркутской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 3 ГУФСИН России по Иркутской области»</name>
+        <name>ФКУ СИЗО-3 ГУФСИН России по Иркутской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 5 ГУФСИН России по Иркутской области»</name>
+        <name>ФКУ СИЗО-5 ГУФСИН России по Иркутской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 6 ГУФСИН России по Иркутской области»</name>
+        <name>ФКУ СИЗО-6 ГУФСИН России по Иркутской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -1094,6 +1142,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 2 ГУФСИН России по Иркутской области»</name>
+        <name>ФКУ «ИК № 2 ГУФСИН по Иркутской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>1-й промышленный массив, квартал 47 д. 6, г. Ангарск, Иркутская область</location>
         <state>Россия</state>
@@ -1198,7 +1247,7 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Кабардино-Балкарской республике»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Кабардино-Балкарской республике</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -1233,21 +1282,21 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Калининградской области»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Калининградской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 УФСИН России по Калининградской области»</name>
+        <name>ФКУ СИЗО-2 УФСИН России по Калининградской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 3 УФСИН России по Калининградской области»</name>
+        <name>ФКУ СИЗО-3 УФСИН России по Калининградской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -1303,63 +1352,63 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН по Калужской области»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Калужской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 УФСИН по Калужской области»</name>
+        <name>ФКУ СИЗО-2 УФСИН России по Калужской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ЛИУ № 1 УФСИН по Калужской области»</name>
+        <name>ФКУ «ЛИУ № 1 УФСИН России по Калужской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 2 УФСИН по Калужской области»</name>
+        <name>ФКУ «ИК № 2 УФСИН России по Калужской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 3 УФСИН по Калужской области»</name>
+        <name>ФКУ «ИК № 3 УФСИН России по Калужской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 4 УФСИН по Калужской области»</name>
+        <name>ФКУ «ИК № 4 УФСИН России по Калужской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 5 УФСИН по Калужской области»</name>
+        <name>ФКУ «ИК № 5 УФСИН России по Калужской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 7 УФСИН по Калужской области»</name>
+        <name>ФКУ «ИК № 7 УФСИН России по Калужской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Камчатскому краю»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Камчатскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -1387,35 +1436,39 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 ОФСИН России по Карачаево-Черкесской республике»</name>
+        <name>ФКУ СИЗО-1 ОФСИН России по Карачаево-Черкесской республике</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 ГУФСИН России по Кемеровской области»</name>
+        <name>ФКУ СИЗО-1 ГУФСИН России по Кемеровской области</name>
+        <name>ФКУ СИЗО-1 ГУФСИН по Кемеровской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location>Кузнецкий проспект д. 174, г. Кемерово, Кемеровская область</location>
         <state>Россия</state>
         <zip>650993</zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 ГУФСИН России по Кемеровской области»</name>
+        <name>ФКУ СИЗО-2 ГУФСИН России по Кемеровской области</name>
+        <name>ФКУ СИЗО-2 ГУФСИН по Кемеровской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Полосухина д. 3, г. Новокузнецк, Кемеровская область</location>
         <state>Россия</state>
         <zip>654034</zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 3 ГУФСИН России по Кемеровской области»</name>
+        <name>ФКУ СИЗО-3 ГУФСИН России по Кемеровской области</name>
+        <name>ФКУ СИЗО-3 ГУФСИН по Кемеровской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Пальчикова д. 16, г. Мариинск, Кемеровская область</location>
         <state>Россия</state>
         <zip>652154</zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 4 ГУФСИН России по Кемеровской области»</name>
+        <name>ФКУ СИЗО-4 ГУФСИН России по Кемеровской области</name>
+        <name>ФКУ СИЗО-4 ГУФСИН по Кемеровской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Чекистов д. 1, г. Анжеро-Судженск, Кемеровская область</location>
         <state>Россия</state>
@@ -1423,6 +1476,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 1 ГУФСИН России по Кемеровской области»</name>
+        <name>ФКУ «ИК № 1 ГУФСИН по Кемеровской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Макаренко д. 5, г. Мариинск, Кемеровская область</location>
         <state>Россия</state>
@@ -1430,6 +1484,7 @@
     </facility>
     <facility>
         <name>ФКУ «КП № 2 ГУФСИН России по Кемеровской области»</name>
+        <name>ФКУ «КП № 2 ГУФСИН по Кемеровской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Филина д. 2, п. Первый, Кемеровская область</location>
         <state>Россия</state>
@@ -1437,6 +1492,7 @@
     </facility>
     <facility>
         <name>ФКУ «КП № 3 ГУФСИН России по Кемеровской области»</name>
+        <name>ФКУ «КП № 3 ГУФСИН по Кемеровской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Трактовая д. 2, п. Новоивановский-1, Кемеровская область</location>
         <state>Россия</state>
@@ -1444,6 +1500,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 5 ГУФСИН России по Кемеровской области»</name>
+        <name>ФКУ «ИК № 5 ГУФСИН по Кемеровской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Будённого д. 33, г. Кемерово, Кемеровская область</location>
         <state>Россия</state>
@@ -1451,6 +1508,7 @@
     </facility>
     <facility>
         <name>ФКУ «ЛИУ № 16 ГУФСИН России по Кемеровской области»</name>
+        <name>ФКУ «ЛИУ № 16 ГУФСИН по Кемеровской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Левашова д. 42А, г. Новокузнецк, п. Абагур Лесной, Кемеровская область</location>
         <state>Россия</state>
@@ -1458,6 +1516,7 @@
     </facility>
     <facility>
         <name>ФКУ «ЛИУ № 21 ГУФСИН России по Кемеровской области»</name>
+        <name>ФКУ «ЛИУ № 21 ГУФСИН по Кемеровской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Народная д. 7, п. Таёжный, г. Тайга, Кемеровская область</location>
         <state>Россия</state>
@@ -1465,6 +1524,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 22 ГУФСИН России по Кемеровской области»</name>
+        <name>ФКУ «ИК № 22 ГУФСИН по Кемеровской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Трудовая д. 13, п. Мозжуха, Кемеровская область</location>
         <state>Россия</state>
@@ -1472,6 +1532,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 29 ГУФСИН России по Кемеровской области»</name>
+        <name>ФКУ «ИК № 29 ГУФСИН по Кемеровской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Стройгородок, г. Кемерово, Кемеровская область</location>
         <state>Россия</state>
@@ -1479,6 +1540,7 @@
     </facility>
     <facility>
         <name>ФКУ «КП № 31 ГУФСИН России по Кемеровской области»</name>
+        <name>ФКУ «КП № 31 ГУФСИН по Кемеровской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Чекистов д. 1, г. Анжеро-Судженск, Кемеровская область</location>
         <state>Россия</state>
@@ -1486,6 +1548,7 @@
     </facility>
     <facility>
         <name>ФКУ «ЛИУ № 33 ГУФСИН России по Кемеровской области»</name>
+        <name>ФКУ «ЛИУ № 33 ГУФСИН по Кемеровской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Дзержинского д. 9, г. Мариинск, Кемеровская область</location>
         <state>Россия</state>
@@ -1493,6 +1556,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 35 ГУФСИН России по Кемеровской области»</name>
+        <name>ФКУ «ИК № 35 ГУФСИН по Кемеровской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Макаренко д. 7, г. Мариинск, Кемеровская область</location>
         <state>Россия</state>
@@ -1500,6 +1564,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 37 ГУФСИН России по Кемеровской области»</name>
+        <name>ФКУ «ИК № 37 ГУФСИН по Кемеровской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Жуковского д. 1, п. Яя, Кемеровская область</location>
         <state>Россия</state>
@@ -1507,6 +1572,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 40 ГУФСИН России по Кемеровской области»</name>
+        <name>ФКУ «ИК № 40 ГУФСИН по Кемеровской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Волгоградская д. 60А, г. Кемерово, Кемеровская область</location>
         <state>Россия</state>
@@ -1514,6 +1580,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 41 ГУФСИН России по Кемеровской области»</name>
+        <name>ФКУ «ИК № 41 ГУФСИН по Кемеровской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Окрайная д. 1, г. Юрга, Кемеровская область</location>
         <state>Россия</state>
@@ -1521,6 +1588,7 @@
     </facility>
     <facility>
         <name>ФКУ «ЛИУ № 42 ГУФСИН России по Кемеровской области»</name>
+        <name>ФКУ «ЛИУ № 42 ГУФСИН по Кемеровской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Северная промзона д. 15, г. Ленинск-Кузнецкий, Кемеровская область</location>
         <state>Россия</state>
@@ -1528,6 +1596,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 43 ГУФСИН России по Кемеровской области»</name>
+        <name>ФКУ «ИК № 43 ГУФСИН по Кемеровской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Баха д. 3А, г. Кемерово, Кемеровская область</location>
         <state>Россия</state>
@@ -1535,6 +1604,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 44 ГУФСИН России по Кемеровской области»</name>
+        <name>ФКУ «ИК № 44 ГУФСИН по Кемеровской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Аэродромная д. 2Б, г. Белово, Кемеровская область</location>
         <state>Россия</state>
@@ -1542,6 +1612,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 50 ГУФСИН России по Кемеровской области»</name>
+        <name>ФКУ «ИК № 50 ГУФСИН по Кемеровской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Шоссейная д. 2, г. Юрга, Кемеровская область</location>
         <state>Россия</state>
@@ -1549,20 +1620,21 @@
     </facility>
     <facility>
         <name>ФКУ «Мариинская ВК ГУФСИН России по Кемеровской области»</name>
+        <name>ФКУ «Мариинская ВК ГУФСИН по Кемеровской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Макаренко д. 4, г. Мариинск, Кемеровская область</location>
         <state>Россия</state>
         <zip>652154</zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Кировской области»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Кировской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 УФСИН России по Кировской области»</name>
+        <name>ФКУ СИЗО-2 УФСИН России по Кировской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -1584,6 +1656,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 5 УФСИН России по Кировской области»</name>
+        <name>ФКУ «ИК № 5 УФСИН по Кировской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Овражная д. 16, г. Кирово-Чепецк, Кировская область</location>
         <state>Россия</state>
@@ -1674,14 +1747,14 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Костромской области»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Костромской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 УФСИН России по Костромской области»</name>
+        <name>ФКУ СИЗО-2 УФСИН России по Костромской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -1717,6 +1790,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 7 УФСИН России по Костромской области»</name>
+        <name>ФКУ «ИК № 7 УФСИН по Костромской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>п. Бычиха-12, Костромской район, Костромская область</location>
         <state>Россия</state>
@@ -1863,35 +1937,35 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 ГУФСИН России по Красноярскому краю»</name>
+        <name>ФКУ СИЗО-1 ГУФСИН России по Красноярскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 3 ГУФСИН России по Красноярскому краю»</name>
+        <name>ФКУ СИЗО-3 ГУФСИН России по Красноярскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 4 ГУФСИН России по Красноярскому краю»</name>
+        <name>ФКУ СИЗО-4 ГУФСИН России по Красноярскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 5 ГУФСИН России по Красноярскому краю»</name>
+        <name>ФКУ СИЗО-5 ГУФСИН России по Красноярскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 6 ГУФСИН России по Красноярскому краю»</name>
+        <name>ФКУ СИЗО-6 ГУФСИН России по Красноярскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -2073,14 +2147,14 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Курганской области»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Курганской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 УФСИН России по Курганской области»</name>
+        <name>ФКУ СИЗО-2 УФСИН России по Курганской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -2136,7 +2210,7 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Курской области»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Курской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -2178,13 +2252,16 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН по Липецкой области»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Липецкой области</name>
+        <name>ФКУ СИЗО-1 УФСИН по Липецкой области</name>
         <jurisdiction>Russia</jurisdiction>
         <location>район Цементного завода, г. Липецк, Липецкая область</location>
         <state>Россия</state>
         <zip>398027</zip>
     </facility>
     <facility>
+        <name>ФКУ «Тюрьма № 2 УФСИН России по Липецкой области» («Липецкая крытка»)</name>
+        <name>ФКУ «Тюрьма № 2 УФСИН России по Липецкой области»</name>
         <name>ФКУ «Тюрьма № 2 УФСИН по Липецкой области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Пролетарская д. 1Б, г. Елец, Липецкая область</location>
@@ -2192,6 +2269,7 @@
         <zip>399783</zip>
     </facility>
     <facility>
+        <name>ФКУ «ЛИУ № 1 УФСИН России по Липецкой области»</name>
         <name>ФКУ «ЛИУ № 1 УФСИН по Липецкой области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Советская д. 69, г. Усмань, Липецкая область</location>
@@ -2199,6 +2277,7 @@
         <zip>399370</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 2 УФСИН России по Липецкой области»</name>
         <name>ФКУ «ИК № 2 УФСИН по Липецкой области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Ковалёва стр. 130Б, г. Липецк, Липецкая область</location>
@@ -2206,6 +2285,7 @@
         <zip>398027</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 3 УФСИН России по Липецкой области»</name>
         <name>ФКУ «ИК № 3 УФСИН по Липецкой области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Коммунаров д. 48, г. Елец, Липецкая область</location>
@@ -2213,6 +2293,7 @@
         <zip>399783</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 4 УФСИН России по Липецкой области»</name>
         <name>ФКУ «ИК № 4 УФСИН по Липецкой области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Кротевича д. 6А, г. Елец, Липецкая область</location>
@@ -2220,6 +2301,7 @@
         <zip>399776</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 6 УФСИН России по Липецкой области»</name>
         <name>ФКУ «ИК № 6 УФСИН по Липецкой области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>район Цементного завода, г. Липецк, Липецкая область</location>
@@ -2227,6 +2309,7 @@
         <zip>398027</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 7 УФСИН России по Липецкой области»</name>
         <name>ФКУ «ИК № 7 УФСИН по Липецкой области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Дзержинского д. 30, с. Новоуглянка, Липецкая область</location>
@@ -2234,7 +2317,7 @@
         <zip>399360</zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Магаданской области»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Магаданской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -2262,147 +2345,147 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН по Московской области»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Московской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 УФСИН по Московской области»</name>
+        <name>ФКУ СИЗО-2 УФСИН России по Московской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 3 УФСИН по Московской области»</name>
+        <name>ФКУ СИЗО-3 УФСИН России по Московской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 4 УФСИН по Московской области»</name>
+        <name>ФКУ СИЗО-4 УФСИН России по Московской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 5 УФСИН по Московской области»</name>
+        <name>ФКУ СИЗО-5 УФСИН России по Московской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 6 УФСИН по Московской области»</name>
+        <name>ФКУ СИЗО-6 УФСИН России по Московской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 7 УФСИН по Московской области»</name>
+        <name>ФКУ СИЗО-7 УФСИН России по Московской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 8 УФСИН по Московской области»</name>
+        <name>ФКУ СИЗО-8 УФСИН России по Московской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 10 УФСИН по Московской области»</name>
+        <name>ФКУ СИЗО-10 УФСИН России по Московской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 11 УФСИН по Московской области»</name>
+        <name>ФКУ СИЗО-11 УФСИН России по Московской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 12 УФСИН по Московской области»</name>
+        <name>ФКУ СИЗО-12 УФСИН России по Московской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 1 УФСИН по Московской области»</name>
+        <name>ФКУ «ИК № 1 УФСИН России по Московской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 3 УФСИН по Московской области»</name>
+        <name>ФКУ «ИК № 3 УФСИН России по Московской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «КП № 2 УФСИН по Московской области»</name>
+        <name>ФКУ «КП № 2 УФСИН России по Московской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «КП № 3 УФСИН по Московской области»</name>
+        <name>ФКУ «КП № 3 УФСИН России по Московской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 5 УФСИН по Московской области»</name>
+        <name>ФКУ «ИК № 5 УФСИН России по Московской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 6 УФСИН по Московской области»</name>
+        <name>ФКУ «ИК № 6 УФСИН России по Московской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «Можайская ВК УФСИН по Московской области»</name>
+        <name>ФКУ «Можайская ВК УФСИН России по Московской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «Психиатрическая больница № 5 УФСИН по Московской области»</name>
+        <name>ФКУ «Психиатрическая больница № 5 УФСИН России по Московской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Мурманской области»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Мурманской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 УФСИН России по Мурманской области»</name>
+        <name>ФКУ СИЗО-2 УФСИН России по Мурманской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -2451,21 +2534,21 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 ГУФСИН России по Нижегородской области»</name>
+        <name>ФКУ СИЗО-1 ГУФСИН России по Нижегородской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 ГУФСИН России по Нижегородской области»</name>
+        <name>ФКУ СИЗО-2 ГУФСИН России по Нижегородской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 3 ГУФСИН России по Нижегородской области»</name>
+        <name>ФКУ СИЗО-3 ГУФСИН России по Нижегородской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -2479,7 +2562,7 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 2 ГУФСИН по Нижегородской области»</name>
+        <name>ФКУ «ИК № 2 ГУФСИН России по Нижегородской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -2584,7 +2667,7 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Новгородской области»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Новгородской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -2626,21 +2709,21 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 ГУФСИН России по Новосибирской области»</name>
+        <name>ФКУ СИЗО-1 ГУФСИН России по Новосибирской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 ГУФСИН России по Новосибирской области»</name>
+        <name>ФКУ СИЗО-2 ГУФСИН России по Новосибирской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 3 ГУФСИН России по Новосибирской области»</name>
+        <name>ФКУ СИЗО-3 ГУФСИН России по Новосибирской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -2738,14 +2821,14 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Омской области»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Омской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 УФСИН России по Омской области»</name>
+        <name>ФКУ СИЗО-2 УФСИН России по Омской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -2829,21 +2912,21 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Оренбургской области»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Оренбургской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 УФСИН России по Оренбургской области»</name>
+        <name>ФКУ СИЗО-2 УФСИН России по Оренбургской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 3 УФСИН России по Оренбургской области»</name>
+        <name>ФКУ СИЗО-3 УФСИН России по Оренбургской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -2920,7 +3003,7 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Орловской области»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Орловской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -2969,7 +3052,7 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Пензенской области»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Пензенской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -3025,42 +3108,42 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 ГУФСИН России по Пермскому краю»</name>
+        <name>ФКУ СИЗО-1 ГУФСИН России по Пермскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 ГУФСИН России по Пермскому краю»</name>
+        <name>ФКУ СИЗО-2 ГУФСИН России по Пермскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 3 ГУФСИН России по Пермскому краю»</name>
+        <name>ФКУ СИЗО-3 ГУФСИН России по Пермскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 4 ГУФСИН России по Пермскому краю»</name>
+        <name>ФКУ СИЗО-4 ГУФСИН России по Пермскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 5 ГУФСИН России по Пермскому краю»</name>
+        <name>ФКУ СИЗО-5 ГУФСИН России по Пермскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 6 ГУФСИН России по Пермскому краю»</name>
+        <name>ФКУ СИЗО-6 ГУФСИН России по Пермскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -3256,126 +3339,126 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 ГУФСИН России по Приморскому краю»</name>
+        <name>ФКУ СИЗО-1 ГУФСИН России по Приморскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 ГУФСИН России по Приморскому краю»</name>
+        <name>ФКУ СИЗО-2 ГУФСИН России по Приморскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 3 ГУФСИН России по Приморскому краю»</name>
+        <name>ФКУ СИЗО-3 ГУФСИН России по Приморскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 4 ГУФСИН России по Приморскому краю»</name>
+        <name>ФКУ СИЗО-4 ГУФСИН России по Приморскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 6 ГУФСИН по Приморскому краю»</name>
+        <name>ФКУ «ИК № 6 ГУФСИН России по Приморскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 10 ГУФСИН по Приморскому краю»</name>
+        <name>ФКУ «ИК № 10 ГУФСИН России по Приморскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 20 ГУФСИН по Приморскому краю»</name>
+        <name>ФКУ «ИК № 20 ГУФСИН России по Приморскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 22 ГУФСИН по Приморскому краю»</name>
+        <name>ФКУ «ИК № 22 ГУФСИН России по Приморскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ЛИУ № 23 ГУФСИН по Приморскому краю»</name>
+        <name>ФКУ «ЛИУ № 23 ГУФСИН России по Приморскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «КП № 26 ГУФСИН по Приморскому краю»</name>
+        <name>ФКУ «КП № 26 ГУФСИН России по Приморскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 27 ГУФСИН по Приморскому краю»</name>
+        <name>ФКУ «ИК № 27 ГУФСИН России по Приморскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 29 ГУФСИН по Приморскому краю»</name>
+        <name>ФКУ «ИК № 29 ГУФСИН России по Приморскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 31 ГУФСИН по Приморскому краю»</name>
+        <name>ФКУ «ИК № 31 ГУФСИН России по Приморскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 33 ГУФСИН по Приморскому краю»</name>
+        <name>ФКУ «ИК № 33 ГУФСИН России по Приморскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «КП № 37 ГУФСИН по Приморскому краю»</name>
+        <name>ФКУ «КП № 37 ГУФСИН России по Приморскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 41 ГУФСИН по Приморскому краю»</name>
+        <name>ФКУ «ИК № 41 ГУФСИН России по Приморскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ЛИУ № 47 ГУФСИН по Приморскому краю»</name>
+        <name>ФКУ «ЛИУ № 47 ГУФСИН России по Приморскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «КП № 49 ГУФСИН по Приморскому краю»</name>
+        <name>ФКУ «КП № 49 ГУФСИН России по Приморскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -3396,14 +3479,16 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Псковской области»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Псковской области</name>
+        <name>ФКУ СИЗО-1 УФСИН по Псковской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Некрасова д. 39, Псковская область, г. Псков, Псковская область</location>
         <state>Россия</state>
         <zip>180000</zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 УФСИН России по Псковской области»</name>
+        <name>ФКУ СИЗО-2 УФСИН России по Псковской области</name>
+        <name>ФКУ СИЗО-2 УФСИН по Псковской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Горицкая д. 16А, г. Великие Луки, Псковская область</location>
         <state>Россия</state>
@@ -3411,6 +3496,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 2 УФСИН России по Псковской области»</name>
+        <name>ФКУ «ИК № 2 УФСИН по Псковской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>п. Крюки, Псковская область</location>
         <state>Россия</state>
@@ -3418,6 +3504,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 3 УФСИН России по Псковской области»</name>
+        <name>ФКУ «ИК № 3 УФСИН по Псковской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Лесная д. 12, п. Идрица, Псковская область</location>
         <state>Россия</state>
@@ -3425,6 +3512,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 4 УФСИН России по Псковской области»</name>
+        <name>ФКУ «ИК № 4 УФСИН по Псковской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Железнодорожная д. 7, п. Середка, Псковская область</location>
         <state>Россия</state>
@@ -3432,6 +3520,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 6 УФСИН России по Псковской области»</name>
+        <name>ФКУ «ИК № 6 УФСИН по Псковской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>п. Сосновый Бор, Псковская область</location>
         <state>Россия</state>
@@ -3473,7 +3562,7 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 ОФСИН России по Республике Алтай»</name>
+        <name>ФКУ СИЗО-1 ОФСИН России по Республике Алтай</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -3487,126 +3576,126 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН по Республике Башкортостан»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Республике Башкортостан</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 УФСИН по Республике Башкортостан»</name>
+        <name>ФКУ СИЗО-2 УФСИН России по Республике Башкортостан</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 3 УФСИН по Республике Башкортостан»</name>
+        <name>ФКУ СИЗО-3 УФСИН России по Республике Башкортостан</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 5 УФСИН по Республике Башкортостан»</name>
+        <name>ФКУ СИЗО-5 УФСИН России по Республике Башкортостан</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 2 УФСИН по Республике Башкортостан»</name>
+        <name>ФКУ «ИК № 2 УФСИН России по Республике Башкортостан»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 3 УФСИН по Республике Башкортостан»</name>
+        <name>ФКУ «ИК № 3 УФСИН России по Республике Башкортостан»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 4 УФСИН по Республике Башкортостан»</name>
+        <name>ФКУ «ИК № 4 УФСИН России по Республике Башкортостан»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 7 УФСИН по Республике Башкортостан»</name>
+        <name>ФКУ «ИК № 7 УФСИН России по Республике Башкортостан»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 8 УФСИН по Республике Башкортостан»</name>
+        <name>ФКУ «ИК № 8 УФСИН России по Республике Башкортостан»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 9 УФСИН по Республике Башкортостан»</name>
+        <name>ФКУ «ИК № 9 УФСИН России по Республике Башкортостан»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 13 УФСИН по Республике Башкортостан»</name>
+        <name>ФКУ «ИК № 13 УФСИН России по Республике Башкортостан»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 16 УФСИН по Республике Башкортостан»</name>
+        <name>ФКУ «ИК № 16 УФСИН России по Республике Башкортостан»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 21 УФСИН по Республике Башкортостан»</name>
+        <name>ФКУ «ИК № 21 УФСИН России по Республике Башкортостан»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ФКЛПУ РБ УФСИН по Республике Башкортостан»</name>
+        <name>ФКУ «ФКЛПУ РБ УФСИН России по Республике Башкортостан»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ЛИУ № 19 УФСИН по Республике Башкортостан»</name>
+        <name>ФКУ «ЛИУ № 19 УФСИН России по Республике Башкортостан»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «КП № 5 УФСИН по Республике Башкортостан»</name>
+        <name>ФКУ «КП № 5 УФСИН России по Республике Башкортостан»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «КП № 6 УФСИН по Республике Башкортостан»</name>
+        <name>ФКУ «КП № 6 УФСИН России по Республике Башкортостан»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Республике Бурятия»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Республике Бурятия</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -3655,21 +3744,21 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Республике Дагестан»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Республике Дагестан</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 УФСИН России по Республике Дагестан»</name>
+        <name>ФКУ СИЗО-2 УФСИН России по Республике Дагестан</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 3 УФСИН России по Республике Дагестан»</name>
+        <name>ФКУ СИЗО-3 УФСИН России по Республике Дагестан</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -3704,21 +3793,21 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 ОФСИН России по Республике Ингушетия»</name>
+        <name>ФКУ СИЗО-1 ОФСИН России по Республике Ингушетия</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Республике Карелия»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Республике Карелия</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 УФСИН России по Республике Карелия»</name>
+        <name>ФКУ СИЗО-2 УФСИН России по Республике Карелия</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -3760,21 +3849,21 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Республике Коми»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Республике Коми</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 УФСИН России по Республике Коми»</name>
+        <name>ФКУ СИЗО-2 УФСИН России по Республике Коми</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 3 УФСИН России по Республике Коми»</name>
+        <name>ФКУ СИЗО-3 УФСИН России по Республике Коми</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -3879,77 +3968,77 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН по Республике Крым и г. Севастополю»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Республике Крым и г. Севастополю</name>
         <jurisdiction>Ukraine</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «КП № 1 УФСИН по Республике Крым и г. Севастополю»</name>
+        <name>ФКУ «КП № 1 УФСИН России по Республике Крым и г. Севастополю»</name>
         <jurisdiction>Ukraine</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 1 УФСИН по Республике Крым и г. Севастополю»</name>
+        <name>ФКУ «ИК № 1 УФСИН России по Республике Крым и г. Севастополю»</name>
         <jurisdiction>Ukraine</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 2 УФСИН по Республике Крым и г. Севастополю»</name>
+        <name>ФКУ «ИК № 2 УФСИН России по Республике Крым и г. Севастополю»</name>
         <jurisdiction>Ukraine</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН по Республике Марий Эл»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Республике Марий Эл</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 3 УФСИН по Республике Марий Эл»</name>
+        <name>ФКУ «ИК № 3 УФСИН России по Республике Марий Эл»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 4 УФСИН по Республике Марий Эл»</name>
+        <name>ФКУ «ИК № 4 УФСИН России по Республике Марий Эл»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 6 УФСИН по Республике Марий Эл»</name>
+        <name>ФКУ «ИК № 6 УФСИН России по Республике Марий Эл»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «КП № 7 УФСИН по Республике Марий Эл»</name>
+        <name>ФКУ «КП № 7 УФСИН России по Республике Марий Эл»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Республике Мордовия»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Республике Мордовия</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 УФСИН России по Республике Мордовия»</name>
+        <name>ФКУ СИЗО-2 УФСИН России по Республике Мордовия</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -3992,6 +4081,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 6 УФСИН России по Республике Мордовия» (Торбеевский централ)</name>
+        <name>ФКУ «ИК № 6 УФСИН по Республике Мордовия»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Весенняя д. 50, п. Торбеево, Мордовия</location>
         <state>Россия</state>
@@ -4054,49 +4144,49 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН по Республике Саха (Якутия)»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Республике Саха (Якутия)</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 1 УФСИН по Республике Саха (Якутия)»</name>
+        <name>ФКУ «ИК № 1 УФСИН России по Республике Саха (Якутия)»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «КП № 2 УФСИН по Республике Саха (Якутия)»</name>
+        <name>ФКУ «КП № 2 УФСИН России по Республике Саха (Якутия)»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ЛИУ № 5 УФСИН по Республике Саха (Якутия)»</name>
+        <name>ФКУ «ЛИУ № 5 УФСИН России по Республике Саха (Якутия)»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 6 УФСИН по Республике Саха (Якутия)»</name>
+        <name>ФКУ «ИК № 6 УФСИН России по Республике Саха (Якутия)»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 7 УФСИН по Республике Саха (Якутия)»</name>
+        <name>ФКУ «ИК № 7 УФСИН России по Республике Саха (Якутия)»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Республике Северная Осетия – Алания»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Республике Северная Осетия – Алания</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -4117,35 +4207,35 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Республике Татарстан»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Республике Татарстан</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 УФСИН России по Республике Татарстан»</name>
+        <name>ФКУ СИЗО-2 УФСИН России по Республике Татарстан</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 3 УФСИН России по Республике Татарстан»</name>
+        <name>ФКУ СИЗО-3 УФСИН России по Республике Татарстан</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 4 УФСИН России по Республике Татарстан»</name>
+        <name>ФКУ СИЗО-4 УФСИН России по Республике Татарстан</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 5 УФСИН России по Республике Татарстан»</name>
+        <name>ФКУ СИЗО-5 УФСИН России по Республике Татарстан</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -4222,7 +4312,7 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 УФСИН России по Республике Тыва»</name>
+        <name>ФКУ СИЗО-2 УФСИН России по Республике Тыва</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -4257,7 +4347,7 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Республике Хакасия»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Республике Хакасия</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -4321,6 +4411,7 @@
     </facility>
     <facility>
         <name>ФКУ СИЗО-3 ГУФСИН России по Ростовской области</name>
+        <name>ФКУ СИЗО-3 ГУФСИН по Ростовской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location> ул. Украинская д. 1, г. Новочеркасск, Ростовская область</location>
         <state>Россия</state>
@@ -4439,14 +4530,14 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Рязанской области»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Рязанской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 УФСИН России по Рязанской области»</name>
+        <name>ФКУ СИЗО-2 УФСИН России по Рязанской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -4502,21 +4593,21 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Самарской области»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Самарской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 УФСИН России по Самарской области»</name>
+        <name>ФКУ СИЗО-2 УФСИН России по Самарской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 4 УФСИН России по Самарской области»</name>
+        <name>ФКУ СИЗО-4 УФСИН России по Самарской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -4628,14 +4719,14 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Саратовской области»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Саратовской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 УФСИН России по Саратовской области»</name>
+        <name>ФКУ СИЗО-2 УФСИН России по Саратовской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -4740,77 +4831,77 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН по Сахалинской области»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Сахалинской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 УФСИН по Сахалинской области»</name>
+        <name>ФКУ СИЗО-2 УФСИН России по Сахалинской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 1 УФСИН по Сахалинской области»</name>
+        <name>ФКУ «ИК № 1 УФСИН России по Сахалинской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 2 УФСИН по Сахалинской области»</name>
+        <name>ФКУ «ИК № 2 УФСИН России по Сахалинской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ЛИУ № 3 УФСИН по Сахалинской области»</name>
+        <name>ФКУ «ЛИУ № 3 УФСИН России по Сахалинской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 ГУФСИН России по Свердловской области»</name>
+        <name>ФКУ СИЗО-1 ГУФСИН России по Свердловской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 ГУФСИН России по Свердловской области»</name>
+        <name>ФКУ СИЗО-2 ГУФСИН России по Свердловской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 3 ГУФСИН России по Свердловской области»</name>
+        <name>ФКУ СИЗО-3 ГУФСИН России по Свердловской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 4 ГУФСИН России по Свердловской области»</name>
+        <name>ФКУ СИЗО-4 ГУФСИН России по Свердловской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 5 ГУФСИН России по Свердловской области»</name>
+        <name>ФКУ СИЗО-5 ГУФСИН России по Свердловской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 6 ГУФСИН России по Свердловской области»</name>
+        <name>ФКУ СИЗО-6 ГУФСИН России по Свердловской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -4999,14 +5090,14 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Смоленской области»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Смоленской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 УФСИН России по Смоленской области»</name>
+        <name>ФКУ СИЗО-2 УФСИН России по Смоленской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -5055,14 +5146,14 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Ставропольскому краю»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Ставропольскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 УФСИН России по Ставропольскому краю»</name>
+        <name>ФКУ СИЗО-2 УФСИН России по Ставропольскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -5139,14 +5230,14 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Тамбовской области»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Тамбовской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 3 УФСИН России по Тамбовской области»</name>
+        <name>ФКУ СИЗО-3 УФСИН России по Тамбовской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -5168,6 +5259,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 3 УФСИН России по Тамбовской области»</name>
+        <name>ФКУ «ИК № 3 УФСИН по Тамбовской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Центральная д. 6, п. Зеленый, Тамбовская область</location>
         <state>Россия</state>
@@ -5209,21 +5301,21 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Тверской области»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Тверской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 УФСИН России по Тверской области»</name>
+        <name>ФКУ СИЗО-2 УФСИН России по Тверской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 3 УФСИН России по Тверской области»</name>
+        <name>ФКУ СИЗО-3 УФСИН России по Тверской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -5246,6 +5338,7 @@
     <facility>
         <name>ФКУ «ИК № 4 УФСИН России по Тверской области»</name>
         <name>ФКУ «ИК № 4 УФСИН России по Тверской области»</name>
+        <name>ФКУ «ИК № 4 УФСИН по Тверской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Старицкая д. 79, г. Торжок, Тверская область</location>
         <state>Россия</state>
@@ -5350,14 +5443,14 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Тульской области»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Тульской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 4 УФСИН России по Тульской области»</name>
+        <name>ФКУ СИЗО-4 УФСИН России по Тульской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -5421,20 +5514,21 @@
     </facility>
     <facility>
         <name>ФКУ СИЗО-1 УФСИН России по Тюменской области</name>
+        <name>ФКУ СИЗО-1 УФСИН по Тюменской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Ялуторовская д. 42, г. Тюмень, Тюменская область</location>
         <state>Россия</state>
         <zip>625000</zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 УФСИН России по Тюменской области»</name>
+        <name>ФКУ СИЗО-2 УФСИН России по Тюменской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 4 УФСИН России по Тюменской области»</name>
+        <name>ФКУ СИЗО-4 УФСИН России по Тюменской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -5476,7 +5570,7 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 13 УФСИН по Тюменской области»</name>
+        <name>ФКУ «ИК № 13 УФСИН России по Тюменской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -5504,14 +5598,14 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Удмуртской Республике»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Удмуртской Республике</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 УФСИН России по Удмуртской Республике»</name>
+        <name>ФКУ СИЗО-2 УФСИН России по Удмуртской Республике</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -5595,14 +5689,14 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН Ульяновской области»</name>
+        <name>ФКУ СИЗО-1 УФСИН Ульяновской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 3 УФСИН Ульяновской области»</name>
+        <name>ФКУ СИЗО-3 УФСИН Ульяновской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -5672,21 +5766,21 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Хабаровскому краю»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Хабаровскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 УФСИН России по Хабаровскому краю»</name>
+        <name>ФКУ СИЗО-2 УФСИН России по Хабаровскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 3 УФСИН России по Хабаровскому краю»</name>
+        <name>ФКУ СИЗО-3 УФСИН России по Хабаровскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -5756,63 +5850,63 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «КП № 22 УФСИН по Хабаровскому краю»</name>
+        <name>ФКУ «КП № 22 УФСИН России по Хабаровскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН по ХМАО»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по ХМАО</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 11 УФСИН по ХМАО»</name>
+        <name>ФКУ «ИК № 11 УФСИН России по ХМАО»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 15 УФСИН по ХМАО»</name>
+        <name>ФКУ «ИК № 15 УФСИН России по ХМАО»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «ЛИУ № 17 УФСИН по ХМАО»</name>
+        <name>ФКУ «ЛИУ № 17 УФСИН России по ХМАО»</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 ГУФСИН России по Челябинской области»</name>
+        <name>ФКУ СИЗО-1 ГУФСИН России по Челябинской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 ГУФСИН России по Челябинской области»</name>
+        <name>ФКУ СИЗО-2 ГУФСИН России по Челябинской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 3 ГУФСИН России по Челябинской области»</name>
+        <name>ФКУ СИЗО-3 ГУФСИН России по Челябинской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 4 ГУФСИН России по Челябинской области»</name>
+        <name>ФКУ СИЗО-4 ГУФСИН России по Челябинской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -5820,6 +5914,7 @@
     </facility>
     <facility>
         <name>ФКУ «Тюрьма ГУФСИН России по Челябинской области»</name>
+        <name>ФКУ «Тюрьма ГУФСИН по Челябинской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Северная д. 1, г. Верхнеуральск, Челябинская область</location>
         <state>Россия</state>
@@ -5931,14 +6026,14 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Чеченской республике»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Чеченской республике</name>
         <jurisdiction>Chechnya, Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 УФСИН России по Чеченской республике»</name>
+        <name>ФКУ СИЗО-2 УФСИН России по Чеченской республике</name>
         <jurisdiction>Chechnya, Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -5959,14 +6054,14 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Чувашии»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Чувашии</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 УФСИН России по Чувашии»</name>
+        <name>ФКУ СИЗО-2 УФСИН России по Чувашии</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -6036,84 +6131,98 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН по г. Москве»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по г. Москве («Матросская тишина»)</name>
+        <name>ФКУ СИЗО-1 УФСИН России по г. Москве</name>
+        <name>ФКУ СИЗО-1 УФСИН по г. Москве</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Матросская Тишина д. 18, СИЗО-1, г. Москва</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>107076</zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 УФСИН по г. Москве»</name>
+        <name>ФКУ СИЗО-2 УФСИН России по г. Москве («Бутырка»)</name>
+        <name>ФКУ СИЗО-2 УФСИН России по г. Москве</name>
+        <name>ФКУ СИЗО-2 УФСИН по г. Москве</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Новослободская д. 45, г. Москва</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>127055</zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 3 УФСИН по г. Москве» </name>
+        <name>ФКУ СИЗО-3 УФСИН России по г. Москве («Пресня»)</name>
+        <name>ФКУ СИЗО-3 УФСИН России по г. Москве</name>
+        <name>ФКУ СИЗО-3 УФСИН по г. Москве</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>1-й Силикатный проезд д. 11, к. 1, г. Москва</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>123308</zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 4 УФСИН по г. Москве»</name>
+        <name>ФКУ СИЗО-4 УФСИН России по г. Москве («Медведь»)</name>
+        <name>ФКУ СИЗО-4 УФСИН России по г. Москве</name>
+        <name>ФКУ СИЗО-4 УФСИН по г. Москве</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Вилюйская д. 4, г. Москва</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>127081</zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 5 УФСИН по г. Москве»</name>
+        <name>ФКУ СИЗО-5 УФСИН России по г. Москве («Водник»)</name>
+        <name>ФКУ СИЗО-5 УФСИН России по г. Москве</name>
+        <name>ФКУ СИЗО-5 УФСИН по г. Москве</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Выборгская д. 20, СИЗО-5, г. Москва</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>125130</zip>
     </facility>
     <facility>
         <name>ФКУ СИЗО-6 УФСИН России по г. Москве («Печатники»)</name>
+        <name>ФКУ СИЗО-6 УФСИН России по г. Москве</name>
+        <name>ФКУ СИЗО-6 УФСИН по г. Москве</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Шоссейная д. 92, г. Москва</location>
         <state>Россия</state>
         <zip>109383</zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 7 УФСИН по г. Москве»</name>
+        <name>ФКУ СИЗО-7 УФСИН России по г. Москве («Капотня»)</name>
+        <name>ФКУ СИЗО-7 УФСИН России по г. Москве</name>
+        <name>ФКУ СИЗО-7 УФСИН по г. Москве</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Верхние Поля д. 57, г. Москва</location>
+        <state>Россия</state>
+        <zip>109382</zip>
+    </facility>
+    <facility>
+        <name>ФКУ СИЗО-1 УФСИН России по Санкт-Петербургу и Ленинградской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Санкт-Петербургу и Ленинградской области»</name>
+        <name>ФКУ СИЗО-2 УФСИН России по Санкт-Петербургу и Ленинградской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 УФСИН России по Санкт-Петербургу и Ленинградской области»</name>
+        <name>ФКУ СИЗО-3 УФСИН России по Санкт-Петербургу и Ленинградской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 3 УФСИН России по Санкт-Петербургу и Ленинградской области»</name>
+        <name>ФКУ СИЗО-4 УФСИН России по Санкт-Петербургу и Ленинградской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 4 УФСИН России по Санкт-Петербургу и Ленинградской области»</name>
-        <jurisdiction>Russia</jurisdiction>
-        <location></location>
-        <state>Россия</state>
-        <zip></zip>
-    </facility>
-    <facility>
-        <name>ФКУ «СИЗО № 5 УФСИН России по Санкт-Петербургу и Ленинградской области»</name>
+        <name>ФКУ СИЗО-5 УФСИН России по Санкт-Петербургу и Ленинградской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -6197,7 +6306,7 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по ЯНАО»</name>
+        <name>ФКУ СИЗО-1 УФСИН России по ЯНАО</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>
         <state>Россия</state>
@@ -6225,14 +6334,17 @@
         <zip></zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 1 УФСИН России по Ярославской области» («Коровники»)</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Ярославской области» («Коровники)</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Ярославской области»</name>
+        <name>ФКУ СИЗО-1 УФСИН по Ярославской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Портовая набережная д. 10 СИЗО-1, г. Ярославль, Ярославская область</location>
         <state>Россия</state>
         <zip>150001</zip>
     </facility>
     <facility>
-        <name>ФКУ «СИЗО № 2 УФСИН России по Ярославской области»</name>
+        <name>ФКУ СИЗО-2 УФСИН России по Ярославской области</name>
+        <name>ФКУ СИЗО-2 УФСИН по Ярославской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location>Шоссейный переулок д. 5, г. Рыбинск, Ярославская область</location>
         <state>Россия</state>
@@ -6240,6 +6352,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 1 УФСИН России по Ярославской области»</name>
+        <name>ФКУ «ИК № 1 УФСИН по Ярославской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Хлебная д. 12, г. Ярославль, Ярославская область</location>
         <state>Россия</state>
@@ -6247,6 +6360,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 2 УФСИН России по Ярославской области»</name>
+        <name>ФКУ «ИК № 2 УФСИН по Ярославской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Целинная д. 50, г. Рыбинск, Ярославская область</location>
         <state>Россия</state>
@@ -6254,6 +6368,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 3 УФСИН России по Ярославской области»</name>
+        <name>ФКУ «ИК № 3 УФСИН по Ярославской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Камышевское шоссе д. 2, г. Углич, Ярославская область</location>
         <state>Россия</state>
@@ -6261,6 +6376,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 8 УФСИН России по Ярославской области»</name>
+        <name>ФКУ «ИК № 8 УФСИН по Ярославской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Колышкина д. 1А, г. Ярославль, Ярославская область</location>
         <state>Россия</state>
@@ -6268,6 +6384,7 @@
     </facility>
     <facility>
         <name>ФКУ «ЛИУ № 9 УФСИН России по Ярославской области»</name>
+        <name>ФКУ «ЛИУ № 9 УФСИН по Ярославской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Камышевское шоссе д. 2, г. Углич, Ярославская область</location>
         <state>Россия</state>
@@ -6275,6 +6392,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 12 УФСИН России по Ярославской области»</name>
+        <name>ФКУ «ИК № 12 УФСИН по Ярославской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Рокоссовского д. 100, г. Рыбинск, Ярославская область</location>
         <state>Россия</state>
@@ -6282,6 +6400,7 @@
     </facility>
     <facility>
         <name>ФКУ «ФКЛПУ СПБ № 7 УФСИН России по Ярославской области»</name>
+        <name>ФКУ «ФКЛПУ СПБ № 7 УФСИН по Ярославской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Целинная д. 22, г. Рыбинск, Ярославская область</location>
         <state>Россия</state>

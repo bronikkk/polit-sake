@@ -81,7 +81,8 @@ QString appendToPrisonersList(QStringList &prisonersList, const QString &records
 
         QString initialsString = initials.toString();
 
-        if (initialsString.startsWith("Неизвестное лицо")) {
+        if (initialsString == "Пожелал остаться анонимным"
+                || initialsString.startsWith("Неизвестное лицо")) {
             continue;
         }
 

@@ -128,6 +128,8 @@ QString appendToPrisonersList(QStringList &prisonersList, const QString &records
         letterAddressString.replace("(\"\"", "(«");
         letterAddressString.replace("\"\")", "»)");
 
+        letterAddressString.replace("\u00A0", " ");
+
         uniquePrisoners.insert(initialsString);
         prisonersList.append(initialsString);
 

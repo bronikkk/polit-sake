@@ -11,7 +11,7 @@ PenitentiaryDatabase::PenitentiaryDatabase(QWidget *parent, QString filename) : 
     QFile *databaseFile = new QFile{filename};
 
     if (!databaseFile->open(QIODevice::ReadOnly)) {
-        QMessageBox::critical(this, "Error", "Penitentiary database is not available");
+        QMessageBox::critical(this, tr("Error"), tr("Penitentiary database is not available"));
         return;
     }
 
@@ -57,7 +57,7 @@ PenitentiaryDatabase::PenitentiaryDatabase(QWidget *parent, QString filename) : 
     }
 
     if (xmlReader->hasError()) {
-        QMessageBox::critical(this, "Error", "Penitentiary database is corrupted");
+        QMessageBox::critical(this, tr("Error"), tr("Penitentiary database is corrupted"));
     }
 
     databaseFile->close();

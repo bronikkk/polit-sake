@@ -14,7 +14,7 @@ PolitSake::PolitSake()
     setMinimumSize(1024, 740);
 
     setWindowIcon(QIcon(":/pics/favicon.ico"));
-    setWindowTitle("PolitSake");
+    setWindowTitle(tr("PolitSake"));
 
     personsTab = new QWidget{this};
     prisonsTab = new QWidget{this};
@@ -24,30 +24,30 @@ PolitSake::PolitSake()
     lineEditURL->setGeometry(10, 10, 350, 22);
 
     pushButtonBrowse = new QPushButton{personsTab};
-    pushButtonBrowse->setText("Browse");
+    pushButtonBrowse->setText(tr("Browse"));
     pushButtonBrowse->setGeometry(380, 10, 100, 22);
 
     pushButtonSearch = new QPushButton{personsTab};
-    pushButtonSearch->setText("Search");
+    pushButtonSearch->setText(tr("Search"));
     pushButtonSearch->setGeometry(380, 40, 100, 22);
 
     pushButtonCopy = new QPushButton{personsTab};
-    pushButtonCopy->setText("Copy");
+    pushButtonCopy->setText(tr("Copy"));
     pushButtonCopy->setGeometry(380, 70, 100, 22);
-
-    labelWriteLetter = new QLabel{personsTab};
-    labelWriteLetter->setText("Ctrl + w");
-    labelWriteLetter->setGeometry(10, 35, 350, 22);
 
     pushButtonWriteLetter = new QPushButton{personsTab};
     pushButtonWriteLetter->setIcon(QIcon(":/pics/couvert.bmp"));
     pushButtonWriteLetter->setGeometry(10, 60, 32, 32);
     pushButtonWriteLetter->setShortcut(QKeySequence{Qt::CTRL | Qt::Key_W});
 
+    labelWriteLetter = new QLabel{personsTab};
+    labelWriteLetter->setText(tr("⌘W"));
+    labelWriteLetter->setGeometry(42, 60, 32, 32);
+
     lcdNumberLettersCount = new QLCDNumber{personsTab};
     lcdNumberLettersCount->display(0);
     lcdNumberLettersCount->setDigitCount(5);
-    lcdNumberLettersCount->setGeometry(50, 60, 80, 32);
+    lcdNumberLettersCount->setGeometry(90, 60, 80, 32);
 
     prisonersListView = new PrisonersListView{personsTab, prisonersToFacilities};
     prisonersListView->setGeometry(10, 100, 350, 610);
@@ -63,7 +63,7 @@ PolitSake::PolitSake()
     setTabOrder(pushButtonBrowse, pushButtonSearch);
     setTabOrder(pushButtonSearch, pushButtonCopy);
 
-    addTab(personsTab, "&Persons");
+    addTab(personsTab, tr("&Persons"));
 
     labelFacilityAddress = new QLabel{prisonsTab};
     labelFacilityAddress->setGeometry(10, 10, 780, 80);
@@ -71,7 +71,7 @@ PolitSake::PolitSake()
     penitentiaryDatabase = new PenitentiaryDatabase{prisonsTab};
     penitentiaryDatabase->setGeometry(10, 100, 780, 610);
 
-    addTab(prisonsTab, "&Facilities");
+    addTab(prisonsTab, tr("&Facilities"));
 
     connect(pushButtonBrowse, SIGNAL(clicked()), this, SLOT(browsePrisoner()));
 
@@ -93,7 +93,7 @@ PolitSake::PolitSake()
 void PolitSake::browsePrisoner()
 {
     if (!currentPrisonerIndex.isValid()) {
-        QMessageBox::information(this, "Information", "Prisoner not clicked");
+        QMessageBox::information(this, tr("Information"), tr("Prisoner not clicked"));
         return;
     }
 
@@ -104,7 +104,7 @@ void PolitSake::browsePrisoner()
 void PolitSake::copyPrisonerInformation()
 {
     if (!currentPrisonerIndex.isValid()) {
-        QMessageBox::information(this, "Information", "Prisoner not clicked");
+        QMessageBox::information(this, tr("Information"), tr("Prisoner not clicked"));
         return;
     }
 
@@ -115,7 +115,7 @@ void PolitSake::copyPrisonerInformation()
 void PolitSake::searchPrisoner()
 {
     if (!currentPrisonerIndex.isValid()) {
-        QMessageBox::information(this, "Information", "Prisoner not clicked");
+        QMessageBox::information(this, tr("Information"), tr("Prisoner not clicked"));
         return;
     }
 
@@ -159,7 +159,7 @@ void PolitSake::updateLettersCount()
 void PolitSake::writeLetter()
 {
     if (!currentPrisonerIndex.isValid()) {
-        QMessageBox::information(this, "Information", "Prisoner not clicked");
+        QMessageBox::information(this, tr("Information"), tr("Prisoner not clicked"));
         return;
     }
 
@@ -182,7 +182,7 @@ void PolitSake::writeLetter()
                                  facilityAddress.zip).arg(facilityAddress.state);
     }
 
-    QMessageBox::information(this, "Letter Address", letterAddressText);
+    QMessageBox::information(this, tr("Information"), letterAddressText);
 
 
     prisonersListView->setFocus();

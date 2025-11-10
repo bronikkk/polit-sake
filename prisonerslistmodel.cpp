@@ -7,6 +7,7 @@
 #include <QJsonArray>
 #include <QJsonDocument>
 #include <QJsonObject>
+#include <QRegularExpression>
 #include <QtNetwork/QNetworkAccessManager>
 #include <QtNetwork/QNetworkReply>
 #include <QtNetwork/QNetworkRequestFactory>
@@ -16,6 +17,8 @@ namespace {
 QString appendToPrisonersList(QStringList &prisonersList, const QString &recordsOffset,
                               QSet<QString> &uniquePrisoners, QMap<QString, QString> &prisonersToFacilities)
 {
+    static QRegularExpression badQuotationMarks{"»«.*"};
+
     QString fullURL = PolitSake::prisonersListURL;
     if (!recordsOffset.isEmpty()) {
         fullURL += "?offset=" + recordsOffset;
@@ -129,6 +132,8 @@ QString appendToPrisonersList(QStringList &prisonersList, const QString &records
         letterAddressString.replace("\"\")", "»)");
 
         letterAddressString.replace("\u00A0", " ");
+
+        letterAddressString.replace(badQuotationMarks, "»");
 
         uniquePrisoners.insert(initialsString);
         prisonersList.append(initialsString);

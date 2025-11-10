@@ -23,38 +23,38 @@ PolitSake::PolitSake()
     lineEditURL->setText(prisonersListURL);
     lineEditURL->setGeometry(10, 10, 350, 22);
 
-    pushButtonBrowse = new QPushButton{personsTab};
-    pushButtonBrowse->setText(tr("Browse"));
-    pushButtonBrowse->setGeometry(380, 10, 100, 22);
-
-    pushButtonSearch = new QPushButton{personsTab};
-    pushButtonSearch->setText(tr("Search"));
-    pushButtonSearch->setGeometry(380, 40, 100, 22);
-
-    pushButtonCopy = new QPushButton{personsTab};
-    pushButtonCopy->setText(tr("Copy"));
-    pushButtonCopy->setGeometry(380, 70, 100, 22);
-
     pushButtonWriteLetter = new QPushButton{personsTab};
     pushButtonWriteLetter->setIcon(QIcon(":/pics/couvert.bmp"));
-    pushButtonWriteLetter->setGeometry(10, 60, 32, 32);
+    pushButtonWriteLetter->setGeometry(10, 35, 32, 32);
     pushButtonWriteLetter->setShortcut(QKeySequence{Qt::CTRL | Qt::Key_W});
 
     labelWriteLetter = new QLabel{personsTab};
     labelWriteLetter->setText(tr("⌘W"));
-    labelWriteLetter->setGeometry(42, 60, 32, 32);
+    labelWriteLetter->setGeometry(42, 35, 32, 32);
 
     lcdNumberLettersCount = new QLCDNumber{personsTab};
     lcdNumberLettersCount->display(0);
     lcdNumberLettersCount->setDigitCount(5);
-    lcdNumberLettersCount->setGeometry(90, 60, 80, 32);
+    lcdNumberLettersCount->setGeometry(80, 35, 80, 32);
+
+    pushButtonBrowse = new QPushButton{personsTab};
+    pushButtonBrowse->setText(tr("Browse"));
+    pushButtonBrowse->setGeometry(170, 40, 60, 22);
+
+    pushButtonSearch = new QPushButton{personsTab};
+    pushButtonSearch->setText(tr("Search"));
+    pushButtonSearch->setGeometry(235, 40, 60, 22);
+
+    pushButtonCopy = new QPushButton{personsTab};
+    pushButtonCopy->setText(tr("Copy"));
+    pushButtonCopy->setGeometry(300, 40, 60, 22);
 
     prisonersListView = new PrisonersListView{personsTab, prisonersToFacilities};
-    prisonersListView->setGeometry(10, 100, 350, 610);
+    prisonersListView->setGeometry(10, 75, 350, 635);
 
 #ifdef QT_WEBENGINEWIDGETS_LIB
     webEngineView = new QWebEngineView{personsTab};
-    webEngineView->setGeometry(380, 100, 644, 610);
+    webEngineView->setGeometry(380, 0, 644, 715);
 #endif
 
     setTabOrder(lineEditURL, pushButtonWriteLetter);
@@ -69,7 +69,7 @@ PolitSake::PolitSake()
     labelFacilityAddress->setGeometry(10, 10, 780, 80);
 
     penitentiaryDatabase = new PenitentiaryDatabase{prisonsTab};
-    penitentiaryDatabase->setGeometry(10, 100, 780, 610);
+    penitentiaryDatabase->setGeometry(10, 100, 1010, 610);
 
     addTab(prisonsTab, tr("&Facilities"));
 

@@ -119,7 +119,7 @@
         <name>ФКУ «ЛИУ № 8 УФСИН России по Алтайскому краю»</name>
         <name>ФКУ «ЛИУ № 8 УФСИН по Алтайскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>ул. Репина, д. 2, г. Новоалтайск, Алтайский край</location>
+        <location>ул. Репина д. 2, г. Новоалтайск, Алтайский край</location>
         <state>Россия</state>
         <zip>658081</zip>
     </facility>
@@ -263,7 +263,7 @@
         <name>ФКУ «ИК № 14 УФСИН России по Архангельской области»</name>
         <name>ФКУ «ИК № 14 УФСИН по Архангельской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>Спецгородок д. 1А, д. Горка-Муравьевская, Архангельская область</location>
+        <location>Спецгородок д. 1А, дер. Горка-Муравьевская, Архангельская область</location>
         <state>Россия</state>
         <zip>165115</zip>
     </facility>
@@ -623,7 +623,7 @@
         <name>ФКУ «КП № 9 УФСИН России по Владимирской области»</name>
         <name>ФКУ «КП № 9 УФСИН по Владимирской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>ул. Полевая д. 36, д. Чудиново, Владимирская область</location>
+        <location>ул. Полевая д. 36, дер. Чудиново, Владимирская область</location>
         <state>Россия</state>
         <zip>601435</zip>
     </facility>
@@ -637,136 +637,155 @@
     </facility>
     <facility>
         <name>ФКУ «КП-3 УФСИН России по Волгоградской области»</name>
+        <name>ФКУ «КП-3 УФСИН по Волгоградской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Промысловая д. 24, г. Волгоград, Волгоградская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>400057</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК-5 УФСИН России по Волгоградской области»</name>
+        <name>ФКУ «ИК-5 УФСИН по Волгоградской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Южный городок, г. Камышин, Волгоградская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>403894</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК-9 УФСИН России по Волгоградской области»</name>
+        <name>ФКУ «ИК-9 УФСИН по Волгоградской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Костюченко д. 12, г. Волгоград, Волгоградская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>400058</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК-12 УФСИН России по Волгоградской области»</name>
+        <name>ФКУ «ИК-12 УФСИН по Волгоградской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Александрова д. 86, г. Волжский, Волгоградская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>404103</zip>
     </facility>
     <facility>
         <name>ФКУ «ЛИУ-15 УФСИН России по Волгоградской области»</name>
+        <name>ФКУ «ЛИУ-15 УФСИН по Волгоградской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Ангарская д. 190, г. Волгоград, Волгоградская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>400048</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК-19 УФСИН России по Волгоградской области»</name>
+        <name>ФКУ «ИК-19 УФСИН по Волгоградской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Орджоникидзе д. 99, г. Суровикино, Волгоградская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>404414</zip>
     </facility>
     <facility>
         <name>ФКУ «ЛИУ-23 УФСИН России по Волгоградской области»</name>
+        <name>ФКУ «ЛИУ-23 УФСИН по Волгоградской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Гора Восточная д. 151, г. Урюпинск, Волгоградская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>403117</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК-24 УФСИН России по Волгоградской области»</name>
+        <name>ФКУ «ИК-24 УФСИН по Волгоградской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>п. Мичуринский, г. Камышин, Волгоградская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>403882</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК-25 УФСИН России по Волгоградской области»</name>
+        <name>ФКУ «ИК-25 УФСИН по Волгоградской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Хлеборобная д. 107, г. Фролово, Волгоградская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>403532</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК-26 УФСИН России по Волгоградской области»</name>
+        <name>ФКУ «ИК-26 УФСИН по Волгоградской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Довженко д. 34, г. Волгоград, Волгоградская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>400080</zip>
     </facility>
     <facility>
         <name>ФКУ «КП-27 УФСИН России по Волгоградской области»</name>
+        <name>ФКУ «КП-27 УФСИН по Волгоградской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Промышленная д. 24, г. Ленинск, Волгоградская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>404620</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК-28 УФСИН России по Волгоградской области»</name>
+        <name>ФКУ «ИК-28 УФСИН по Волгоградской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Промышленная д. 12, г. Ленинск, Волгоградская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>404621</zip>
     </facility>
     <facility>
         <name>ФКУ «Камышинская ВК УФСИН России по Волгоградской области»</name>
+        <name>ФКУ «Камышинская ВК УФСИН по Волгоградской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Справедливая д. 1, Мичуринское сельское поселение, Волгоградская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>403870</zip>
     </facility>
     <facility>
         <name>ФКУ СИЗО-1 УФСИН России по Волгоградской области</name>
+        <name>ФКУ СИЗО-1 УФСИН по Волгоградской области</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Голубинская д. 3, г. Волгоград, Волгоградская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>400131</zip>
     </facility>
     <facility>
         <name>ФКУ СИЗО-2 УФСИН России по Волгоградской области</name>
+        <name>ФКУ СИЗО-2 УФСИН по Волгоградской области</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Рабочая д. 38, г. Камышин, Волгоградская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>403850</zip>
     </facility>
     <facility>
         <name>ФКУ СИЗО-3 УФСИН России по Волгоградской области</name>
+        <name>ФКУ СИЗО-3 УФСИН по Волгоградской области</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Хлеборобная д. 107/1, г. Фролово, Волгоградская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>403532</zip>
     </facility>
     <facility>
         <name>ФКУ СИЗО-4 УФСИН России по Волгоградской области</name>
+        <name>ФКУ СИЗО-4 УФСИН по Волгоградской области</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Довженко д. 34Б, г. Волгоград, Волгоградская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>400080</zip>
     </facility>
     <facility>
         <name>ФКУ СИЗО-5 УФСИН России по Волгоградской области»</name>
+        <name>ФКУ СИЗО-5 УФСИН по Волгоградской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Промышленная д. 12, г. Ленинск, Волгоградская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>404621</zip>
     </facility>
     <facility>
         <name>ФКУ «Волгоградская ПБСТИН УФСИН России по Волгоградской области»</name>
+        <name>ФКУ «Волгоградская ПБСТИН УФСИН по Волгоградской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>с. Дворянское, Волгоградская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>403843</zip>
     </facility>
     <facility>
         <name>ФКУ СИЗО-2 УФСИН России по Вологодской области</name>

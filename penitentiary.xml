@@ -367,7 +367,7 @@
         <name>ФКУ «ИК № 10 УФСИН России по Астраханской области»</name>
         <name>ФКУ «ИК № 10 УФСИН по Астраханской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>Фунтовское шоссе д. 25, Астраханская область, г. Астрахань, Астраханская область</location>
+        <location>Фунтовское шоссе д. 25, г. Астрахань, Астраханская область</location>
         <state>Россия</state>
         <zip>414057</zip>
     </facility>
@@ -423,7 +423,7 @@
         <name>ФКУ «ИК № 7 УФСИН России по Белгородской области»</name>
         <name>ФКУ «ИК № 7 УФСИН по Белгородской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>ул. Тимирязева д. 1, г. Валуйки, Белгородская область, Белгородская область</location>
+        <location>ул. Тимирязева д. 1, г. Валуйки, Белгородская область</location>
         <state>Россия</state>
         <zip>309990</zip>
     </facility>
@@ -789,94 +789,108 @@
     </facility>
     <facility>
         <name>ФКУ СИЗО-2 УФСИН России по Вологодской области</name>
+        <name>ФКУ СИЗО-2 УФСИН по Вологодской области</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Трудовая д. 2, г. Вологда, Вологодская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>160019</zip>
     </facility>
     <facility>
         <name>ФКУ СИЗО-3 УФСИН России по Вологодской области</name>
+        <name>ФКУ СИЗО-3 УФСИН по Вологодской области</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>Северное шоссе д. 67В, г. Череповец, Вологодская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>162600</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 1 УФСИН России по Вологодской области»</name>
+        <name>ФКУ «ИК № 1 УФСИН по Вологодской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Левичева д. 1-а, г. Вологда, Вологодская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>160012</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 2 УФСИН России по Вологодской области»</name>
+        <name>ФКУ «ИК № 2 УФСИН по Вологодской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>д. Княгинино д. 16, Вологодская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>160503</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 3 УФСИН России по Вологодской области»</name>
+        <name>ФКУ «ИК № 3 УФСИН по Вологодской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. С. Дежнёва д. 21, г. Великий Устюг, Вологодская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>162390</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 4 УФСИН России по Вологодской области»</name>
+        <name>ФКУ «ИК № 4 УФСИН по Вологодской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Сосновая д. 7, г. Сокол, Вологодская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>162100</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 5 УФСИН России по Вологодской области» («Вологодский пятак»)</name>
         <name>ФКУ «ИК № 5 УФСИН России по Вологодской области»</name>
+        <name>ФКУ «ИК № 5 УФСИН по Вологодской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>остров Огненный, Вологодская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>161222</zip>
     </facility>
     <facility>
         <name>ФКУ «КП № 6 УФСИН России по Вологодской области»</name>
+        <name>ФКУ «КП № 6 УФСИН по Вологодской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Ленина д. 13, г. Грязовец, Вологодская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>162000</zip>
     </facility>
     <facility>
         <name>ФКУ «КП № 7 УФСИН России по Вологодской области»</name>
+        <name>ФКУ «КП № 7 УФСИН по Вологодской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Заря д. 11, п. Суда, Вологодская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>162700</zip>
     </facility>
     <facility>
         <name>ФКЛПУ «МБ № 10 УФСИН России по Вологодской области»</name>
+        <name>ФКЛПУ «МБ № 10 УФСИН по Вологодской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>Советский проспект д. 73, г. Вологда, Вологодская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>160012</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 12 УФСИН России по Вологодской области»</name>
+        <name>ФКУ «ИК № 12 УФСИН по Вологодской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Шоссейная д. 12, п. Шексна, Вологодская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>162560</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 17 УФСИН России по Вологодской области»</name>
+        <name>ФКУ «ИК № 17 УФСИН по Вологодской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Дзержинского д. 6, п. Шексна, Вологодская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>162560</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 20 УФСИН России по Вологодской области»</name>
+        <name>ФКУ «ИК № 20 УФСИН по Вологодской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Карла Маркса д. 57, г. Устюжна, Вологодская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>162840</zip>
     </facility>
     <facility>
         <name>ФКУ СИЗО-1 УФСИН России по Воронежской области</name>
@@ -3528,7 +3542,7 @@
         <name>ФКУ СИЗО-1 УФСИН России по Псковской области</name>
         <name>ФКУ СИЗО-1 УФСИН по Псковской области</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>ул. Некрасова д. 39, Псковская область, г. Псков, Псковская область</location>
+        <location>ул. Некрасова д. 39, г. Псков, Псковская область</location>
         <state>Россия</state>
         <zip>180000</zip>
     </facility>

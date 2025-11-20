@@ -1,7 +1,7 @@
 <RCC>
-    <qresource prefix="/pics">
-        <file>couvert.bmp</file>
-        <file>favicon.ico</file>
+    <qresource prefix="/">
+        <file>pics/couvert.bmp</file>
+        <file>pics/favicon.ico</file>
     </qresource>
     <qresource prefix="/data">
         <file>penitentiary.xml</file>

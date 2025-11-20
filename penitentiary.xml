@@ -527,7 +527,7 @@
         <name>ФКУ СИЗО-1 УФСИН России по Владимирской области</name>
         <name>ФКУ СИЗО-1 УФСИН по Владимирской области</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>ул. 9 января д. 5-А, г. Владимир, Владимирская область</location>
+        <location>ул. 9 января д. 5А, г. Владимир, Владимирская область</location>
         <state>Россия</state>
         <zip>600021</zip>
     </facility>
@@ -543,7 +543,7 @@
         <name>ФКУ «Тюрьма № 1 УФСИН России по Владимирской области»</name>
         <name>ФКУ «Тюрьма № 1 УФСИН по Владимирской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>ул. Октябрьской революции д. 75-А, г. Покров, Владимирская область</location>
+        <location>ул. Октябрьской революции д. 75А, г. Покров, Владимирская область</location>
         <state>Россия</state>
         <zip>600120</zip>
     </facility>
@@ -559,7 +559,7 @@
         <name>ФКУ «ИК № 1 УФСИН России по Владимирской области»</name>
         <name>ФКУ «ИК № 1 УФСИН по Владимирской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>ул. Советская д. 50-А, п. Головино, Владимирская область</location>
+        <location>ул. Советская д. 50А, п. Головино, Владимирская область</location>
         <state>Россия</state>
         <zip>601395</zip>
     </facility>
@@ -591,7 +591,7 @@
         <name>ФКУ «ИК № 5 УФСИН России по Владимирской области»</name>
         <name>ФКУ «ИК № 5 УФСИН по Владимирской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>ул. Полины Осипенко д. 66-А, г. Владимир, Владимирская область</location>
+        <location>ул. Полины Осипенко д. 66А, г. Владимир, Владимирская область</location>
         <state>Россия</state>
         <zip>600007</zip>
     </facility>
@@ -599,7 +599,7 @@
         <name>ФКУ «ИК № 6 УФСИН России по Владимирской области»</name>
         <name>ФКУ «ИК № 6 УФСИН по Владимирской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>ул. Первомайская д. 261-А, п. Мелехово, Владимирская область</location>
+        <location>ул. Первомайская д. 261А, п. Мелехово, Владимирская область</location>
         <state>Россия</state>
         <zip>601967</zip>
     </facility>
@@ -607,7 +607,7 @@
         <name>ФКУ «ИК № 7 УФСИН России по Владимирской области»</name>
         <name>ФКУ «ИК № 7 УФСИН по Владимирской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>ул. Центральная д. 1-А, п. Пакино, Владимирская область</location>
+        <location>ул. Центральная д. 1А, п. Пакино, Владимирская область</location>
         <state>Россия</state>
         <zip>601960</zip>
     </facility>
@@ -615,7 +615,7 @@
         <name>ФКУ «ЛИУ № 8 УФСИН России по Владимирской области»</name>
         <name>ФКУ «ЛИУ № 8 УФСИН по Владимирской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>ул. Чайкиной д. 2-А, г. Киржач, Владимирская область</location>
+        <location>ул. Чайкиной д. 2А, г. Киржач, Владимирская область</location>
         <state>Россия</state>
         <zip>601012</zip>
     </facility>
@@ -807,7 +807,7 @@
         <name>ФКУ «ИК № 1 УФСИН России по Вологодской области»</name>
         <name>ФКУ «ИК № 1 УФСИН по Вологодской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>ул. Левичева д. 1-а, г. Вологда, Вологодская область</location>
+        <location>ул. Левичева д. 1А, г. Вологда, Вологодская область</location>
         <state>Россия</state>
         <zip>160012</zip>
     </facility>
@@ -1102,87 +1102,99 @@
     </facility>
     <facility>
         <name>ФКУ СИЗО-1 УФСИН России по Ивановской области</name>
+        <name>ФКУ СИЗО-1 УФСИН по Ивановской области</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Болотная д. 2, г. Иваново, Ивановская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>153025</zip>
     </facility>
     <facility>
         <name>ФКУ СИЗО-2 УФСИН России по Ивановской области</name>
+        <name>ФКУ СИЗО-2 УФСИН по Ивановской области</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Шуйская д. 4, г. Кинешма, Ивановская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>155815</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 2 УФСИН России по Ивановской области»</name>
+        <name>ФКУ «ИК № 2 УФСИН по Ивановской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Ленина д. 18, п. Талицы, Ивановская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>155644</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 3 УФСИН России по Ивановской области»</name>
+        <name>ФКУ «ИК № 3 УФСИН по Ивановской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Шуйская д. 1, г. Кинешма, Ивановская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>155815</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 4 УФСИН России по Ивановской области»</name>
+        <name>ФКУ «ИК № 4 УФСИН по Ивановской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Заречная д. 47, с. Октябрьское, Ивановская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>155821</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 5 УФСИН России по Ивановской области»</name>
+        <name>ФКУ «ИК № 5 УФСИН по Ивановской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Кочетовой д. 59А, г. Кохма, Ивановская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>153512</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 6 УФСИН России по Ивановской области»</name>
+        <name>ФКУ «ИК № 6 УФСИН по Ивановской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Школьная д. 10, п. Талицы, Ивановская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>155644</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 7 УФСИН России по Ивановской области»</name>
+        <name>ФКУ «ИК № 7 УФСИН по Ивановской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Болотная д. 12, г. Иваново, Ивановская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>153025</zip>
     </facility>
     <facility>
         <name>ФКУ «ЛИУ № 8 УФСИН России по Ивановской области»</name>
+        <name>ФКУ «ЛИУ № 8 УФСИН по Ивановской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Ленина д. 14, п. Талицы, Ивановская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>155644</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 10 УФСИН России по Ивановской области»</name>
+        <name>ФКУ «ИК № 10 УФСИН по Ивановской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>с. Бородино д. 132, Ивановская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>155005</zip>
     </facility>
     <facility>
         <name>ФКУ «КП № 12 УФСИН России по Ивановской области»</name>
+        <name>ФКУ «КП № 12 УФСИН по Ивановской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Центральная д. 32, с. Шилекша, Ивановская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>155828</zip>
     </facility>
     <facility>
         <name>ФКУ «КП № 13 УФСИН России по Ивановской области»</name>
+        <name>ФКУ «КП № 13 УФСИН по Ивановской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Кочетовой д. 59А, Ивановская область, г. Кохма, Ивановская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>153512</zip>
     </facility>
     <facility>
         <name>ФКУ СИЗО-1 ГУФСИН России по Иркутской области</name>

@@ -14,6 +14,20 @@
 
 namespace {
 
+static constexpr auto arrestLocationField =
+    "Текущее место меры пресечения";
+
+static constexpr auto initialsField = "ФИО";
+
+static constexpr auto prisonLocationField =
+    "Текущее место отбывания наказания";
+
+bool isAnonymous(QString name)
+{
+    return name == "Пожелал остаться анонимным"
+           || name.startsWith("Неизвестное лицо");
+}
+
 QString appendToPrisonersList(QStringList &prisonersList, const QString &recordsOffset,
                               QSet<QString> &uniquePrisoners, QMap<QString, QString> &prisonersToFacilities)
 {
@@ -59,13 +73,11 @@ QString appendToPrisonersList(QStringList &prisonersList, const QString &records
     for (const auto &prisoner : prisonersArray) {
         auto prisonerFields = prisoner[QString("fields")];
 
-        auto letterAddress =
-            prisonerFields[QString("Текущее место отбывания наказания")];
+        auto letterAddress = prisonerFields[prisonLocationField];
 
         QString letterAddressString;
         if (!letterAddress.isString() || (letterAddressString = letterAddress.toString()).isEmpty()) {
-            letterAddress =
-                prisonerFields[QString("Текущее место меры пресечения")];
+            letterAddress = prisonerFields[arrestLocationField];
             if (!letterAddress.isString()) {
                 continue;
             }
@@ -76,7 +88,7 @@ QString appendToPrisonersList(QStringList &prisonersList, const QString &records
             }
         }
 
-        auto initials = prisonerFields[QString("ФИО")];
+        auto initials = prisonerFields[initialsField];
 
         if (!initials.isString()) {
             continue;
@@ -84,8 +96,7 @@ QString appendToPrisonersList(QStringList &prisonersList, const QString &records
 
         QString initialsString = initials.toString();
 
-        if (initialsString == "Пожелал остаться анонимным"
-                || initialsString.startsWith("Неизвестное лицо")) {
+        if (isAnonymous(initialsString)) {
             continue;
         }
 

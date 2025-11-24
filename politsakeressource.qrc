@@ -2,8 +2,12 @@
     <qresource prefix="/">
         <file>pics/couvert.bmp</file>
         <file>pics/favicon.ico</file>
-    </qresource>
-    <qresource prefix="/data">
+        <file>translations/polit_sake_be_BY.qm</file>
+        <file>translations/polit_sake_en_001.qm</file>
+        <file>translations/polit_sake_ru_BY.qm</file>
+        <file>translations/polit_sake_ru_RU.qm</file>
+        <file>translations/polit_sake_ru_UA.qm</file>
+        <file>translations/polit_sake_uk_UA.qm</file>
         <file>penitentiary.xml</file>
     </qresource>
 </RCC>

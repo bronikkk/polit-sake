@@ -8,8 +8,10 @@
 
 class PenitentiaryDatabase : public QListView
 {
+    Q_OBJECT
+
 public:
-    PenitentiaryDatabase(QWidget *parent, QString filename = ":/data/penitentiary.xml");
+    PenitentiaryDatabase(QWidget *parent, QString filename = ":/penitentiary.xml");
 
     struct Address {
         QString location;

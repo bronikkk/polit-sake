@@ -33,3 +33,11 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 RESOURCES += \
     politsakeressource.qrc
+
+TRANSLATIONS += \
+    translations/polit_sake_be_BY.ts \
+    translations/polit_sake_en_001.ts \
+    translations/polit_sake_ru_BY.ts \
+    translations/polit_sake_ru_RU.ts \
+    translations/polit_sake_ru_UA.ts \
+    translations/polit_sake_uk_UA.ts

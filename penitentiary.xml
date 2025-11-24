@@ -287,7 +287,7 @@
         <name>ФКУ «ИК № 21 УФСИН России по Архангельской области»</name>
         <name>ФКУ «ИК № 21 УФСИН по Архангельской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>2 микрорайон д. 10, п. Североонежск, Архангельская область</location>
+        <location>2-й микрорайон д. 10, п. Североонежск, Архангельская область</location>
         <state>Россия</state>
         <zip>164268</zip>
     </facility>
@@ -928,7 +928,7 @@
         <name>ФКУ «ИК № 1 УФСИН России по Воронежской области»</name>
         <name>ФКУ «ИК № 1 УФСИН по Воронежской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location> 396900, ул. Индустриальная д. 10, Воронежская область, г. Семилуки, Воронежская область</location>
+        <location> 396900, ул. Индустриальная д. 10, г. Семилуки, Воронежская область</location>
         <state>Россия</state>
         <zip></zip>
     </facility>
@@ -1192,7 +1192,7 @@
         <name>ФКУ «КП № 13 УФСИН России по Ивановской области»</name>
         <name>ФКУ «КП № 13 УФСИН по Ивановской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>ул. Кочетовой д. 59А, Ивановская область, г. Кохма, Ивановская область</location>
+        <location>ул. Кочетовой д. 59А, г. Кохма, Ивановская область</location>
         <state>Россия</state>
         <zip>153512</zip>
     </facility>
@@ -1486,59 +1486,67 @@
     </facility>
     <facility>
         <name>ФКУ СИЗО-1 УФСИН России по Калужской области</name>
+        <name>ФКУ СИЗО-1 УФСИН по Калужской области</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Николо-Козинская д. 110А, г. Калуга, Калужская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>248002</zip>
     </facility>
     <facility>
         <name>ФКУ СИЗО-2 УФСИН России по Калужской области</name>
+        <name>ФКУ СИЗО-2 УФСИН по Калужской области</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Индустриальная д. 12, г. Людиново, Калужская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>249400</zip>
     </facility>
     <facility>
         <name>ФКУ «ЛИУ № 1 УФСИН России по Калужской области»</name>
+        <name>ФКУ «ЛИУ № 1 УФСИН по Калужской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Дзержинского д. 2А, п. Товарково, Калужская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>249856</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 2 УФСИН России по Калужской области»</name>
+        <name>ФКУ «ИК № 2 УФСИН по Калужской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Дзержинского, п. Товарково, Калужская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>249857</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 3 УФСИН России по Калужской области»</name>
+        <name>ФКУ «ИК № 3 УФСИН по Калужской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Дзержинского д. 2А, п. Товарково, Калужская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>249856</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 4 УФСИН России по Калужской области»</name>
+        <name>ФКУ «ИК № 4 УФСИН по Калужской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Луначарского д. 2, г. Медынь, Калужская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>249950</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 5 УФСИН России по Калужской области»</name>
+        <name>ФКУ «ИК № 5 УФСИН по Калужской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>г. Сухиничи, Калужская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>249275</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 7 УФСИН России по Калужской области»</name>
+        <name>ФКУ «ИК № 7 УФСИН по Калужской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Грабцевское шоссе д. 39Б, г. Калуга, Калужская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>248009</zip>
     </facility>
     <facility>
         <name>ФКУ СИЗО-1 УФСИН России по Камчатскому краю</name>

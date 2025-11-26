@@ -19,7 +19,7 @@
     <facility>
         <name>ФКУ СИЗО-3 ФСИН России</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>1-й Силикатный проезд д. 11, к. 1, г. Москва</location>
+        <location>1-й Силикатный проезд д. 11 корп. 1, г. Москва</location>
         <state>Россия</state>
         <zip>123308</zip>
     </facility>
@@ -5978,94 +5978,107 @@
     </facility>
     <facility>
         <name>ФКУ СИЗО-1 УФСИН России по Хабаровскому краю</name>
+        <name>ФКУ СИЗО-1 УФСИН по Хабаровскому краю</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Знаменьщиков д. 6, г. Хабаровск, Хабаровский край</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>680038</zip>
     </facility>
     <facility>
         <name>ФКУ СИЗО-2 УФСИН России по Хабаровскому краю</name>
+        <name>ФКУ СИЗО-2 УФСИН по Хабаровскому краю</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Пионерская д. 23 корп. 2, г. Комсомольск-на-Амуре, Хабаровский край</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>681000</zip>
     </facility>
     <facility>
         <name>ФКУ СИЗО-3 УФСИН России по Хабаровскому краю</name>
+        <name>ФКУ СИЗО-3 УФСИН по Хабаровскому краю</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Гоголя д. 16, г. Николаевск-на-Амуре, Хабаровский край</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>682469</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 1 УФСИН России по Хабаровскому краю»</name>
+        <name>ФКУ «ИК № 1 УФСИН по Хабаровскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Суворова д. 1, п. Ванино, Хабаровский край</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>682860</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 5 УФСИН России по Хабаровскому краю»</name>
+        <name>ФКУ «ИК № 5 УФСИН по Хабаровскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Кишинёвская д. 5, г. Советская Гавань, Хабаровский край</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>682817</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 6 УФСИН России по Хабаровскому краю»</name>
+        <name>ФКУ «ИК № 6 УФСИН по Хабаровскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>переулок Клубный д. 7, п. Эльбан, Хабаровский край</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>682610</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 7 УФСИН России по Хабаровскому краю»</name>
+        <name>ФКУ «ИК № 7 УФСИН по Хабаровскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Павловского д. 12, г. Комсомольск-на-Амуре, Хабаровский край</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>681005</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 8 УФСИН России по Хабаровскому краю»</name>
+        <name>ФКУ «ИК № 8 УФСИН по Хабаровскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Нижняя д. 2 корп. 2, п. Старт, г. Комсомольск-на-Амуре, Хабаровский край</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>681001</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 11 УФСИН России по Хабаровскому краю»</name>
+        <name>ФКУ «ИК № 11 УФСИН по Хабаровскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>Северное шоссе д. 42, г. Комсомольск-на-Амуре, Хабаровский край</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>681034</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 12 УФСИН России по Хабаровскому краю»</name>
+        <name>ФКУ «ИК № 12 УФСИН по Хабаровскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Петра Черкасова д. 31 ИК-12, п. Заозёрное, Хабаровский край</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>680518</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 13 УФСИН России по Хабаровскому краю»</name>
+        <name>ФКУ «ИК № 13 УФСИН по Хабаровскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Петра Черкасова д. 31 ИК-13, п. Заозёрное, Хабаровский край</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>680518</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 14 УФСИН России по Хабаровскому краю»</name>
+        <name>ФКУ «ИК № 14 УФСИН по Хабаровскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>шоссе Машиностроителей д. 10, г. Амурск, Хабаровский край</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>682640</zip>
     </facility>
     <facility>
         <name>ФКУ «КП № 22 УФСИН России по Хабаровскому краю»</name>
+        <name>ФКУ «КП № 22 УФСИН по Хабаровскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Петра Черкасова д. 32, п. Заозёрное, Хабаровский край</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>680518</zip>
     </facility>
     <facility>
         <name>ФКУ СИЗО-1 УФСИН России по Ханты-Мансийскому автономному округу</name>
@@ -6414,7 +6427,7 @@
         <name>ФКУ СИЗО-3 УФСИН России по г. Москве</name>
         <name>ФКУ СИЗО-3 УФСИН по г. Москве</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>1-й Силикатный проезд д. 11, к. 1, г. Москва</location>
+        <location>1-й Силикатный проезд д. 11 корп. 1, г. Москва</location>
         <state>Россия</state>
         <zip>123308</zip>
     </facility>

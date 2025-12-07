@@ -928,7 +928,7 @@
         <name>ФКУ «ИК № 1 УФСИН России по Воронежской области»</name>
         <name>ФКУ «ИК № 1 УФСИН по Воронежской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location> 396900, ул. Индустриальная д. 10, г. Семилуки, Воронежская область</location>
+        <location>396900, ул. Индустриальная д. 10, г. Семилуки, Воронежская область</location>
         <state>Россия</state>
         <zip></zip>
     </facility>
@@ -4637,131 +4637,141 @@
         <zip>655017</zip>
     </facility>
     <facility>
-        <name>ФКУ СИЗО-2 ГУФСИН России по Ростовской области</name>
+        <name>ФКУ СИЗО-1 ГУФСИН России по Ростовской области («Ростовский централ»)</name>
+        <name>ФКУ СИЗО-1 ГУФСИН России по Ростовской области</name>
+        <name>ФКУ СИЗО-1 ГУФСИН по Ростовской области</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Горького д. 219, г. Ростов-на-Дону, Ростовская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>344022</zip>
+    </facility>
+    <facility>
+        <name>ФКУ СИЗО-2 ГУФСИН России по Ростовской области</name>
+        <name>ФКУ СИЗО-2 ГУФСИН по Ростовской области</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Ленина д. 175, г. Таганрог, Ростовская область</location>
+        <state>Россия</state>
+        <zip>347910</zip>
     </facility>
     <facility>
         <name>ФКУ СИЗО-3 ГУФСИН России по Ростовской области</name>
         <name>ФКУ СИЗО-3 ГУФСИН по Ростовской области</name>
         <jurisdiction>Russia</jurisdiction>
-        <location> ул. Украинская д. 1, г. Новочеркасск, Ростовская область</location>
+        <location>ул. Украинская д. 1, г. Новочеркасск, Ростовская область</location>
         <state>Россия</state>
         <zip>346408</zip>
     </facility>
     <facility>
-        <name>ФКУ ИК-10 ГУФСИН России по Ростовской области</name>
+        <name>ФКУ СИЗО-4 ГУФСИН России по Ростовской области</name>
+        <name>ФКУ СИЗО-4 ГУФСИН по Ростовской области</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Большая Садовая д. 31, г. Ростов-на-Дону, Ростовская область</location>
         <state>Россия</state>
-        <zip></zip>
-    </facility>
-    <facility>
-        <name>ФКУ КП-8 ГУФСИН России по Ростовской области</name>
-        <jurisdiction>Russia</jurisdiction>
-        <location></location>
-        <state>Россия</state>
-        <zip></zip>
+        <zip>344082</zip>
     </facility>
     <facility>
         <name>ФКУ СИЗО-5 ГУФСИН России по Ростовской области</name>
+        <name>ФКУ СИЗО-5 ГУФСИН по Ростовской области</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Тоннельная д. 4, г. Ростов-на-Дону, Ростовская область</location>
         <state>Россия</state>
-        <zip></zip>
-    </facility>
-    <facility>
-        <name>ФКУ ИК-15 ГУФСИН России по Ростовской области</name>
-        <jurisdiction>Russia</jurisdiction>
-        <location></location>
-        <state>Россия</state>
-        <zip></zip>
+        <zip>344064</zip>
     </facility>
     <facility>
         <name>ФКУ ИК-1 ГУФСИН России по Ростовской области</name>
+        <name>ФКУ ИК-1 ГУФСИН по Ростовской области</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>пос. Трудовой, ул. Центральная д. 22, г. Зверево, Ростовская область</location>
         <state>Россия</state>
-        <zip></zip>
-    </facility>
-    <facility>
-        <name>ФКУ СИЗО-3 ГУФСИН России по Ростовской области</name>
-        <jurisdiction>Russia</jurisdiction>
-        <location></location>
-        <state>Россия</state>
-        <zip></zip>
-    </facility>
-    <facility>
-        <name>ФКУ ИК-14 ГУФСИН России по Ростовской области</name>
-        <jurisdiction>Russia</jurisdiction>
-        <location></location>
-        <state>Россия</state>
-        <zip></zip>
-    </facility>
-    <facility>
-        <name>ФКУ СИЗО-1 ГУФСИН России по Ростовской области</name>
-        <jurisdiction>Russia</jurisdiction>
-        <location></location>
-        <state>Россия</state>
-        <zip></zip>
-    </facility>
-    <facility>
-        <name>ФКУ СИЗО-4 ГУФСИН России по Ростовской области</name>
-        <jurisdiction>Russia</jurisdiction>
-        <location></location>
-        <state>Россия</state>
-        <zip></zip>
-    </facility>
-    <facility>
-        <name>ФКУ МОТБ-19 ГУФСИН России по Ростовской области</name>
-        <jurisdiction>Russia</jurisdiction>
-        <location></location>
-        <state>Россия</state>
-        <zip></zip>
-    </facility>
-    <facility>
-        <name>ФКУ ИК-9 ГУФСИН России по Ростовской области</name>
-        <jurisdiction>Russia</jurisdiction>
-        <location></location>
-        <state>Россия</state>
-        <zip></zip>
-    </facility>
-    <facility>
-        <name>ФКУ ЛИУ-20 ГУФСИН России по Ростовской области</name>
-        <jurisdiction>Russia</jurisdiction>
-        <location></location>
-        <state>Россия</state>
-        <zip></zip>
-    </facility>
-    <facility>
-        <name>ФКУ ИК-18 ГУФСИН России по Ростовской области</name>
-        <jurisdiction>Russia</jurisdiction>
-        <location></location>
-        <state>Россия</state>
-        <zip></zip>
+        <zip>346384</zip>
     </facility>
     <facility>
         <name>ФКУ ИК-2 ГУФСИН России по Ростовской области</name>
+        <name>ФКУ ИК-2 ГУФСИН по Ростовской области</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Тоннельная д. 4, г. Ростов-на-Дону, Ростовская область</location>
         <state>Россия</state>
-        <zip></zip>
-    </facility>
-    <facility>
-        <name>ФКУ ИК-12 ГУФСИН России по Ростовской области</name>
-        <jurisdiction>Russia</jurisdiction>
-        <location></location>
-        <state>Россия</state>
-        <zip></zip>
+        <zip>344064</zip>
     </facility>
     <facility>
         <name>ФКУ ИК-5 ГУФСИН России по Ростовской области</name>
+        <name>ФКУ ИК-5 ГУФСИН по Ростовской области</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Ермака д. 7, г. Константиновск, Ростовская область</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>347254</zip>
+    </facility>
+    <facility>
+        <name>ФКУ ИК-9 ГУФСИН России по Ростовской области</name>
+        <name>ФКУ ИК-9 ГУФСИН по Ростовской области</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Открытая д. 10, г. Шахты, Ростовская область</location>
+        <state>Россия</state>
+        <zip>346519</zip>
+    </facility>
+    <facility>
+        <name>ФКУ ИК-10 ГУФСИН России по Ростовской области</name>
+        <name>ФКУ ИК-10 ГУФСИН по Ростовской области</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>пер. Казачий д. 22, г. Ростов-на-Дону, Ростовская область</location>
+        <state>Россия</state>
+        <zip>344033</zip>
+    </facility>
+    <facility>
+        <name>ФКУ ИК-12 ГУФСИН России по Ростовской области</name>
+        <name>ФКУ ИК-12 ГУФСИН по Ростовской области</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Морская д. 94, г. Каменск-Шахтинский, Ростовская область</location>
+        <state>Россия</state>
+        <zip>347803</zip>
+    </facility>
+    <facility>
+        <name>ФКУ ИК-14 ГУФСИН России по Ростовской области</name>
+        <name>ФКУ ИК-14 ГУФСИН по Ростовской области</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Макаренко д. 60, г. Новочеркасск, Ростовская область</location>
+        <state>Россия</state>
+        <zip>346414</zip>
+    </facility>
+    <facility>
+        <name>ФКУ ИК-15 ГУФСИН России по Ростовской области</name>
+        <name>ФКУ ИК-15 ГУФСИН по Ростовской области</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Горького д. 358, г. Батайск, Ростовская область</location>
+        <state>Россия</state>
+        <zip>346880</zip>
+    </facility>
+    <facility>
+        <name>ФКУ ИК-18 ГУФСИН России по Ростовской области</name>
+        <name>ФКУ ИК-18 ГУФСИН по Ростовской области</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Дружбы д. 1А, г. Азов, Ростовская область</location>
+        <state>Россия</state>
+        <zip>346782</zip>
+    </facility>
+    <facility>
+        <name>ФКУ КП-8 ГУФСИН России по Ростовской области</name>
+        <name>ФКУ КП-8 ГУФСИН по Ростовской области</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Центральная д. 19, п. Садки, Ростовская область</location>
+        <state>Россия</state>
+        <zip>347790</zip>
+    </facility>
+    <facility>
+        <name>ФКУ ЛИУ-20 ГУФСИН России по Ростовской области</name>
+        <name>ФКУ ЛИУ-20 ГУФСИН по Ростовской области</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Открытая д. 10, г. Шахты, Ростовская область</location>
+        <state>Россия</state>
+        <zip>346519</zip>
+    </facility>
+    <facility>
+        <name>ФКУ МОТБ-19 ГУФСИН России по Ростовской области</name>
+        <name>ФКУ МОТБ-19 ГУФСИН по Ростовской области</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Тоннельная д. 4А, г. Ростов-на-Дону, Ростовская область</location>
+        <state>Россия</state>
+        <zip>344064</zip>
     </facility>
     <facility>
         <name>ФКУ СИЗО-1 УФСИН России по Рязанской области</name>

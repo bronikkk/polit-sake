@@ -735,7 +735,7 @@
         <name>ФКУ «Камышинская ВК УФСИН России по Волгоградской области»</name>
         <name>ФКУ «Камышинская ВК УФСИН по Волгоградской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>ул. Справедливая д. 1, Мичуринское сельское поселение, Волгоградская область</location>
+        <location>ул. Справедливая д. 1, п. Мичуринский, Волгоградская область</location>
         <state>Россия</state>
         <zip>403870</zip>
     </facility>
@@ -3767,17 +3767,19 @@
     </facility>
     <facility>
         <name>ФКУ СИЗО-1 ОФСИН России по Республике Алтай</name>
+        <name>ФКУ СИЗО-1 ОФСИН по Республике Алтай</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул Горная д. 15, п. Кызыл-Озек, Республика Алтай</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>649100</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 1 ОФСИН России по Республике Алтай»</name>
+        <name>ФКУ «ИК № 1 ОФСИН по Республике Алтай»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>с. Майма, Республика Алтай</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>649100</zip>
     </facility>
     <facility>
         <name>ФКУ СИЗО-1 УФСИН России по Республике Башкортостан</name>
@@ -4686,7 +4688,7 @@
         <name>ФКУ ИК-1 ГУФСИН России по Ростовской области</name>
         <name>ФКУ ИК-1 ГУФСИН по Ростовской области</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>пос. Трудовой, ул. Центральная д. 22, г. Зверево, Ростовская область</location>
+        <location>ул. Центральная д. 22, п. Трудовой, г. Зверево, Ростовская область</location>
         <state>Россия</state>
         <zip>346384</zip>
     </facility>
@@ -5204,7 +5206,7 @@
         <name>ФКУ «ИК № 8 ГУФСИН России по Свердловской области»</name>
         <name>ФКУ «ИК № 8 ГУФСИН по Свердловской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>ул. Советская д. 76, рабочий пос. Гари, Свердловская область</location>
+        <location>ул. Советская д. 76, п. Гари, Свердловская область</location>
         <state>Россия</state>
         <zip>624910</zip>
     </facility>

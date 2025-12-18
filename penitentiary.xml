@@ -3361,7 +3361,7 @@
         <name>ФКУ «ИК № 9 ГУФСИН России по Пермскому краю»</name>
         <name>ФКУ «ИК № 9 ГУФСИН по Пермскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>ул. Лесной поселок д. 12А, г. Соликамск, Пермский край</location>
+        <location>ул. Лесной посёлок д. 12А, г. Соликамск, Пермский край</location>
         <state>Россия</state>
         <zip>618540</zip>
     </facility>
@@ -4299,118 +4299,134 @@
     </facility>
     <facility>
         <name>ФКУ СИЗО-1 УФСИН России по Республике Мордовия</name>
+        <name>ФКУ СИЗО-1 УФСИН по Республике Мордовия</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Рабочая д. 147, г. Саранск, Республика Мордовия</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>430003</zip>
     </facility>
     <facility>
         <name>ФКУ СИЗО-2 УФСИН России по Республике Мордовия</name>
+        <name>ФКУ СИЗО-2 УФСИН по Республике Мордовия</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>пл. Дмитрова д. 1, г. Рузаевка, Республика Мордовия</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>431460</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 1 УФСИН России по Республике Мордовия»</name>
+        <name>ФКУ «ИК № 1 УФСИН по Республике Мордовия»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Почтовая д. 8, п. Сосновка, Республика Мордовия</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>431160</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 2 УФСИН России по Республике Мордовия»</name>
+        <name>ФКУ «ИК № 2 УФСИН по Республике Мордовия»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Чернореченская д. 1, п. Явас, Республика Мордовия</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>431160</zip>
     </facility>
     <facility>
         <name>ФКУ «ЛИУ № 3 УФСИН России по Республике Мордовия»</name>
+        <name>ФКУ «ЛИУ № 3 УФСИН по Республике Мордовия»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Штабная д. 1, п. Барашево, Республика Мордовия</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>431200</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 4 УФСИН России по Республике Мордовия»</name>
+        <name>ФКУ «ИК № 4 УФСИН по Республике Мордовия»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Железнодорожная д. 1, п. Ударный, Республика Мордовия</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>431130</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 5 УФСИН России по Республике Мордовия»</name>
+        <name>ФКУ «ИК № 5 УФСИН по Республике Мордовия»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>пер. Песочный д. 1, п. Леплей, Республика Мордовия</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>423700</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 6 УФСИН России по Республике Мордовия» (Торбеевский централ)</name>
         <name>ФКУ «ИК № 6 УФСИН по Республике Мордовия»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>ул. Весенняя д. 50, п. Торбеево, Мордовия</location>
+        <location>ул. Весенняя д. 50, п. Торбеево, Республика Мордовия</location>
         <state>Россия</state>
         <zip>431030</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 7 УФСИН России по Республике Мордовия»</name>
+        <name>ФКУ «ИК № 7 УФСИН по Республике Мордовия»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Центральная д. 2, п. Сосновка, Республика Мордовия</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>431120</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 10 УФСИН России по Республике Мордовия»</name>
+        <name>ФКУ «ИК № 10 УФСИН по Республике Мордовия»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Молодёжная д. 1, п. Ударный, Республика Мордовия</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>431130</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 11 УФСИН России по Республике Мордовия»</name>
+        <name>ФКУ «ИК № 11 УФСИН по Республике Мордовия»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Дзержинского д. 39, п. Явас, Республика Мордовия</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>431160</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 12 УФСИН России по Республике Мордовия»</name>
+        <name>ФКУ «ИК № 12 УФСИН по Республике Мордовия»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Новая д. 2, п. Молочница, Республика Мордовия</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>431101</zip>
     </facility>
     <facility>
         <name>ФКУ «КП № 14 УФСИН России по Республике Мордовия»</name>
+        <name>ФКУ «КП № 14 УФСИН по Республике Мордовия»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Лесная д. 7, п. Парца, Республика Мордовия</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>431150</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 17 УФСИН России по Республике Мордовия»</name>
+        <name>ФКУ «ИК № 17 УФСИН по Республике Мордовия»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Лесная д. 3, п. Озёрный, Республика Мордовия</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>431161</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 18 УФСИН России по Республике Мордовия»</name>
+        <name>ФКУ «ИК № 18 УФСИН по Республике Мордовия»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Красноармейская д. 10, п. Потьма, Республика Мордовия</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>652154</zip>
     </facility>
     <facility>
         <name>ФКУ «ЛИУ № 19 УФСИН России по Республике Мордовия»</name>
+        <name>ФКУ «ЛИУ № 19 УФСИН по Республике Мордовия»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location></location>
+        <location>ул. Лесная д. 11, п. Лесной, Республика Мордовия</location>
         <state>Россия</state>
-        <zip></zip>
+        <zip>431107</zip>
     </facility>
     <facility>
+        <name>ФКУ СИЗО-1 УФСИН России по Республике Саха (Якутия)</name>
         <name>ФКУ СИЗО-1 УФСИН России по Республике Саха (Якутия)</name>
         <jurisdiction>Russia</jurisdiction>
         <location></location>

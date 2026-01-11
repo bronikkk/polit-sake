@@ -5051,8 +5051,8 @@
         <zip>391846</zip>
     </facility>
     <facility>
-        <name>ФКУ «КП № 4 УФСИН России по Рязанской области»</name>
-        <name>ФКУ «КП № 4 УФСИН по Рязанской области»</name>
+        <name>ФКУ «ИК № 4 УФСИН России по Рязанской области»</name>
+        <name>ФКУ «ИК № 4 УФСИН по Рязанской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>п. Комсомольский, Рязанская область</location>
         <state>Россия</state>
@@ -5073,6 +5073,22 @@
         <location>п. Стенькино, Рязанская область</location>
         <state>Россия</state>
         <zip>390506</zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 7 УФСИН России по Рязанской области»</name>
+        <name>ФКУ «ИК № 7 УФСИН по Рязанской области»</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Макаренко д. 20, c. Льгово, Рязанская область</location>
+        <state>Россия</state>
+        <zip>391009</zip>
+    </facility>
+    <facility>
+        <name>ФКЛПУ «Б-2 УФСИН России по Рязанской области»</name>
+        <name>ФКЛПУ «Б-2 УФСИН по Рязанской области»</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Семашко д. 48А, г. Рязань, Рязанская область</location>
+        <state>Россия</state>
+        <zip>390005</zip>
     </facility>
     <facility>
         <name>ФКУ СИЗО-1 УФСИН России по Самарской области</name>

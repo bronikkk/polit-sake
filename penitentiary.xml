@@ -4466,6 +4466,14 @@
         <zip>424930</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 5 УФСИН России по Республике Марий Эл»</name>
+        <name>ФКУ «ИК № 5 УФСИН по Республике Марий Эл»</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Ясная д. 3, п. Ясный, Республика Марий Эл</location>
+        <state>Россия</state>
+        <zip>425408</zip>
+    </facility>
+    <facility>
         <name>ФКУ «ИК № 6 УФСИН России по Республике Марий Эл»</name>
         <name>ФКУ «ИК № 6 УФСИН по Республике Марий Эл»</name>
         <jurisdiction>Russia</jurisdiction>
@@ -4474,8 +4482,8 @@
         <zip>424006</zip>
     </facility>
     <facility>
-        <name>ФКУ «КП № 7 УФСИН России по Республике Марий Эл»</name>
-        <name>ФКУ «КП № 7 УФСИН по Республике Марий Эл»</name>
+        <name>ФКУ «ИК № 7 УФСИН России по Республике Марий Эл»</name>
+        <name>ФКУ «ИК № 7 УФСИН по Республике Марий Эл»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Макаренко д. 8, п. Светлый, Республика Марий Эл</location>
         <state>Россия</state>

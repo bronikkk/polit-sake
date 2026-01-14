@@ -1805,6 +1805,14 @@
         <zip>612830</zip>
     </facility>
     <facility>
+        <name>ФКУ «ОИК № 4 УФСИН России по Кировской области»</name>
+        <name>ФКУ «ОИК № 4 УФСИН по Кировской области»</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Центральная д. 5, п. Лесной, Кировская область</location>
+        <state>Россия</state>
+        <zip>612815</zip>
+    </facility>
+    <facility>
         <name>ФКУ «ИК № 5 УФСИН России по Кировской области»</name>
         <name>ФКУ «ИК № 5 УФСИН по Кировской области»</name>
         <jurisdiction>Russia</jurisdiction>
@@ -1813,12 +1821,28 @@
         <zip>613040</zip>
     </facility>
     <facility>
+        <name>ФКУ «ОИК № 5 УФСИН России по Кировской области»</name>
+        <name>ФКУ «ОИК № 5 УФСИН по Кировской области»</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Ленина д. 14, п. Лесной, Кировская область</location>
+        <state>Россия</state>
+        <zip>612815</zip>
+    </facility>
+    <facility>
         <name>ФКУ «ИК № 6 УФСИН России по Кировской области»</name>
         <name>ФКУ «ИК № 6 УФСИН по Кировской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>п. Восточный, Кировская область</location>
         <state>Россия</state>
         <zip>612711</zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 9 УФСИН России по Кировской области»</name>
+        <name>ФКУ «ИК № 9 УФСИН по Кировской области»</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>п. Северный, Кировская область</location>
+        <state>Россия</state>
+        <zip>613825</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 11 УФСИН России по Кировской области»</name>
@@ -1861,12 +1885,12 @@
         <zip>612711</zip>
     </facility>
     <facility>
-        <name>ФКУ «КП № 21 УФСИН России по Кировской области»</name>
-        <name>ФКУ «КП № 21 УФСИН по Кировской области»</name>
+        <name>ФКУ «КП № 19 УФСИН России по Кировской области»</name>
+        <name>ФКУ «КП № 19 УФСИН по Кировской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>Западный проезд, г. Кирово-Чепецк, Кировская область</location>
+        <location>п. Северный, Кировская область</location>
         <state>Россия</state>
-        <zip>613040</zip>
+        <zip>613825</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 20 УФСИН России по Кировской области»</name>
@@ -1877,10 +1901,26 @@
         <zip>612815</zip>
     </facility>
     <facility>
+        <name>ФКУ «КП № 21 УФСИН России по Кировской области»</name>
+        <name>ФКУ «КП № 21 УФСИН по Кировской области»</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>Западный проезд, г. Кирово-Чепецк, Кировская область</location>
+        <state>Россия</state>
+        <zip>613040</zip>
+    </facility>
+    <facility>
         <name>ФКУ «ИК № 25 УФСИН России по Кировской области»</name>
         <name>ФКУ «ИК № 25 УФСИН по Кировской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>п. Лесной, Кировская область</location>
+        <state>Россия</state>
+        <zip>612815</zip>
+    </facility>
+    <facility>
+        <name>ФКУ «КП № 26 ОУХД УФСИН России по Кировской области»</name>
+        <name>ФКУ «КП № 26 ОУХД УФСИН по Кировской области»</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Центральная д. 5, п. Заречный, Кировская область</location>
         <state>Россия</state>
         <zip>612815</zip>
     </facility>

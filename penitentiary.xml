@@ -4326,8 +4326,24 @@
         <zip>367041</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 8 УФСИН России по Республике Дагестан»</name>
+        <name>ФКУ «ИК № 8 УФСИН по Республике Дагестан»</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Имама Газимагомеда д. 145, г. Кизилюрт, Республика Дагестан</location>
+        <state>Россия</state>
+        <zip>368100</zip>
+    </facility>
+    <facility>
         <name>ФКУ «КП № 9 УФСИН России по Республике Дагестан»</name>
         <name>ФКУ «КП № 9 УФСИН по Республике Дагестан»</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Имама Газимагомеда д. 145, г. Кизилюрт, Республика Дагестан</location>
+        <state>Россия</state>
+        <zip>368100</zip>
+    </facility>
+    <facility>
+        <name>ФКУ «Кизилюртовская ВК УФСИН России по Республике Дагестан»</name>
+        <name>ФКУ «Кизилюртовская ВК УФСИН по Республике Дагестан»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Имама Газимагомеда д. 145, г. Кизилюрт, Республика Дагестан</location>
         <state>Россия</state>

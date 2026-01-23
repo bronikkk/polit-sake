@@ -492,14 +492,6 @@
         <zip>243500</zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 4 УФСИН России по Брянской области»</name>
-        <name>ФКУ «ИК № 4 УФСИН по Брянской области»</name>
-        <jurisdiction>Russia</jurisdiction>
-        <location>п. Каменка, Брянская область</location>
-        <state>Россия</state>
-        <zip>242300</zip>
-    </facility>
-    <facility>
         <name>ФКУ «ИК № 5 УФСИН России по Брянской области»</name>
         <name>ФКУ «ИК № 5 УФСИН по Брянской области»</name>
         <jurisdiction>Russia</jurisdiction>
@@ -519,9 +511,33 @@
         <name>ФКУ «Брянская ВК УФСИН России по Брянской области»</name>
         <name>ФКУ «Брянская ВК УФСИН по Брянской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>, ул. Советская д. 48, г. Брянск, Брянская область</location>
+        <location>ул. Советская д. 48, г. Брянск, Брянская область</location>
         <state>Россия</state>
         <zip>241050</zip>
+    </facility>
+    <facility>
+        <name>ФКУ «УФИЦ ИК № 2 УФСИН России по Брянской области»</name>
+        <name>ФКУ «УФИЦ ИК № 2 УФСИН по Брянской области»</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Карла Маркса д. 17А, г. Фокино, Брянская область</location>
+        <state>Россия</state>
+        <zip>242610</zip>
+    </facility>
+    <facility>
+        <name>ФКУ «УФИЦ КП № 3 УФСИН России по Брянской области»</name>
+        <name>ФКУ «УФИЦ КП № 3 УФСИН по Брянской области»</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Лесная д. 3, г. Сураж, Брянская область</location>
+        <state>Россия</state>
+        <zip>243500</zip>
+    </facility>
+    <facility>
+        <name>ФКУ «УФИЦ № 2 Брянская ВК УФСИН России по Брянской области»</name>
+        <name>ФКУ «УФИЦ № 2 Брянская ВК УФСИН по Брянской области»</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Инженерная д. 11, п. Большое Полпино, г. Брянск, Брянская область</location>
+        <state>Россия</state>
+        <zip>241903</zip>
     </facility>
     <facility>
         <name>ФКУ СИЗО-1 УФСИН России по Владимирской области</name>

@@ -4103,6 +4103,14 @@
         <zip>453124</zip>
     </facility>
     <facility>
+        <name>ФКУ СИЗО-4 УФСИН России по Республике Башкортостан</name>
+        <name>ФКУ СИЗО-4 УФСИН по Республике Башкортостан</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Худайбердина д. 7, г. Бирск, Республика Башкортостан</location>
+        <state>Россия</state>
+        <zip>452450</zip>
+    </facility>
+    <facility>
         <name>ФКУ СИЗО-5 УФСИН России по Республике Башкортостан</name>
         <name>ФКУ СИЗО-5 УФСИН по Республике Башкортостан</name>
         <jurisdiction>Russia</jurisdiction>
@@ -4133,6 +4141,22 @@
         <location>г. Салават-6, Республика Башкортостан</location>
         <state>Россия</state>
         <zip>453256</zip>
+    </facility>
+    <facility>
+        <name>ФКУ «КП № 5 УФСИН России по Республике Башкортостан»</name>
+        <name>ФКУ «КП № 5 УФСИН по Республике Башкортостан»</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Советов д. 16/1, г. Уфа, Республика Башкортостан</location>
+        <state>Россия</state>
+        <zip>450069</zip>
+    </facility>
+    <facility>
+        <name>ФКУ «КП № 6 УФСИН России по Республике Башкортостан»</name>
+        <name>ФКУ «КП № 6 УФСИН по Республике Башкортостан»</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Гайдара д. 6, г. Стерлитамак, Республика Башкортостан</location>
+        <state>Россия</state>
+        <zip>453102</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 7 УФСИН России по Республике Башкортостан»</name>
@@ -4199,20 +4223,12 @@
         <zip>453256</zip>
     </facility>
     <facility>
-        <name>ФКУ «КП № 5 УФСИН России по Республике Башкортостан»</name>
-        <name>ФКУ «КП № 5 УФСИН по Республике Башкортостан»</name>
+        <name>ФКУ «Стерлитамакская ВК УФСИН России по Республике Башкортостан»</name>
+        <name>ФКУ «Стерлитамакская ВК УФСИН по Республике Башкортостан»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>ул. Советов д. 16/1, г. Уфа, Республика Башкортостан</location>
+        <location>ул. Подгорная д. 2, с. Бельское, Республика Башкортостан</location>
         <state>Россия</state>
-        <zip>450069</zip>
-    </facility>
-    <facility>
-        <name>ФКУ «КП № 6 УФСИН России по Республике Башкортостан»</name>
-        <name>ФКУ «КП № 6 УФСИН по Республике Башкортостан»</name>
-        <jurisdiction>Russia</jurisdiction>
-        <location>ул. Гайдара д. 6, г. Стерлитамак, Республика Башкортостан</location>
-        <state>Россия</state>
-        <zip>453102</zip>
+        <zip>453119</zip>
     </facility>
     <facility>
         <name>ФКУ СИЗО-1 УФСИН России по Республике Бурятия</name>

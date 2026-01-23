@@ -540,14 +540,15 @@
         <zip>601785</zip>
     </facility>
     <facility>
-        <name>ФКУ «Тюрьма № 1 УФСИН России по Владимирской области»</name>
-        <name>ФКУ «Тюрьма № 1 УФСИН по Владимирской области»</name>
+        <name>ФКУ «ИЦ № 1 УФСИН России по Владимирской области»</name>
+        <name>ФКУ «ИЦ № 1 УФСИН по Владимирской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>ул. Октябрьской революции д. 75А, г. Покров, Владимирская область</location>
+        <location>п. Труда д. 1Д, г. Кольчугино, Владимирская область</location>
         <state>Россия</state>
-        <zip>600120</zip>
+        <zip>601785</zip>
     </facility>
     <facility>
+        <name>ФКУ «Тюрьма № 2 УФСИН России по Владимирской области» («Владимирский централ»)</name>
         <name>ФКУ «Тюрьма № 2 УФСИН России по Владимирской области»</name>
         <name>ФКУ «Тюрьма № 2 УФСИН по Владимирской области»</name>
         <jurisdiction>Russia</jurisdiction>
@@ -562,14 +563,6 @@
         <location>ул. Советская д. 50А, п. Головино, Владимирская область</location>
         <state>Россия</state>
         <zip>601395</zip>
-    </facility>
-    <facility>
-        <name>ФКУ «ИК № 2 УФСИН России по Владимирской области»</name>
-        <name>ФКУ «ИК № 2 УФСИН по Владимирской области»</name>
-        <jurisdiction>Russia</jurisdiction>
-        <location>ул. Франца Штольверка д. 6, г. Покров, Владимирская область</location>
-        <state>Россия</state>
-        <zip>600120</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 3 УФСИН России по Владимирской области»</name>
@@ -588,14 +581,6 @@
         <zip>601443</zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 5 УФСИН России по Владимирской области»</name>
-        <name>ФКУ «ИК № 5 УФСИН по Владимирской области»</name>
-        <jurisdiction>Russia</jurisdiction>
-        <location>ул. Полины Осипенко д. 66А, г. Владимир, Владимирская область</location>
-        <state>Россия</state>
-        <zip>600007</zip>
-    </facility>
-    <facility>
         <name>ФКУ «ИК № 6 УФСИН России по Владимирской области»</name>
         <name>ФКУ «ИК № 6 УФСИН по Владимирской области»</name>
         <jurisdiction>Russia</jurisdiction>
@@ -610,14 +595,6 @@
         <location>ул. Центральная д. 1А, п. Пакино, Владимирская область</location>
         <state>Россия</state>
         <zip>601960</zip>
-    </facility>
-    <facility>
-        <name>ФКУ «ЛИУ № 8 УФСИН России по Владимирской области»</name>
-        <name>ФКУ «ЛИУ № 8 УФСИН по Владимирской области»</name>
-        <jurisdiction>Russia</jurisdiction>
-        <location>ул. Чайкиной д. 2А, г. Киржач, Владимирская область</location>
-        <state>Россия</state>
-        <zip>601012</zip>
     </facility>
     <facility>
         <name>ФКУ «КП № 9 УФСИН России по Владимирской области»</name>

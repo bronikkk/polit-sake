@@ -6861,8 +6861,8 @@
         <zip>454038</zip>
     </facility>
     <facility>
-        <name>ФКУ «ЛПУ № 3 ГУФСИН России по Челябинской области»</name>
-        <name>ФКУ «ЛПУ № 3 ГУФСИН по Челябинской области»</name>
+        <name>ФКЛПУ «СТБ № 3 ГУФСИН России по Челябинской области»</name>
+        <name>ФКЛПУ «СТБ № 3 ГУФСИН по Челябинской области»</name>
         <name>больница №3 УФСИН Челябинской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Монтажников д. 7А, г. Челябинск, Челябинская область</location>
@@ -6958,12 +6958,28 @@
         <zip>456835</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 24 ГУФСИН России по Челябинской области»</name>
+        <name>ФКУ «ИК № 24 ГУФСИН по Челябинской области»</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Промышленная д. 3, г. Озёрск, Челябинская область</location>
+        <state>Россия</state>
+        <zip>456780</zip>
+    </facility>
+    <facility>
         <name>ФКУ «ИК № 25 ГУФСИН России по Челябинской области»</name>
         <name>ФКУ «ИК № 25 ГУФСИН по Челябинской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Панфилова д. 6, г. Златоуст, Челябинская область</location>
         <state>Россия</state>
         <zip>456208</zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ОПБ ГУФСИН России по Челябинской области»</name>
+        <name>ФКУ «ОПБ ГУФСИН по Челябинской области»</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Танкистов д. 19, Челябинская область</location>
+        <state>Россия</state>
+        <zip>455016</zip>
     </facility>
     <facility>
         <name>ФКУ СИЗО-1 УФСИН России по Чеченской республике</name>

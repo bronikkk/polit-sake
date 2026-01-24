@@ -204,6 +204,14 @@
         <zip>163000</zip>
     </facility>
     <facility>
+        <name>ФКУ СИЗО-2 УФСИН России по Архангельской области</name>
+        <name>ФКУ СИЗО-2 УФСИН по Архангельской области</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Черняховского д. 2, г. Котлас, Архангельская область</location>
+        <state>Россия</state>
+        <zip>165400</zip>
+    </facility>
+    <facility>
         <name>ФКУ СИЗО-3 УФСИН России по Архангельской области</name>
         <name>ФКУ СИЗО-3 УФСИН по Архангельской области</name>
         <jurisdiction>Russia</jurisdiction>
@@ -260,6 +268,14 @@
         <zip>163039</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 12 УФСИН России по Архангельской области»</name>
+        <name>ФКУ «ИК № 12 УФСИН по Архангельской области»</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>д. Данилово, Архангельская область</location>
+        <state>Россия</state>
+        <zip>164567</zip>
+    </facility>
+    <facility>
         <name>ФКУ «ИК № 14 УФСИН России по Архангельской области»</name>
         <name>ФКУ «ИК № 14 УФСИН по Архангельской области»</name>
         <jurisdiction>Russia</jurisdiction>
@@ -292,22 +308,6 @@
         <zip>164268</zip>
     </facility>
     <facility>
-        <name>ФКУ «КП № 23 УФСИН России по Архангельской области»</name>
-        <name>ФКУ «КП № 23 УФСИН по Архангельской области»</name>
-        <jurisdiction>Russia</jurisdiction>
-        <location>п. Мостовица, Архангельская область</location>
-        <state>Россия</state>
-        <zip>164000</zip>
-    </facility>
-    <facility>
-        <name>ФКУ «КП № 27 УФСИН России по Архангельской области»</name>
-        <name>ФКУ «КП № 27 УФСИН по Архангельской области»</name>
-        <jurisdiction>Russia</jurisdiction>
-        <location>п. Янгоры, Архангельская область</location>
-        <state>Россия</state>
-        <zip>164268</zip>
-    </facility>
-    <facility>
         <name>ФКУ «ИК № 28 УФСИН России по Архангельской области»</name>
         <name>ФКУ «ИК № 28 УФСИН по Архангельской области»</name>
         <jurisdiction>Russia</jurisdiction>
@@ -330,6 +330,14 @@
         <location>п. Талаги д. 112, Архангельская область</location>
         <state>Россия</state>
         <zip>163530</zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ОБ УФСИН России по Архангельской области»</name>
+        <name>ФКУ «ОБ УФСИН по Архангельской области»</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Онежская д. 22, г. Архангельск, Архангельская область</location>
+        <state>Россия</state>
+        <zip>163050</zip>
     </facility>
     <facility>
         <name>ФКУ СИЗО-1 УФСИН России по Астраханской области</name>

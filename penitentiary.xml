@@ -24,11 +24,20 @@
         <zip>123308</zip>
     </facility>
     <facility>
+        <name>ФКУ СИЗО-4 ФСИН России, город Москва</name>
         <name>ФКУ СИЗО-4 ФСИН России</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Вилюйская д. 4, г. Москва</location>
         <state>Россия</state>
         <zip>127081</zip>
+    </facility>
+    <facility>
+        <name>ФКУ СИЗО-4 ФСИН России, Роcтовская область</name>
+        <name>ФКУ СИЗО-4 ФСИН России, город Шахты</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>п. Кирпичный, г. Шахты, Ростовская область</location>
+        <state>Россия</state>
+        <zip>346519</zip>
     </facility>
     <facility>
         <name>ФКУ СИЗО-5 ФСИН России</name>

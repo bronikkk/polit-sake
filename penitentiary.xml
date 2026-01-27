@@ -3616,60 +3616,44 @@
         <zip>614512</zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК-1 ОИК № 2 ОУХД ГУФСИН России по Пермскому краю»</name>
-        <name>ФКУ «ИК-1 ОИК № 2 ОУХД ГУФСИН по Пермскому краю»</name>
+        <name>ФКУ «ИК № 1 ГУФСИН России по Пермскому краю»</name>
+        <name>ФКУ «ИК № 1 ГУФСИН по Пермскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>ул. Карналлитовая д. 98, г. Соликамск, Пермский край</location>
+        <location>ул. Карналлитовая д. 98 ИК-1, г. Соликамск, Пермский край</location>
         <state>Россия</state>
         <zip>618545</zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК-2 ОИК № 2 ОУХД ГУФСИН России по Пермскому краю»</name>
-        <name>ФКУ «ИК-2 ОИК № 2 ОУХД ГУФСИН по Пермскому краю»</name>
+        <name>ФКУ «ИК № 2 ГУФСИН России по Пермскому краю»</name>
+        <name>ФКУ «ИК № 2 ГУФСИН по Пермскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>ул. Карналлитовая д. 98, г. Соликамск, Пермский край</location>
+        <location>ул. Карналлитовая д. 98 ИК-2, г. Соликамск, Пермский край</location>
         <state>Россия</state>
         <zip>618545</zip>
     </facility>
     <facility>
-        <name>ФКУ «КП-3 ОИК № 2 ОУХД ГУФСИН России по Пермскому краю»</name>
-        <name>ФКУ «КП-3 ОИК № 2 ОУХД ГУФСИН по Пермскому краю»</name>
-        <jurisdiction>Russia</jurisdiction>
-        <location>п. Уролка, Пермский край</location>
-        <state>Россия</state>
-        <zip>618534</zip>
-    </facility>
-    <facility>
-        <name>ФКУ «ИК-4 ОИК № 11 ОУХД ГУФСИН России по Пермскому краю»</name>
-        <name>ФКУ «ИК-4 ОИК № 11 ОУХД ГУФСИН по Пермскому краю»</name>
+        <name>ФКУ «ИК № 4 ОИК № 11 ОУХД ГУФСИН России по Пермскому краю»</name>
+        <name>ФКУ «ИК № 4 ОИК № 11 ОУХД ГУФСИН по Пермскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Уральская д. 33, п. Ныроб, Пермский край</location>
         <state>Россия</state>
         <zip>618630</zip>
     </facility>
     <facility>
-        <name>ФКУ «КП-7 ОИУ № 1 ОУХД ГУФСИН России по Пермскому краю»</name>
-        <name>ФКУ «КП-7 ОИУ № 1 ОУХД ГУФСИН по Пермскому краю»</name>
+        <name>ФКУ «КП № 7 ГУФСИН России по Пермскому краю»</name>
+        <name>ФКУ «КП № 7 ГУФСИН по Пермскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>п. Красный берег, Пермский край</location>
         <state>Россия</state>
         <zip>618506</zip>
     </facility>
     <facility>
-        <name>ФКЛПУ «КТБ-7 ГУФСИН России по Пермскому краю»</name>
-        <name>ФКЛПУ «КТБ-7 ГУФСИН по Пермскому краю»</name>
+        <name>ФКЛПУ «КТБ № 7 ГУФСИН России по Пермскому краю»</name>
+        <name>ФКЛПУ «КТБ № 7 ГУФСИН по Пермскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Садовая д. 156, г. Губаха, Пермский край</location>
         <state>Россия</state>
         <zip>618255</zip>
-    </facility>
-    <facility>
-        <name>ФКУ «КП-8 ОИК № 2 ОУХД ГУФСИН России по Пермскому краю»</name>
-        <name>ФКУ «КП-8 ОИК № 2 ОУХД ГУФСИН по Пермскому краю»</name>
-        <jurisdiction>Russia</jurisdiction>
-        <location>ул. Карналлитовая д. 98, г. Соликамск, Пермский край</location>
-        <state>Россия</state>
-        <zip>618545</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 9 ГУФСИН России по Пермскому краю»</name>
@@ -3688,24 +3672,32 @@
         <zip>618232</zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК-11 ОИК № 11 ОУХД ГУФСИН России по Пермскому краю»</name>
-        <name>ФКУ «ИК-11 ОИК № 11 ОУХД ГУФСИН по Пермскому краю»</name>
+        <name>ФКУ «ИК № 11 ГУФСИН России по Пермскому краю»</name>
+        <name>ФКУ «ИК № 11 ГУФСИН по Пермскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Уральская д. 30, п. Ныроб, Пермский край</location>
         <state>Россия</state>
         <zip>618630</zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 12 ОУХД ГУФСИН России по Пермскому краю»</name>
-        <name>ФКУ «ИК № 12 ОУХД ГУФСИН по Пермскому краю»</name>
+        <name>ФКУ «ИК № 12 ГУФСИН России по Пермскому краю»</name>
+        <name>ФКУ «ИК № 12 ГУФСИН по Пермскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>п. Широковский, Пермский край</location>
         <state>Россия</state>
         <zip>618266</zip>
     </facility>
     <facility>
-        <name>ФКУ «ФКЛПУ КТБ-17 ГУФСИН России по Пермскому краю»</name>
-        <name>ФКУ «ФКЛПУ КТБ-17 ГУФСИН по Пермскому краю»</name>
+        <name>ФКУ «ИК № 13 ГУФСИН России по Пермскому краю»</name>
+        <name>ФКУ «ИК № 13 ГУФСИН по Пермскому краю»</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>п. Широковский, г. Губаха, Пермский край</location>
+        <state>Россия</state>
+        <zip>618250</zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ФКЛПУ КТБ № 17 ГУФСИН России по Пермскому краю»</name>
+        <name>ФКУ «ФКЛПУ КТБ № 17 ГУФСИН по Пермскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Ковалёва д. 4А, п. Нижнее Мошево, Пермский край</location>
         <state>Россия</state>
@@ -3720,40 +3712,8 @@
         <zip>617470</zip>
     </facility>
     <facility>
-        <name>ФКУ «КП-20 ОИК № 19 ОУХД ГУФСИН России по Пермскому краю»</name>
-        <name>ФКУ «КП-20 ОИК № 19 ОУХД ГУФСИН по Пермскому краю»</name>
-        <jurisdiction>Russia</jurisdiction>
-        <location>п. Кушмангорт, Пермский край</location>
-        <state>Россия</state>
-        <zip>618604</zip>
-    </facility>
-    <facility>
-        <name>ФКУ «КП-21 ОИУ № 1 ОУХД ГУФСИН России по Пермскому краю»</name>
-        <name>ФКУ «КП-21 ОИУ № 1 ОУХД ГУФСИН по Пермскому краю»</name>
-        <jurisdiction>Russia</jurisdiction>
-        <location>10-й км, п. Широковский, Пермский край</location>
-        <state>Россия</state>
-        <zip>618294</zip>
-    </facility>
-    <facility>
-        <name>ФКУ «ИК-22 ОИК № 19 ОУХД ГУФСИН России по Пермскому краю»</name>
-        <name>ФКУ «ИК-22 ОИК № 19 ОУХД ГУФСИН по Пермскому краю»</name>
-        <jurisdiction>Russia</jurisdiction>
-        <location>п. Кушмангорт, Пермский край</location>
-        <state>Россия</state>
-        <zip>618604</zip>
-    </facility>
-    <facility>
-        <name>ФКУ «КП-23 ОИК № 11 ОУХД ГУФСИН России по Пермскому краю»</name>
-        <name>ФКУ «КП-23 ОИК № 11 ОУХД ГУФСИН по Пермскому краю»</name>
-        <jurisdiction>Russia</jurisdiction>
-        <location>ул. Уральская д. 30, п. Ныроб, Пермский край</location>
-        <state>Россия</state>
-        <zip>618630</zip>
-    </facility>
-    <facility>
-        <name>ФКУ «КП-26 ОИУ № 1 ОУХД ГУФСИН России по Пермскому краю»</name>
-        <name>ФКУ «КП-26 ОИУ № 1 ОУХД ГУФСИН по Пермскому краю»</name>
+        <name>ФКУ «КП № 26 ГУФСИН России по Пермскому краю»</name>
+        <name>ФКУ «КП № 26 ГУФСИН по Пермскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Микова д. 42, г. Кизел, Пермский край</location>
         <state>Россия</state>

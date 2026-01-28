@@ -40,11 +40,20 @@
         <zip>346519</zip>
     </facility>
     <facility>
+        <name>ФКУ СИЗО-5 ФСИН России, город Москва</name>
         <name>ФКУ СИЗО-5 ФСИН России</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Выборгская д. 20, г. Москва</location>
         <state>Россия</state>
         <zip>125130</zip>
+    </facility>
+    <facility>
+        <name>ФКУ СИЗО-5 ФСИН России, Краснодарский край</name>
+        <name>ФКУ СИЗО-5 ФСИН России, город Краснодар</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Красноармейская д. 22, г. Краснодар, Краснодарский край</location>
+        <state>Россия</state>
+        <zip>350063</zip>
     </facility>
     <facility>
         <name>ФКУ СИЗО-6 ФСИН России</name>

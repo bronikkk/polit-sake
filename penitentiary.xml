@@ -4764,6 +4764,14 @@
         <zip>431120</zip>
     </facility>
     <facility>
+        <name>ФКУ «КП № 8 УФСИН России по Республике Мордовия»</name>
+        <name>ФКУ «КП № 8 УФСИН по Республике Мордовия»</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Дзержинского д. 51, п. Явас, Республика Мордовия</location>
+        <state>Россия</state>
+        <zip>431160</zip>
+    </facility>
+    <facility>
         <name>ФКУ «ИК № 10 УФСИН России по Республике Мордовия»</name>
         <name>ФКУ «ИК № 10 УФСИН по Республике Мордовия»</name>
         <jurisdiction>Russia</jurisdiction>
@@ -4788,8 +4796,16 @@
         <zip>431101</zip>
     </facility>
     <facility>
-        <name>ФКУ «КП № 14 УФСИН России по Республике Мордовия»</name>
-        <name>ФКУ «КП № 14 УФСИН по Республике Мордовия»</name>
+        <name>ФКУ «ИК № 13 УФСИН России по Республике Мордовия»</name>
+        <name>ФКУ «ИК № 13 УФСИН по Республике Мордовия»</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Центральная д. 6А, п. Парца, Республика Мордовия</location>
+        <state>Россия</state>
+        <zip>431150</zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 14 УФСИН России по Республике Мордовия»</name>
+        <name>ФКУ «ИК № 14 УФСИН по Республике Мордовия»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Лесная д. 7, п. Парца, Республика Мордовия</location>
         <state>Россия</state>
@@ -4818,6 +4834,22 @@
         <location>ул. Лесная д. 11, п. Лесной, Республика Мордовия</location>
         <state>Россия</state>
         <zip>431107</zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ЛПУ № 21 УФСИН России по Республике Мордовия»</name>
+        <name>ФКУ «ЛПУ № 21 УФСИН по Республике Мордовия»</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Штабная д. 1, п. Барашево, Республика Мордовия</location>
+        <state>Россия</state>
+        <zip>431160</zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 22 УФСИН России по Республике Мордовия»</name>
+        <name>ФКУ «ИК № 22 УФСИН по Республике Мордовия»</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>п. Леплей, Республика Мордовия</location>
+        <state>Россия</state>
+        <zip>431130</zip>
     </facility>
     <facility>
         <name>ФКУ СИЗО-1 УФСИН России по Республике Саха (Якутия)</name>

@@ -1536,14 +1536,6 @@
         <zip>249400</zip>
     </facility>
     <facility>
-        <name>ФКУ «ЛИУ № 1 УФСИН России по Калужской области»</name>
-        <name>ФКУ «ЛИУ № 1 УФСИН по Калужской области»</name>
-        <jurisdiction>Russia</jurisdiction>
-        <location>ул. Дзержинского д. 2А, п. Товарково, Калужская область</location>
-        <state>Россия</state>
-        <zip>249856</zip>
-    </facility>
-    <facility>
         <name>ФКУ «ИК № 2 УФСИН России по Калужской области»</name>
         <name>ФКУ «ИК № 2 УФСИН по Калужской области»</name>
         <jurisdiction>Russia</jurisdiction>
@@ -1580,6 +1572,30 @@
         <name>ФКУ «ИК № 7 УФСИН по Калужской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Грабцевское шоссе д. 39Б, г. Калуга, Калужская область</location>
+        <state>Россия</state>
+        <zip>248009</zip>
+    </facility>
+    <facility>
+        <name>УФИЦ при ФКУ «ИК № 5 УФСИН России по Калужской области»</name>
+        <name>УФИЦ при ФКУ «ИК № 5 УФСИН по Калужской области»</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>г. Сухиничи, Калужская область</location>
+        <state>Россия</state>
+        <zip>249275</zip>
+    </facility>
+    <facility>
+        <name>УФИЦ № 2 при ФКУ «ИК № 5 УФСИН России по Калужской области»</name>
+        <name>УФИЦ № 2 при ФКУ «ИК № 5 УФСИН по Калужской области»</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Игнатовская д. 32Б, д. Игнатовка, Калужская область</location>
+        <state>Россия</state>
+        <zip>249425</zip>
+    </facility>
+    <facility>
+        <name>УФИЦ при ФКУ «ИК № 7 УФСИН России по Калужской области»</name>
+        <name>УФИЦ при ФКУ «ИК № 7 УФСИН по Калужской области»</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>пер. Сельский д. 8А, г. Калуга, Калужская область</location>
         <state>Россия</state>
         <zip>248009</zip>
     </facility>

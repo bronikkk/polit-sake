@@ -1235,7 +1235,7 @@
         <name>ФКУ СИЗО-1 ГУФСИН России по Иркутской области</name>
         <name>ФКУ СИЗО-1 ГУФСИН по Иркутской области</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>ул. Баррикад д. 63 СИЗО-1, г. Иркутск, Иркутская область</location>
+        <location>ул. Баррикад д. 63, г. Иркутск, Иркутская область</location>
         <state>Россия</state>
         <zip>664019</zip>
     </facility>
@@ -1243,7 +1243,7 @@
         <name>ФКУ СИЗО-2 ГУФСИН России по Иркутской области</name>
         <name>ФКУ СИЗО-2 ГУФСИН по Иркутской области</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>ул. Прибрежная д. 49 СИЗО-2, г. Братск-10, Иркутская область</location>
+        <location>ул. Прибрежная д. 49, г. Братск-10, Иркутская область</location>
         <state>Россия</state>
         <zip>665710</zip>
     </facility>
@@ -1251,7 +1251,7 @@
         <name>ФКУ СИЗО-3 ГУФСИН России по Иркутской области</name>
         <name>ФКУ СИЗО-3 ГУФСИН по Иркутской области</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>ул. Свердлова д. 77 СИЗО-3, г. Тайшет, Иркутская область</location>
+        <location>ул. Свердлова д. 77, г. Тайшет, Иркутская область</location>
         <state>Россия</state>
         <zip>665002</zip>
     </facility>
@@ -1272,18 +1272,10 @@
         <zip>665809</zip>
     </facility>
     <facility>
-        <name>ФКУ «ОИК № 1 ГУФСИН России по Иркутской области»</name>
-        <name>ФКУ «ОИК № 1 ГУФСИН по Иркутской области»</name>
-        <jurisdiction>Russia</jurisdiction>
-        <location>п. Бозой, Иркутская область</location>
-        <state>Россия</state>
-        <zip>669511</zip>
-    </facility>
-    <facility>
         <name>ФКУ «ИК № 2 ГУФСИН России по Иркутской области»</name>
         <name>ФКУ «ИК № 2 ГУФСИН по Иркутской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>1-й промышленный массив, квартал 47 д. 6, г. Ангарск, Иркутская область</location>
+        <location>1-й промышленный массив, квартал 47 д. 6 ИК-2, г. Ангарск, Иркутская область</location>
         <state>Россия</state>
         <zip>665809</zip>
     </facility>
@@ -1320,12 +1312,12 @@
         <zip>665809</zip>
     </facility>
     <facility>
-        <name>ФКУ «ОИК № 8 ГУФСИН России по Иркутской области»</name>
-        <name>ФКУ «ОИК № 8 ГУФСИН по Иркутской области»</name>
+        <name>ФКУ «ИК № 11 ГУФСИН России по Иркутской области»</name>
+        <name>ФКУ «ИК № 11 ГУФСИН по Иркутской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>База стройиндустрии, квартал 28 д. 51, г. Саянск, Иркутская область</location>
+        <location>п. Бозой, Иркутская область</location>
         <state>Россия</state>
-        <zip>666301</zip>
+        <zip>669511</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 14 ГУФСИН России по Иркутской области»</name>
@@ -1353,11 +1345,21 @@
     </facility>
     <facility>
         <name>ФКУ «КП № 20 ОУХД ГУФСИН России по Иркутской области»</name>
-        <name>ФКУ «КП № 20 ОУХД ГУФСИН по Иркутской области»</name>
+        <name>ФКУ «КП № 20 ГУФСИН России по Иркутской области»</name>
+        <name>ФКУ «КП № 20 ГУФСИН по Иркутской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Якуримская д. 27, г. Усть-Кут, Иркутская область</location>
         <state>Россия</state>
         <zip>666785</zip>
+    </facility>
+    <facility>
+        <name>ФКУ «КП № 22 ОУХД ГУФСИН России по Иркутской области»</name>
+        <name>ФКУ «КП № 22 ГУФСИН России по Иркутской области»</name>
+        <name>ФКУ «КП № 22 ГУФСИН по Иркутской области»</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>п. 10-й Сельхоз, г. Тайшет, Иркутская область</location>
+        <state>Россия</state>
+        <zip>665006</zip>
     </facility>
     <facility>
         <name>ФКУ «ИК № 25 ГУФСИН России по Иркутской области»</name>
@@ -1376,12 +1378,29 @@
         <zip>665770</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 32 ГУФСИН России по Иркутской области»</name>
+        <name>ФКУ «ИК № 32 ГУФСИН по Иркутской области»</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>квартал 28 стр. 51, г. Саянск, Иркутская область</location>
+        <state>Россия</state>
+        <zip>666301</zip>
+    </facility>
+    <facility>
         <name>ФКУ «КП № 39 ОУХД ГУФСИН России по Иркутской области»</name>
-        <name>ФКУ «КП № 39 ОУХД ГУФСИН по Иркутской области»</name>
+        <name>ФКУ «КП № 39 УФСИН России по Иркутской области»</name>
+        <name>ФКУ «КП № 39 УФСИН по Иркутской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>п. Улькан, Иркутская область</location>
         <state>Россия</state>
         <zip>666534</zip>
+    </facility>
+    <facility>
+        <name>ФКУ «ИК № 40 УФСИН России по Иркутской области»</name>
+        <name>ФКУ «ИК № 40 УФСИН по Иркутской области»</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>п. Бозой, Иркутская область</location>
+        <state>Россия</state>
+        <zip>669511</zip>
     </facility>
     <facility>
         <name>ФКУ «КП № 51 ГУФСИН России по Иркутской области»</name>

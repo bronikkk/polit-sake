@@ -1209,8 +1209,8 @@
         <zip>155644</zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 10 УФСИН России по Ивановской области»</name>
-        <name>ФКУ «ИК № 10 УФСИН по Ивановской области»</name>
+        <name>ФКУ «КП № 10 УФСИН России по Ивановской области»</name>
+        <name>ФКУ «КП № 10 УФСИН по Ивановской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>с. Бородино д. 132, Ивановская область</location>
         <state>Россия</state>
@@ -1225,12 +1225,36 @@
         <zip>155828</zip>
     </facility>
     <facility>
-        <name>ФКУ «КП № 13 УФСИН России по Ивановской области»</name>
-        <name>ФКУ «КП № 13 УФСИН по Ивановской области»</name>
+        <name>УФИЦ № 1 при ФКУ «ИК № 3 УФСИН России по Ивановской области»</name>
+        <name>УФИЦ № 1 при ФКУ «ИК № 3 УФСИН по Ивановской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>ул. Кочетовой д. 59А, г. Кохма, Ивановская область</location>
+        <location>ул. Шуйская д. 1, г. Кинешма, Ивановская область</location>
         <state>Россия</state>
-        <zip>153512</zip>
+        <zip>155815</zip>
+    </facility>
+    <facility>
+        <name>УФИЦ № 2 при ФКУ «ИК № 3 УФСИН России по Ивановской области»</name>
+        <name>УФИЦ № 2 при ФКУ «ИК № 3 УФСИН по Ивановской области»</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Фрунзе д. 23, г. Кинешма, Ивановская область</location>
+        <state>Россия</state>
+        <zip>155800</zip>
+    </facility>
+    <facility>
+        <name>УФИЦ при ФКУ «ИК № 5 УФСИН России по Ивановской области»</name>
+        <name>УФИЦ при ФКУ «ИК № 5 УФСИН по Ивановской области»</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>пер. Торфяной д. 67, г. Иваново, Ивановская область</location>
+        <state>Россия</state>
+        <zip>153015</zip>
+    </facility>
+    <facility>
+        <name>УФИЦ при ФКУ «ИК № 7 УФСИН России по Ивановской области»</name>
+        <name>УФИЦ при ФКУ «ИК № 7 УФСИН по Ивановской области»</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>пер. Химический д. 2, г. Иваново, Ивановская область</location>
+        <state>Россия</state>
+        <zip>153025</zip>
     </facility>
     <facility>
         <name>ФКУ СИЗО-1 ГУФСИН России по Иркутской области</name>

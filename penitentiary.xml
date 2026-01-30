@@ -375,6 +375,14 @@
         <zip>414000</zip>
     </facility>
     <facility>
+        <name>ФКУ СИЗО-2 УФСИН России по Астраханской области</name>
+        <name>ФКУ СИЗО-2 УФСИН по Астраханской области</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Береговая д. 7, г. Нариманов, Астраханская область</location>
+        <state>Россия</state>
+        <zip>416111</zip>
+    </facility>
+    <facility>
         <name>ФКУ «ИК № 2 УФСИН России по Астраханской области»</name>
         <name>ФКУ «ИК № 2 УФСИН по Астраханской области»</name>
         <jurisdiction>Russia</jurisdiction>
@@ -391,6 +399,14 @@
         <zip>414057</zip>
     </facility>
     <facility>
+        <name>ФКУ «ЛИУ № 7 УФСИН России по Астраханской области»</name>
+        <name>ФКУ «ЛИУ № 7 УФСИН по Астраханской области»</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Ульянова д. 8, г. Камызяк, Астраханская область</location>
+        <state>Россия</state>
+        <zip>416300</zip>
+    </facility>
+    <facility>
         <name>ФКУ «ИК № 8 УФСИН России по Астраханской области»</name>
         <name>ФКУ «ИК № 8 УФСИН по Астраханской области»</name>
         <jurisdiction>Russia</jurisdiction>
@@ -405,14 +421,6 @@
         <location>Фунтовское шоссе д. 25, г. Астрахань, Астраханская область</location>
         <state>Россия</state>
         <zip>414057</zip>
-    </facility>
-    <facility>
-        <name>ФКУ «ЛИУ № 7 УФСИН России по Астраханской области»</name>
-        <name>ФКУ «ЛИУ № 7 УФСИН по Астраханской области»</name>
-        <jurisdiction>Russia</jurisdiction>
-        <location>ул. Ульянова д. 8, г. Камызяк, Астраханская область</location>
-        <state>Россия</state>
-        <zip>416300</zip>
     </facility>
     <facility>
         <name>ФКУ СИЗО-2 УФСИН России по Белгородской области</name>

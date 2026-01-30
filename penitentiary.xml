@@ -969,14 +969,6 @@
         <zip>394030</zip>
     </facility>
     <facility>
-        <name>ФКУ «ИК № 3 УФСИН России по Воронежской области»</name>
-        <name>ФКУ «ИК № 3 УФСИН по Воронежской области»</name>
-        <jurisdiction>Russia</jurisdiction>
-        <location>ул. Мира д. 72, п. Перелешино, Воронежская область</location>
-        <state>Россия</state>
-        <zip>396130</zip>
-    </facility>
-    <facility>
         <name>ФКУ «ИК № 8 УФСИН России по Воронежской области»</name>
         <name>ФКУ «ИК № 8 УФСИН по Воронежской области»</name>
         <jurisdiction>Russia</jurisdiction>
@@ -999,6 +991,46 @@
         <location>ул. Мира д. 71А, п. Перелешино, Воронежская область</location>
         <state>Россия</state>
         <zip>396180</zip>
+    </facility>
+    <facility>
+        <name>УФИЦ при ФКУ «ИК № 1 УФСИН России по Воронежской области»</name>
+        <name>УФИЦ при ФКУ «ИК № 1 УФСИН по Воронежской области»</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Ленина д. 5А, г. Семилуки, Воронежская область</location>
+        <state>Россия</state>
+        <zip>396901</zip>
+    </facility>
+    <facility>
+        <name>УФИЦ № 1 при ФКУ «ИК № 2 УФСИН России по Воронежской области»</name>
+        <name>УФИЦ № 1 при ФКУ «ИК № 2 УФСИН по Воронежской области»</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Богдана Хмельницкого д. 51А, г. Воронеж, Воронежская область</location>
+        <state>Россия</state>
+        <zip>394010</zip>
+    </facility>
+    <facility>
+        <name>УФИЦ № 2 при ФКУ «ИК № 2 УФСИН России по Воронежской области»</name>
+        <name>УФИЦ № 2 при ФКУ «ИК № 2 УФСИН по Воронежской области»</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Дорожная д. 13, г. Воронеж, Воронежская область</location>
+        <state>Россия</state>
+        <zip>394038</zip>
+    </facility>
+    <facility>
+        <name>УФИЦ № 1 при ФКУ «КП № 10 УФСИН России по Воронежской области»</name>
+        <name>УФИЦ № 1 при ФКУ «КП № 10 УФСИН по Воронежской области»</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Мира д. 71А, п. Перелешино, Воронежская область</location>
+        <state>Россия</state>
+        <zip>396180</zip>
+    </facility>
+    <facility>
+        <name>УФИЦ № 2 при ФКУ «КП № 10 УФСИН России по Воронежской области»</name>
+        <name>УФИЦ № 2 при ФКУ «КП № 10 УФСИН по Воронежской области»</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Карла Маркса д. 45, г. Бобров, Воронежская область</location>
+        <state>Россия</state>
+        <zip>397710</zip>
     </facility>
     <facility>
         <name>ФКУ СИЗО-1 УФСИН России по Еврейской автономной области</name>

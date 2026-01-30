@@ -2,6 +2,8 @@
 <penitentiary>
     <facility>
         <name>ФКУ СИЗО-1 ФСИН России («Кремлёвский централ»)</name>
+        <name>ФКУ СИЗО-1 ФСИН России, город Москва</name>
+        <name>ФКУ СИЗО-1 ФСИН России, г. Москва</name>
         <name>ФКУ СИЗО-1 ФСИН России</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Матросская Тишина д. 18, г. Москва</location>
@@ -10,6 +12,8 @@
     </facility>
     <facility>
         <name>ФКУ СИЗО-2 ФСИН России («Лефортово»)</name>
+        <name>ФКУ СИЗО-2 ФСИН России, город Москва</name>
+        <name>ФКУ СИЗО-2 ФСИН России, г. Москва</name>
         <name>ФКУ СИЗО-2 ФСИН России</name>
         <jurisdiction>Russia</jurisdiction>
         <location>Лефортовский вал д. 5, г. Москва</location>
@@ -17,6 +21,8 @@
         <zip>111020</zip>
     </facility>
     <facility>
+        <name>ФКУ СИЗО-3 ФСИН России, город Москва</name>
+        <name>ФКУ СИЗО-3 ФСИН России, г. Москва</name>
         <name>ФКУ СИЗО-3 ФСИН России</name>
         <jurisdiction>Russia</jurisdiction>
         <location>1-й Силикатный проезд д. 11 корп. 1, г. Москва</location>
@@ -25,6 +31,7 @@
     </facility>
     <facility>
         <name>ФКУ СИЗО-4 ФСИН России, город Москва</name>
+        <name>ФКУ СИЗО-4 ФСИН России, г. Москва</name>
         <name>ФКУ СИЗО-4 ФСИН России</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Вилюйская д. 4, г. Москва</location>
@@ -34,6 +41,7 @@
     <facility>
         <name>ФКУ СИЗО-4 ФСИН России, Роcтовская область</name>
         <name>ФКУ СИЗО-4 ФСИН России, город Шахты</name>
+        <name>ФКУ СИЗО-4 ФСИН России, г. Шахты</name>
         <jurisdiction>Russia</jurisdiction>
         <location>п. Кирпичный, г. Шахты, Ростовская область</location>
         <state>Россия</state>
@@ -41,6 +49,7 @@
     </facility>
     <facility>
         <name>ФКУ СИЗО-5 ФСИН России, город Москва</name>
+        <name>ФКУ СИЗО-5 ФСИН России, г. Москва</name>
         <name>ФКУ СИЗО-5 ФСИН России</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Выборгская д. 20, г. Москва</location>
@@ -50,12 +59,15 @@
     <facility>
         <name>ФКУ СИЗО-5 ФСИН России, Краснодарский край</name>
         <name>ФКУ СИЗО-5 ФСИН России, город Краснодар</name>
+        <name>ФКУ СИЗО-5 ФСИН России, г. Краснодар</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Красноармейская д. 22, г. Краснодар, Краснодарский край</location>
         <state>Россия</state>
         <zip>350063</zip>
     </facility>
     <facility>
+        <name>ФКУ СИЗО-6 ФСИН России, город Москва</name>
+        <name>ФКУ СИЗО-6 ФСИН России, г. Москва</name>
         <name>ФКУ СИЗО-6 ФСИН России</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Шоссейная д. 92, г. Москва</location>
@@ -63,6 +75,8 @@
         <zip>109383</zip>
     </facility>
     <facility>
+        <name>ФКУ СИЗО-7 ФСИН России, город Москва</name>
+        <name>ФКУ СИЗО-7 ФСИН России, г. Москва</name>
         <name>ФКУ СИЗО-7 ФСИН России</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Верхние Поля д. 57, г. Москва</location>
@@ -2906,6 +2920,8 @@
     <facility>
         <name>ФКУ СИЗО-12 УФСИН России по Московской области</name>
         <name>ФКУ СИЗО-12 УФСИН по Московской области</name>
+        <name>ФКУ СИЗО-12 УФСИН России, город Москва</name>
+        <name>ФКУ СИЗО-12 УФСИН России, г. Москва</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Панфилова д. 21, г. Зеленоград, г. Москва</location>
         <state>Россия</state>
@@ -2922,6 +2938,8 @@
     <facility>
         <name>ФКУ «КП № 2 УФСИН России по Московской области»</name>
         <name>ФКУ «КП № 2 УФСИН по Московской области»</name>
+        <name>ФКУ «КП № 2 УФСИН по Московской области», город Москва</name>
+        <name>ФКУ «КП № 2 УФСИН по Московской области», г. Москва</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Панфилова д. 21, г. Зеленоград, г. Москва</location>
         <state>Россия</state>
@@ -2966,6 +2984,16 @@
         <location>Абрамцевское шоссе д. 1А, г. Хотьково, Московская область</location>
         <state>Россия</state>
         <zip>141371</zip>
+    </facility>
+    <facility>
+        <name>УФИЦ при ФКУ «КП № 2 УФСИН России по Московской области»</name>
+        <name>УФИЦ при ФКУ «КП № 2 УФСИН по Московской области»</name>
+        <name>УФИЦ при ФКУ «КП № 2 УФСИН по Московской области», город Москва</name>
+        <name>УФИЦ при ФКУ «КП № 2 УФСИН по Московской области», г. Москва</name>
+        <jurisdiction>Russia</jurisdiction>
+        <location>ул. Панфилова д. 21, г. Зеленоград, г. Москва</location>
+        <state>Россия</state>
+        <zip>124575</zip>
     </facility>
     <facility>
         <name>ФКУ СИЗО-1 УФСИН России по Мурманской области</name>
@@ -7321,16 +7349,20 @@
     <facility>
         <name>ФКУ СИЗО-1 УФСИН России по г. Москве («Матросская тишина»)</name>
         <name>ФКУ СИЗО-1 УФСИН России по г. Москве</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Москве</name>
         <name>ФКУ СИЗО-1 УФСИН по г. Москве</name>
+        <name>ФКУ СИЗО-1 УФСИН по Москве</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>ул. Матросская Тишина д. 18, СИЗО-1, г. Москва</location>
+        <location>ул. Матросская Тишина д. 18 СИЗО-1, г. Москва</location>
         <state>Россия</state>
         <zip>107076</zip>
     </facility>
     <facility>
         <name>ФКУ СИЗО-2 УФСИН России по г. Москве («Бутырка»)</name>
         <name>ФКУ СИЗО-2 УФСИН России по г. Москве</name>
+        <name>ФКУ СИЗО-2 УФСИН России по Москве</name>
         <name>ФКУ СИЗО-2 УФСИН по г. Москве</name>
+        <name>ФКУ СИЗО-2 УФСИН по Москве</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Новослободская д. 45, г. Москва</location>
         <state>Россия</state>
@@ -7339,7 +7371,9 @@
     <facility>
         <name>ФКУ СИЗО-3 УФСИН России по г. Москве («Пресня»)</name>
         <name>ФКУ СИЗО-3 УФСИН России по г. Москве</name>
+        <name>ФКУ СИЗО-3 УФСИН России по Москве</name>
         <name>ФКУ СИЗО-3 УФСИН по г. Москве</name>
+        <name>ФКУ СИЗО-3 УФСИН по Москве</name>
         <jurisdiction>Russia</jurisdiction>
         <location>1-й Силикатный проезд д. 11 корп. 1, г. Москва</location>
         <state>Россия</state>
@@ -7348,7 +7382,9 @@
     <facility>
         <name>ФКУ СИЗО-4 УФСИН России по г. Москве («Медведь»)</name>
         <name>ФКУ СИЗО-4 УФСИН России по г. Москве</name>
+        <name>ФКУ СИЗО-4 УФСИН России по Москве</name>
         <name>ФКУ СИЗО-4 УФСИН по г. Москве</name>
+        <name>ФКУ СИЗО-4 УФСИН по Москве</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Вилюйская д. 4, г. Москва</location>
         <state>Россия</state>
@@ -7357,16 +7393,20 @@
     <facility>
         <name>ФКУ СИЗО-5 УФСИН России по г. Москве («Водник»)</name>
         <name>ФКУ СИЗО-5 УФСИН России по г. Москве</name>
+        <name>ФКУ СИЗО-5 УФСИН России по Москве</name>
         <name>ФКУ СИЗО-5 УФСИН по г. Москве</name>
+        <name>ФКУ СИЗО-5 УФСИН по Москве</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>ул. Выборгская д. 20, СИЗО-5, г. Москва</location>
+        <location>ул. Выборгская д. 20 СИЗО-5, г. Москва</location>
         <state>Россия</state>
         <zip>125130</zip>
     </facility>
     <facility>
         <name>ФКУ СИЗО-6 УФСИН России по г. Москве («Печатники»)</name>
         <name>ФКУ СИЗО-6 УФСИН России по г. Москве</name>
+        <name>ФКУ СИЗО-6 УФСИН России по Москве</name>
         <name>ФКУ СИЗО-6 УФСИН по г. Москве</name>
+        <name>ФКУ СИЗО-6 УФСИН по Москве</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Шоссейная д. 92, г. Москва</location>
         <state>Россия</state>
@@ -7375,7 +7415,9 @@
     <facility>
         <name>ФКУ СИЗО-7 УФСИН России по г. Москве («Капотня»)</name>
         <name>ФКУ СИЗО-7 УФСИН России по г. Москве</name>
+        <name>ФКУ СИЗО-7 УФСИН России по Москве</name>
         <name>ФКУ СИЗО-7 УФСИН по г. Москве</name>
+        <name>ФКУ СИЗО-7 УФСИН по Москве</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Верхние Поля д. 57, г. Москва</location>
         <state>Россия</state>

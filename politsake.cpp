@@ -49,8 +49,11 @@ PolitSake::PolitSake()
     pushButtonCopy->setText(tr("Copy"));
     pushButtonCopy->setGeometry(300, 40, 60, 22);
 
-    prisonersListView = new PrisonersListView{personsTab, prisonersToFacilities};
+    prisonersListView = new PrisonersListView{personsTab};
     prisonersListView->setGeometry(10, 75, 350, 635);
+
+    prisonersListModel = nullptr;
+    QMetaObject::invokeMethod(this, &PolitSake::generatePrisonersListModel, Qt::QueuedConnection);
 
 #ifdef QT_WEBENGINEWIDGETS_LIB
     webEngineView = new QWebEngineView{personsTab};
@@ -80,11 +83,6 @@ PolitSake::PolitSake()
     connect(pushButtonSearch, SIGNAL(clicked()), this, SLOT(searchPrisoner()));
 
     connect(pushButtonWriteLetter, SIGNAL(clicked()), this, SLOT(writeLetter()));
-
-    connect(prisonersListView->model(), SIGNAL(dataChanged(QModelIndex,QModelIndex)), this,
-            SLOT(updateLettersCount()));
-    connect(prisonersListView->selectionModel(), SIGNAL(currentChanged(QModelIndex,QModelIndex)), this,
-            SLOT(updateCurrentPrisoner(QModelIndex)));
 
     connect(penitentiaryDatabase->selectionModel(), SIGNAL(currentChanged(QModelIndex,QModelIndex)),
             this, SLOT(updateCurrentFacility(QModelIndex)));
@@ -153,7 +151,7 @@ void PolitSake::updateCurrentPrisoner(QModelIndex modelIndex)
 
 void PolitSake::updateLettersCount()
 {
-    lcdNumberLettersCount->display(prisonersListView->getModelSize());
+    lcdNumberLettersCount->display(prisonersListModel->getSize());
 }
 
 void PolitSake::writeLetter()
@@ -186,4 +184,14 @@ void PolitSake::writeLetter()
 
 
     prisonersListView->setFocus();
+}
+
+void PolitSake::generatePrisonersListModel()
+{
+    prisonersListModel = new PrisonersListModel{personsTab, prisonersListView, prisonersToFacilities};
+
+    connect(prisonersListView->model(), SIGNAL(dataChanged(QModelIndex,QModelIndex)), this,
+            SLOT(updateLettersCount()));
+    connect(prisonersListView->selectionModel(), SIGNAL(currentChanged(QModelIndex,QModelIndex)), this,
+            SLOT(updateCurrentPrisoner(QModelIndex)));
 }

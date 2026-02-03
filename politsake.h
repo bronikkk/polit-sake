@@ -16,6 +16,7 @@
 #endif
 
 #include "penitentiarydatabase.h"
+#include "prisonerslistmodel.h"
 #include "prisonerslistview.h"
 
 class PolitSake : public QTabWidget
@@ -46,6 +47,8 @@ private:
     QMap<QString, QString> prisonersToFacilities;
 
     PenitentiaryDatabase *penitentiaryDatabase;
+
+    PrisonersListModel *prisonersListModel;
     PrisonersListView *prisonersListView;
 
 private slots:
@@ -62,6 +65,9 @@ private slots:
     void updateLettersCount();
 
     void writeLetter();
+
+private:
+    void generatePrisonersListModel();
 };
 
 #endif // POLITSAKE_H

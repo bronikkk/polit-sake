@@ -1,9 +1,8 @@
 #ifndef PRISONERSLISTMODEL_H
 #define PRISONERSLISTMODEL_H
 
+#include <QListView>
 #include <QStringListModel>
-
-class PrisonersListView;
 
 class PrisonersListModel : public QStringListModel
 {
@@ -14,9 +13,8 @@ private:
     QSet<QPersistentModelIndex> checkedItems;
 
 public:
-    PrisonersListModel(QWidget *parent, PrisonersListView *listView,
+    PrisonersListModel(QWidget *parent, QListView *listView,
                        QMap<QString, QString> &prisonersToFacilities);
-    PrisonersListModel(QWidget *parent, const QStringList &strings);
 
     int getSize() const;
 

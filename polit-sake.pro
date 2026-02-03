@@ -16,15 +16,13 @@ SOURCES += \
     memopzkconverter.cpp \
     penitentiarydatabase.cpp \
     politsake.cpp \
-    prisonerslistmodel.cpp \
-    prisonerslistview.cpp
+    prisonerslistmodel.cpp
 
 HEADERS += \
     memopzkconverter.h \
     penitentiarydatabase.h \
     politsake.h \
-    prisonerslistmodel.h \
-    prisonerslistview.h
+    prisonerslistmodel.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

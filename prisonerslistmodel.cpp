@@ -1,7 +1,6 @@
 #include "prisonerslistmodel.h"
 
 #include "politsake.h"
-#include "prisonerslistview.h"
 
 #include <QColor>
 #include <QEventLoop>
@@ -164,11 +163,12 @@ QString appendToPrisonersList(QStringList &prisonersList, const QString &records
 }
 
 PrisonersListModel::PrisonersListModel(QWidget *parent,
-                                       PrisonersListView *listView,
+                                       QListView *listView,
                                        QMap<QString, QString> &prisonersToFacilities) : QStringListModel{parent}
 {
-    QStringList prisonersList;
+    listView->setModel(this);
 
+    QStringList prisonersList;
     QSet<QString> uniquePrisoners;
 
     QString recordsOffset;
@@ -178,18 +178,11 @@ PrisonersListModel::PrisonersListModel(QWidget *parent,
                                               prisonersToFacilities);
 
         prisonersList.sort();
-
         setStringList(prisonersList);
-
-        // TODO: Fix MVC antipattern
-        listView->setModel(this);
-
     } while (!recordsOffset.isEmpty());
-}
 
-PrisonersListModel::PrisonersListModel(QWidget *parent,
-                                       const QStringList &strings) : QStringListModel{strings, parent}
-{}
+    listView->setEnabled(true);
+}
 
 int PrisonersListModel::getSize() const
 {

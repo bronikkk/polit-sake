@@ -115,3 +115,8 @@ QString MemoPZKConverter::convertToURL(QString prisonerName)
 
     return result;
 }
+
+QString MemoPZKConverter::getLoadingPage()
+{
+    return "https://memopzk.donorsupport.co/page/ny_miracle25";
+}

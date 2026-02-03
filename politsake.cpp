@@ -49,7 +49,8 @@ PolitSake::PolitSake()
     pushButtonCopy->setText(tr("Copy"));
     pushButtonCopy->setGeometry(300, 40, 60, 22);
 
-    prisonersListView = new PrisonersListView{personsTab};
+    prisonersListView = new QListView{personsTab};
+    prisonersListView->setEnabled(false);
     prisonersListView->setGeometry(10, 75, 350, 635);
 
     prisonersListModel = nullptr;
@@ -58,6 +59,9 @@ PolitSake::PolitSake()
 #ifdef QT_WEBENGINEWIDGETS_LIB
     webEngineView = new QWebEngineView{personsTab};
     webEngineView->setGeometry(380, 0, 644, 715);
+
+    webEngineView->load(MemoPZKConverter::getLoadingPage());
+    webEngineView->show();
 #endif
 
     setTabOrder(lineEditURL, pushButtonWriteLetter);

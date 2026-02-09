@@ -186,13 +186,18 @@ void PolitSake::writeLetter()
 
     QMessageBox::information(this, tr("Information"), letterAddressText);
 
-
     prisonersListView->setFocus();
 }
 
 void PolitSake::generatePrisonersListModel()
 {
     prisonersListModel = new PrisonersListModel{personsTab, prisonersListView, prisonersToFacilities};
+
+    if (prisonersListModel->getSize() == 0) {
+        // Should this be an error?
+        QMessageBox::critical(this, tr("Error"), tr("Prisoners list is unavailable"));
+        return;
+    }
 
     connect(prisonersListView->model(), SIGNAL(dataChanged(QModelIndex,QModelIndex)), this,
             SLOT(updateLettersCount()));

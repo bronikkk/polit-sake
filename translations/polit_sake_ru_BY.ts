@@ -48,31 +48,41 @@
         <translation type="unfinished">Cкопир.</translation>
     </message>
     <message>
-        <location filename="../politsake.cpp" line="66"/>
+        <location filename="../politsake.cpp" line="73"/>
         <source>&amp;Persons</source>
         <translation type="unfinished">&amp;Люди</translation>
     </message>
     <message>
-        <location filename="../politsake.cpp" line="74"/>
+        <location filename="../politsake.cpp" line="81"/>
         <source>&amp;Facilities</source>
         <translation type="unfinished">&amp;Учреждения</translation>
     </message>
     <message>
-        <location filename="../politsake.cpp" line="96"/>
-        <location filename="../politsake.cpp" line="107"/>
-        <location filename="../politsake.cpp" line="118"/>
-        <location filename="../politsake.cpp" line="162"/>
-        <location filename="../politsake.cpp" line="185"/>
+        <location filename="../politsake.cpp" line="98"/>
+        <location filename="../politsake.cpp" line="109"/>
+        <location filename="../politsake.cpp" line="120"/>
+        <location filename="../politsake.cpp" line="164"/>
+        <location filename="../politsake.cpp" line="187"/>
         <source>Information</source>
         <translation type="unfinished">Информация</translation>
     </message>
     <message>
-        <location filename="../politsake.cpp" line="96"/>
-        <location filename="../politsake.cpp" line="107"/>
-        <location filename="../politsake.cpp" line="118"/>
-        <location filename="../politsake.cpp" line="162"/>
+        <location filename="../politsake.cpp" line="98"/>
+        <location filename="../politsake.cpp" line="109"/>
+        <location filename="../politsake.cpp" line="120"/>
+        <location filename="../politsake.cpp" line="164"/>
         <source>Prisoner not clicked</source>
         <translation type="unfinished">Сначала выберите ПЗК</translation>
+    </message>
+    <message>
+        <location filename="../politsake.cpp" line="198"/>
+        <source>Error</source>
+        <translation type="unfinished">Ошибка</translation>
+    </message>
+    <message>
+        <location filename="../politsake.cpp" line="198"/>
+        <source>Prisoners list is unavailable</source>
+        <translation type="unfinished">Список заключённых недоступен</translation>
     </message>
 </context>
 </TS>

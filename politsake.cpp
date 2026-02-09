@@ -57,8 +57,8 @@ PolitSake::PolitSake()
     QMetaObject::invokeMethod(this, &PolitSake::generatePrisonersListModel, Qt::QueuedConnection);
 
 #ifdef QT_WEBENGINEWIDGETS_LIB
-    webEngineView = new QWebEngineView{personsTab};
-    webEngineView->setGeometry(380, 0, 644, 715);
+    webEngineView = new QWebEngineView{this};
+    webEngineView->setGeometry(380, 75, 644, 640);
 
     webEngineView->load(MemoPZKConverter::getLoadingPage());
     webEngineView->show();
@@ -73,10 +73,10 @@ PolitSake::PolitSake()
     addTab(personsTab, tr("&Persons"));
 
     labelFacilityAddress = new QLabel{prisonsTab};
-    labelFacilityAddress->setGeometry(10, 10, 780, 80);
+    labelFacilityAddress->setGeometry(10, 0, 780, 80);
 
     penitentiaryDatabase = new PenitentiaryDatabase{prisonsTab};
-    penitentiaryDatabase->setGeometry(10, 100, 1010, 610);
+    penitentiaryDatabase->setGeometry(10, 75, 350, 635);
 
     addTab(prisonsTab, tr("&Facilities"));
 
@@ -125,6 +125,18 @@ void PolitSake::searchPrisoner()
     QDesktopServices::openUrl(MemoPZKConverter::convertToSearchURL(currentPrisoner));
 }
 
+namespace {
+
+QString getFacilitySearchURL(QString facilityName)
+{
+    // Displays the F-Atlas results at the top
+    QString result = "https://www.google.com/search?q=-ai+site%3Af-atlas.ru+";
+    result += facilityName;
+    return result;
+}
+
+} // namespace
+
 void PolitSake::updateCurrentFacility(QModelIndex modelIndex)
 {
     QString facilityName = modelIndex.data().toString();
@@ -140,6 +152,9 @@ void PolitSake::updateCurrentFacility(QModelIndex modelIndex)
     }
 
     labelFacilityAddress->setText(facilityAddressText);
+
+    webEngineView->load(getFacilitySearchURL(facilityName));
+    webEngineView->show();
 }
 
 void PolitSake::updateCurrentPrisoner(QModelIndex modelIndex)

@@ -30,6 +30,8 @@ public:
         "patkxJoU705lxPpKs.befb0b2bed420853d25fb2908a2496b19df2f44c109d7b36c23cf0236fcf1c83";
 
 private:
+    void generatePrisonersListModel();
+
     QLCDNumber *lcdNumberLettersCount;
     QLabel *labelFacilityAddress, *labelWriteLetter;
     QLineEdit *lineEditURL;
@@ -64,9 +66,6 @@ private slots:
     void updateLettersCount();
 
     void writeLetter();
-
-private:
-    void generatePrisonersListModel();
 };
 
 #endif // POLITSAKE_H

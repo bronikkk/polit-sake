@@ -12,7 +12,7 @@
 #include <QTabWidget>
 
 #ifdef QT_WEBENGINEWIDGETS_LIB
-#include <QtWebEngineWidgets/QWebEngineView>
+#include <QWebEngineView>
 #endif
 
 #include "penitentiarydatabase.h"

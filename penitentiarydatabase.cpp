@@ -3,7 +3,6 @@
 #include <QFile>
 #include <QMessageBox>
 #include <QStringListModel>
-#include <QVector>
 #include <QXmlStreamReader>
 
 PenitentiaryDatabase::PenitentiaryDatabase(QWidget *parent, QString filename) : QListView{parent}
@@ -20,7 +19,7 @@ PenitentiaryDatabase::PenitentiaryDatabase(QWidget *parent, QString filename) : 
 
     QStringList facilities;
 
-    QVector<QString> names;
+    QStringList names;
     QString location;
     QString state;
     QString zip;
@@ -33,7 +32,7 @@ PenitentiaryDatabase::PenitentiaryDatabase(QWidget *parent, QString filename) : 
                 state.clear();
                 zip.clear();
             } else if (xmlReader->name() == "name") {
-                names.emplaceBack(xmlReader->readElementText());
+                names << xmlReader->readElementText();
             } else if (xmlReader->name() == "location") {
                 location = xmlReader->readElementText();
             } else if (xmlReader->name() == "state") {
@@ -44,7 +43,7 @@ PenitentiaryDatabase::PenitentiaryDatabase(QWidget *parent, QString filename) : 
         } else if (xmlReader->name() == "facility") {
             bool nameAlreadyAdded = false;
 
-            for (const auto &name : names) {
+            for (const auto &name : std::as_const(names)) {
                 addresses[name] = Address{location, state, zip};
 
                 if (!nameAlreadyAdded) {

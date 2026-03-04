@@ -181,12 +181,19 @@ PrisonersListModel::PrisonersListModel(QWidget *parent,
         setStringList(prisonersList);
     } while (!recordsOffset.isEmpty());
 
+    totalItemsNumber = prisonersList.size();
+
     listView->setEnabled(true);
 }
 
-int PrisonersListModel::getSize() const
+int PrisonersListModel::getCheckedItemsNumber() const
 {
     return static_cast<int>(checkedItems.size());
+}
+
+int PrisonersListModel::getTotalItemsNumber() const
+{
+    return totalItemsNumber;
 }
 
 Qt::ItemFlags PrisonersListModel::flags(const QModelIndex &index) const

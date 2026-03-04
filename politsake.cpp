@@ -170,7 +170,7 @@ void PolitSake::updateCurrentPrisoner(QModelIndex modelIndex)
 
 void PolitSake::updateLettersCount()
 {
-    lcdNumberLettersCount->display(prisonersListModel->getSize());
+    lcdNumberLettersCount->display(prisonersListModel->getCheckedItemsNumber());
 }
 
 void PolitSake::writeLetter()
@@ -208,7 +208,7 @@ void PolitSake::generatePrisonersListModel()
 {
     prisonersListModel = new PrisonersListModel{personsTab, prisonersListView, prisonersToFacilities};
 
-    if (prisonersListModel->getSize() == 0) {
+    if (prisonersListModel->getTotalItemsNumber() == 0) {
         // Should this be an error?
         QMessageBox::critical(this, tr("Error"), tr("Prisoners list is unavailable"));
         return;

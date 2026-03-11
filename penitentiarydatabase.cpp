@@ -7,15 +7,15 @@
 
 PenitentiaryDatabase::PenitentiaryDatabase(QWidget *parent, QString filename) : QListView{parent}
 {
-    QFile *databaseFile = new QFile{filename};
+    QFile databaseFile{filename};
 
-    if (!databaseFile->open(QIODevice::ReadOnly)) {
+    if (!databaseFile.open(QIODevice::ReadOnly)) {
         QMessageBox::critical(this, tr("Error"), tr("Penitentiary database is not available"));
         return;
     }
 
-    QXmlStreamReader *xmlReader = new QXmlStreamReader{databaseFile};
-    xmlReader->readNext();
+    QXmlStreamReader xmlReader{&databaseFile};
+    xmlReader.readNext();
 
     QStringList facilities;
 
@@ -24,23 +24,23 @@ PenitentiaryDatabase::PenitentiaryDatabase(QWidget *parent, QString filename) : 
     QString state;
     QString zip;
 
-    while (!(xmlReader->atEnd())) {
-        if (xmlReader->readNext() == QXmlStreamReader::StartElement) {
-            if (xmlReader->name() == "facility") {
+    while (!(xmlReader.atEnd())) {
+        if (xmlReader.readNext() == QXmlStreamReader::StartElement) {
+            if (xmlReader.name() == "facility") {
                 names.clear();
                 location.clear();
                 state.clear();
                 zip.clear();
-            } else if (xmlReader->name() == "name") {
-                names << xmlReader->readElementText();
-            } else if (xmlReader->name() == "location") {
-                location = xmlReader->readElementText();
-            } else if (xmlReader->name() == "state") {
-                state = xmlReader->readElementText();
-            } else if (xmlReader->name() == "zip") {
-                zip = xmlReader->readElementText();
+            } else if (xmlReader.name() == "name") {
+                names << xmlReader.readElementText();
+            } else if (xmlReader.name() == "location") {
+                location = xmlReader.readElementText();
+            } else if (xmlReader.name() == "state") {
+                state = xmlReader.readElementText();
+            } else if (xmlReader.name() == "zip") {
+                zip = xmlReader.readElementText();
             }
-        } else if (xmlReader->name() == "facility") {
+        } else if (xmlReader.name() == "facility") {
             bool nameAlreadyAdded = false;
 
             for (const auto &name : std::as_const(names)) {
@@ -55,11 +55,11 @@ PenitentiaryDatabase::PenitentiaryDatabase(QWidget *parent, QString filename) : 
         }
     }
 
-    if (xmlReader->hasError()) {
+    if (xmlReader.hasError()) {
         QMessageBox::critical(this, tr("Error"), tr("Penitentiary database is corrupted"));
     }
 
-    databaseFile->close();
+    databaseFile.close();
 
     QStringListModel *listModel = new QStringListModel{this};
 

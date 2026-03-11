@@ -4,7 +4,6 @@
 #include <QListView>
 #include <QMap>
 #include <QString>
-#include <QStringList>
 
 class PenitentiaryDatabase : public QListView
 {

@@ -2392,7 +2392,7 @@
     <facility>
         <name>ФКУ «ИК № 2 УФСИН России по Курганской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>ст. Просвет, Курганская область</location>
+        <location>с. Просвет, Курганская область</location>
         <state>Россия</state>
         <zip>641970</zip>
     </facility>
@@ -5282,7 +5282,7 @@
     <facility>
         <name>ФКУ «ИК № 7 УФСИН России по Саратовской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>ул. Мира д. 32, ст. Паницкая, Саратовская область</location>
+        <location>ул. Мира д. 32, станция Паницкая, Саратовская область</location>
         <state>Россия</state>
         <zip>412813</zip>
     </facility>
@@ -5317,7 +5317,7 @@
     <facility>
         <name>ФКУ «КП № 20 УФСИН России по Саратовской области»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>ст. Паницкая, Саратовская область</location>
+        <location>станция Паницкая КП-20, Саратовская область</location>
         <state>Россия</state>
         <zip>412813</zip>
     </facility>
@@ -5743,7 +5743,7 @@
     <facility>
         <name>ФКУ «ИК № 4 УФСИН России по Ставропольскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>ул. Грейдерная д. 4, ст. Александрийская, Ставропольский край</location>
+        <location>ул. Грейдерная д. 4, станица Александрийская, Ставропольский край</location>
         <state>Россия</state>
         <zip>357840</zip>
     </facility>

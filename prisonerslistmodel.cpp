@@ -38,17 +38,17 @@ QString appendToPrisonersList(QStringList &prisonersList, const QString &records
         fullURL += "?offset=" + recordsOffset;
     }
 
-    QNetworkRequestFactory exampleApi{ {fullURL} };
+    QNetworkRequestFactory networkRequestFactory{ {fullURL} };
 
     // Fill common headers
     QHttpHeaders commonHeaders;
-    exampleApi.setCommonHeaders(commonHeaders);
+    networkRequestFactory.setCommonHeaders(commonHeaders);
 
     QByteArray bearerToken = QString{PolitSake::airTableToken}.toLatin1();
-    exampleApi.setBearerToken(bearerToken);
+    networkRequestFactory.setBearerToken(bearerToken);
 
     QNetworkAccessManager networkAccessManager;
-    QNetworkReply *reply = networkAccessManager.get(exampleApi.createRequest());
+    QNetworkReply *reply = networkAccessManager.get(networkRequestFactory.createRequest());
 
     QEventLoop loop;
     loop.connect(&networkAccessManager, SIGNAL(finished(QNetworkReply*)), SLOT(quit()));

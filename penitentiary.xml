@@ -1938,6 +1938,7 @@
         <zip>157876</zip>
     </facility>
     <facility>
+        <name>ФКУ СИЗО-1 ГУФСИН России по Краснодарскому краю</name>
         <name>ФКУ СИЗО-1 УФСИН России по Краснодарскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Воронежская д. 42, г. Краснодар, Краснодарский край</location>
@@ -1945,6 +1946,7 @@
         <zip>350001</zip>
     </facility>
     <facility>
+        <name>ФКУ СИЗО-2 ГУФСИН России по Краснодарскому краю</name>
         <name>ФКУ СИЗО-2 УФСИН России по Краснодарскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Пугачёва д. 32, г. Армавир, Краснодарский край</location>
@@ -1952,6 +1954,7 @@
         <zip>352909</zip>
     </facility>
     <facility>
+        <name>ФКУ СИЗО-3 ГУФСИН России по Краснодарскому краю</name>
         <name>ФКУ СИЗО-3 УФСИН России по Краснодарскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Пархоменко д. 33, г. Новороссийск, Краснодарский край</location>
@@ -1959,6 +1962,7 @@
         <zip>353905</zip>
     </facility>
     <facility>
+        <name>ФКУ ИК-2 ГУФСИН России по Краснодарскому краю</name>
         <name>ФКУ ИК-2 УФСИН России по Краснодарскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Мостовая д. 1, п. Двубратский, Краснодарский край</location>
@@ -1966,6 +1970,7 @@
         <zip>352310</zip>
     </facility>
     <facility>
+        <name>ФКУ ИК-3 ГУФСИН России по Краснодарскому краю</name>
         <name>ФКУ ИК-3 УФСИН России по Краснодарскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Степная д. 1, п. Двубратский, Краснодарский край</location>
@@ -1973,6 +1978,7 @@
         <zip>352310</zip>
     </facility>
     <facility>
+        <name>ФКУ ИК-4 ГУФСИН России по Краснодарскому краю</name>
         <name>ФКУ ИК-4 УФСИН России по Краснодарскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Володарского д. 1А, г. Армавир, Краснодарский край</location>
@@ -1980,6 +1986,7 @@
         <zip>352900</zip>
     </facility>
     <facility>
+        <name>ФКУ ИК-5 ГУФСИН России по Краснодарскому краю</name>
         <name>ФКУ ИК-5 УФСИН России по Краснодарскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Советская д. 175, г. Апшеронск, Краснодарский край</location>
@@ -1987,6 +1994,7 @@
         <zip>352693</zip>
     </facility>
     <facility>
+        <name>ФКУ ИК-6 ГУФСИН России по Краснодарскому краю</name>
         <name>ФКУ ИК-6 УФСИН России по Краснодарскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Степная д. 1, п. Двубратский, Краснодарский край</location>
@@ -1994,6 +2002,7 @@
         <zip>352310</zip>
     </facility>
     <facility>
+        <name>ФКУ ЛИУ-8 ГУФСИН России по Краснодарскому краю</name>
         <name>ФКУ ЛИУ-8 УФСИН России по Краснодарскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Кирпичная д. 8, п. Двубратский, Краснодарский край</location>
@@ -2001,6 +2010,7 @@
         <zip>352310</zip>
     </facility>
     <facility>
+        <name>ФКУ ИК-9 ГУФСИН России по Краснодарскому краю</name>
         <name>ФКУ ИК-9 УФСИН России по Краснодарскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Грибоедова д. 42, г. Хадыженск, Краснодарский край</location>
@@ -2008,6 +2018,7 @@
         <zip>352671</zip>
     </facility>
     <facility>
+        <name>ФКУ КП-10 ГУФСИН России по Краснодарскому краю</name>
         <name>ФКУ КП-10 УФСИН России по Краснодарскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Сухумское шоссе д. 78, г. Новороссийск, Краснодарский край</location>
@@ -2015,6 +2026,7 @@
         <zip>353902</zip>
     </facility>
     <facility>
+        <name>ФКУ ИК-11 ГУФСИН России по Краснодарскому краю</name>
         <name>ФКУ ИК-11 УФСИН России по Краснодарскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Азовская д. 4, п. Ахтарский, Краснодарский край</location>
@@ -2022,6 +2034,7 @@
         <zip>353892</zip>
     </facility>
     <facility>
+        <name>ФКУ КП-12 ГУФСИН России по Краснодарскому краю</name>
         <name>ФКУ КП-12 УФСИН России по Краснодарскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Южная д. 19, г. Усть-Лабинск, Краснодарский край</location>
@@ -2029,6 +2042,7 @@
         <zip>352300</zip>
     </facility>
     <facility>
+        <name>ФКУ ИК-14 ГУФСИН России по Краснодарскому краю</name>
         <name>ФКУ ИК-14 УФСИН России по Краснодарскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Калинина д. 58, г. Краснодар, Краснодарский край</location>
@@ -2036,6 +2050,7 @@
         <zip>350039</zip>
     </facility>
     <facility>
+        <name>ФКУ «Белореченская ВК ГУФСИН России по Краснодарскому краю»</name>
         <name>ФКУ «Белореченская ВК УФСИН России по Краснодарскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Клубная д. 9А, п. Заречный, г. Белореченск, Краснодарский край</location>
@@ -2043,6 +2058,7 @@
         <zip>352603</zip>
     </facility>
     <facility>
+        <name>ФКУ МОТБ ГУФСИН России по Краснодарскому краю</name>
         <name>ФКУ МОТБ УФСИН России по Краснодарскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Демьяна Бедного д. 88, г. Усть-Лабинск, Краснодарский край</location>
@@ -3895,6 +3911,7 @@
         <zip>649100</zip>
     </facility>
     <facility>
+        <name>ФКУ СИЗО-1 ГУФСИН России по Республике Башкортостан</name>
         <name>ФКУ СИЗО-1 УФСИН России по Республике Башкортостан</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Достоевского д. 39, г. Уфа, Республика Башкортостан</location>
@@ -3902,6 +3919,7 @@
         <zip>450052</zip>
     </facility>
     <facility>
+        <name>ФКУ СИЗО-2 ГУФСИН России по Республике Башкортостан</name>
         <name>ФКУ СИЗО-2 УФСИН России по Республике Башкортостан</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Тюленина д. 34, г. Белорецк, Республика Башкортостан</location>
@@ -3909,6 +3927,7 @@
         <zip>435500</zip>
     </facility>
     <facility>
+        <name>ФКУ СИЗО-3 ГУФСИН России по Республике Башкортостан</name>
         <name>ФКУ СИЗО-3 УФСИН России по Республике Башкортостан</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Комсомольская д. 7, г. Стерлитамак, Республика Башкортостан</location>
@@ -3916,6 +3935,7 @@
         <zip>453124</zip>
     </facility>
     <facility>
+        <name>ФКУ СИЗО-4 ГУФСИН России по Республике Башкортостан</name>
         <name>ФКУ СИЗО-4 УФСИН России по Республике Башкортостан</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Худайбердина д. 7, г. Бирск, Республика Башкортостан</location>
@@ -3923,6 +3943,7 @@
         <zip>452450</zip>
     </facility>
     <facility>
+        <name>ФКУ СИЗО-5 ГУФСИН России по Республике Башкортостан</name>
         <name>ФКУ СИЗО-5 УФСИН России по Республике Башкортостан</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Промзона, с. Иванеево, Республика Башкортостан</location>
@@ -3930,6 +3951,7 @@
         <zip>452308</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 2 ГУФСИН России по Республике Башкортостан»</name>
         <name>ФКУ «ИК № 2 УФСИН России по Республике Башкортостан»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>Станция Южная, г. Салават, Республика Башкортостан</location>
@@ -3937,6 +3959,7 @@
         <zip>453256</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 3 ГУФСИН России по Республике Башкортостан»</name>
         <name>ФКУ «ИК № 3 УФСИН России по Республике Башкортостан»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Советов д. 54, г. Уфа, Республика Башкортостан</location>
@@ -3944,6 +3967,7 @@
         <zip>450069</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 4 ГУФСИН России по Республике Башкортостан»</name>
         <name>ФКУ «ИК № 4 УФСИН России по Республике Башкортостан»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>г. Салават-6, Республика Башкортостан</location>
@@ -3951,6 +3975,7 @@
         <zip>453256</zip>
     </facility>
     <facility>
+        <name>ФКУ «КП № 5 ГУФСИН России по Республике Башкортостан»</name>
         <name>ФКУ «КП № 5 УФСИН России по Республике Башкортостан»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Советов д. 16/1, г. Уфа, Республика Башкортостан</location>
@@ -3958,6 +3983,7 @@
         <zip>450069</zip>
     </facility>
     <facility>
+        <name>ФКУ «КП № 6 ГУФСИН России по Республике Башкортостан»</name>
         <name>ФКУ «КП № 6 УФСИН России по Республике Башкортостан»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Гайдара д. 6, г. Стерлитамак, Республика Башкортостан</location>
@@ -3965,6 +3991,7 @@
         <zip>453102</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 7 ГУФСИН России по Республике Башкортостан»</name>
         <name>ФКУ «ИК № 7 УФСИН России по Республике Башкортостан»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Ленина д. 1А, г. Мелеуз, Республика Башкортостан</location>
@@ -3972,6 +3999,7 @@
         <zip>453851</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 8 ГУФСИН России по Республике Башкортостан»</name>
         <name>ФКУ «ИК № 8 УФСИН России по Республике Башкортостан»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Гайдара д. 4, п. Строймаш, г. Стерлитамак, Республика Башкортостан</location>
@@ -3979,6 +4007,7 @@
         <zip>453102</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 9 ГУФСИН России по Республике Башкортостан»</name>
         <name>ФКУ «ИК № 9 УФСИН России по Республике Башкортостан»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Новоженова д. 86А, г. Уфа, Республика Башкортостан</location>
@@ -3986,6 +4015,7 @@
         <zip>450049</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 13 ГУФСИН России по Республике Башкортостан»</name>
         <name>ФКУ «ИК № 13 УФСИН России по Республике Башкортостан»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Индустриальное шоссе д. 32, г. Уфа, Республика Башкортостан</location>
@@ -3993,6 +4023,7 @@
         <zip>450049</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 16 ГУФСИН России по Республике Башкортостан»</name>
         <name>ФКУ «ИК № 16 УФСИН России по Республике Башкортостан»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>г. Салават-6, Республика Башкортостан</location>
@@ -4000,6 +4031,7 @@
         <zip>453256</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 21 ГУФСИН России по Республике Башкортостан»</name>
         <name>ФКУ «ИК № 21 УФСИН России по Республике Башкортостан»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Гайдара д. 2, г. Стерлитамак, Республика Башкортостан</location>
@@ -4007,6 +4039,7 @@
         <zip>453102</zip>
     </facility>
     <facility>
+        <name>ФКУ «ФКЛПУ РБ ГУФСИН России по Республике Башкортостан»</name>
         <name>ФКУ «ФКЛПУ РБ УФСИН России по Республике Башкортостан»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Достоевского д. 41, г. Уфа, Республика Башкортостан</location>
@@ -4014,6 +4047,7 @@
         <zip>450015</zip>
     </facility>
     <facility>
+        <name>ФКУ «ЛИУ № 19 ГУФСИН России по Республике Башкортостан»</name>
         <name>ФКУ «ЛИУ № 19 УФСИН России по Республике Башкортостан»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>станция Южная д. 19А, г. Салават, Республика Башкортостан</location>
@@ -4021,6 +4055,7 @@
         <zip>453256</zip>
     </facility>
     <facility>
+        <name>ФКУ «Стерлитамакская ВК ГУФСИН России по Республике Башкортостан»</name>
         <name>ФКУ «Стерлитамакская ВК УФСИН России по Республике Башкортостан»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Подгорная д. 2, с. Бельское, Республика Башкортостан</location>
@@ -4662,6 +4697,7 @@
         <zip>363121</zip>
     </facility>
     <facility>
+        <name>ФКУ СИЗО-1 ГУФСИН России по Республике Татарстан</name>
         <name>ФКУ СИЗО-1 УФСИН России по Республике Татарстан</name>
         <jurisdiction>Tatarstan, Russia</jurisdiction>
         <location>ул. Япеева д. 16, г. Казань, Республика Татарстан</location>
@@ -4669,6 +4705,7 @@
         <zip>420111</zip>
     </facility>
     <facility>
+        <name>ФКУ СИЗО-2 ГУФСИН России по Республике Татарстан</name>
         <name>ФКУ СИЗО-2 УФСИН России по Республике Татарстан</name>
         <jurisdiction>Tatarstan, Russia</jurisdiction>
         <location>ул. Большая д. 98, г. Казань, Республика Татарстан</location>
@@ -4676,6 +4713,7 @@
         <zip>420030</zip>
     </facility>
     <facility>
+        <name>ФКУ СИЗО-3 ГУФСИН России по Республике Татарстан</name>
         <name>ФКУ СИЗО-3 УФСИН России по Республике Татарстан</name>
         <jurisdiction>Tatarstan, Russia</jurisdiction>
         <location>ул. Казанская д. 2, г. Бугульма, Республика Татарстан</location>
@@ -4683,6 +4721,7 @@
         <zip>423230</zip>
     </facility>
     <facility>
+        <name>ФКУ СИЗО-4 ГУФСИН России по Республике Татарстан</name>
         <name>ФКУ СИЗО-4 УФСИН России по Республике Татарстан</name>
         <jurisdiction>Tatarstan, Russia</jurisdiction>
         <location>пер. Мирный д. 1, г. Мензелинск, Республика Татарстан</location>
@@ -4690,6 +4729,7 @@
         <zip>423700</zip>
     </facility>
     <facility>
+        <name>ФКУ СИЗО-5 ГУФСИН России по Республике Татарстан</name>
         <name>ФКУ СИЗО-5 УФСИН России по Республике Татарстан</name>
         <jurisdiction>Tatarstan, Russia</jurisdiction>
         <location>ул. Карла Либкнехта д. 1, г. Чистополь, Республика Татарстан</location>
@@ -4697,6 +4737,7 @@
         <zip>422980</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 2 ГУФСИН России по Республике Татарстан»</name>
         <name>ФКУ «ИК № 2 УФСИН России по Республике Татарстан»</name>
         <jurisdiction>Tatarstan, Russia</jurisdiction>
         <location>ул. Производственная д. 18, г. Казань, Республика Татарстан</location>
@@ -4704,6 +4745,7 @@
         <zip>420021</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 3 ГУФСИН России по Республике Татарстан»</name>
         <name>ФКУ «ИК № 3 УФСИН России по Республике Татарстан»</name>
         <jurisdiction>Tatarstan, Russia</jurisdiction>
         <location>ул. Центральная д. 7, с. Пановка, Республика Татарстан</location>
@@ -4711,6 +4753,7 @@
         <zip>422784</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 4 ГУФСИН России по Республике Татарстан»</name>
         <name>ФКУ «ИК № 4 УФСИН России по Республике Татарстан»</name>
         <jurisdiction>Tatarstan, Russia</jurisdiction>
         <location>г. Нижнекамск-10, Республика Татарстан</location>
@@ -4718,6 +4761,7 @@
         <zip>423550</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 5 ГУФСИН России по Республике Татарстан»</name>
         <name>ФКУ «ИК № 5 УФСИН России по Республике Татарстан»</name>
         <jurisdiction>Tatarstan, Russia</jurisdiction>
         <location>ул. Комсомольская д. 1, п. Нижние Вязовые, Республика Татарстан</location>
@@ -4725,6 +4769,7 @@
         <zip>422500</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 8 ГУФСИН России по Республике Татарстан»</name>
         <name>ФКУ «ИК № 8 УФСИН России по Республике Татарстан»</name>
         <jurisdiction>Tatarstan, Russia</jurisdiction>
         <location>ул. Базовая д. 26, г. Альметьевск, Республика Татарстан</location>
@@ -4732,6 +4777,7 @@
         <zip>423450</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 10 ГУФСИН России по Республике Татарстан»</name>
         <name>ФКУ «ИК № 10 УФСИН России по Республике Татарстан»</name>
         <jurisdiction>Tatarstan, Russia</jurisdiction>
         <location>г. Менделеевск, Республика Татарстан</location>
@@ -4739,6 +4785,7 @@
         <zip>423650</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 18 ГУФСИН России по Республике Татарстан»</name>
         <name>ФКУ «ИК № 18 УФСИН России по Республике Татарстан»</name>
         <jurisdiction>Tatarstan, Russia</jurisdiction>
         <location>ул. Лебедева д. 1, г. Казань, Республика Татарстан</location>
@@ -4746,6 +4793,7 @@
         <zip>420054</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 19 ГУФСИН России по Республике Татарстан»</name>
         <name>ФКУ «ИК № 19 УФСИН России по Республике Татарстан»</name>
         <jurisdiction>Tatarstan, Russia</jurisdiction>
         <location>ул. Магистральная д. 18, г. Казань, Республика Татарстан</location>
@@ -4753,6 +4801,7 @@
         <zip>420108</zip>
     </facility>
     <facility>
+        <name>ФКУ «Казанская ПБСТИН ГУФСИН России по Республике Татарстан»</name>
         <name>ФКУ «Казанская ПБСТИН УФСИН России по Республике Татарстан»</name>
         <jurisdiction>Tatarstan, Russia</jurisdiction>
         <location>ул. Николая Ершова д. 49А, г. Казань, Республика Татарстан</location>
@@ -5060,6 +5109,7 @@
         <zip>390005</zip>
     </facility>
     <facility>
+        <name>ФКУ СИЗО-1 ГУФСИН России по Самарской области</name>
         <name>ФКУ СИЗО-1 УФСИН России по Самарской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Садовый проезд д. 22, г. Самара, Самарская область</location>
@@ -5067,6 +5117,7 @@
         <zip>443022</zip>
     </facility>
     <facility>
+        <name>ФКУ СИЗО-2 ГУФСИН России по Самарской области</name>
         <name>ФКУ СИЗО-2 УФСИН России по Самарской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Хлебцевича д. 1, г. Сызрань, Самарская область</location>
@@ -5074,6 +5125,7 @@
         <zip>446010</zip>
     </facility>
     <facility>
+        <name>ФКУ СИЗО-4 ГУФСИН России по Самарской области</name>
         <name>ФКУ СИЗО-4 УФСИН России по Самарской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Хрящевское шоссе д. 3, г. Тольятти-23, Самарская область</location>
@@ -5081,6 +5133,7 @@
         <zip>445023</zip>
     </facility>
     <facility>
+        <name>ФКУ «КП № 1 ГУФСИН России по Самарской области»</name>
         <name>ФКУ «КП № 1 УФСИН России по Самарской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Комсомольская д. 129, г. Тольятти, Самарская область</location>
@@ -5088,6 +5141,7 @@
         <zip>445017</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 3 ГУФСИН России по Самарской области»</name>
         <name>ФКУ «ИК № 3 УФСИН России по Самарской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. 2-я Промышленная д. 8, г. Новокуйбышевск, Самарская область</location>
@@ -5095,6 +5149,7 @@
         <zip>446214</zip>
     </facility>
     <facility>
+        <name>ФКУ «ЛИУ № 4 ГУФСИН России по Самарской области»</name>
         <name>ФКУ «ЛИУ № 4 УФСИН России по Самарской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Заводское шоссе д. 15А, г. Самара, Самарская область</location>
@@ -5102,6 +5157,7 @@
         <zip>443022</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 5 ГУФСИН России по Самарской области»</name>
         <name>ФКУ «ИК № 5 УФСИН России по Самарской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Утевская д. 1, г. Самара, Самарская область</location>
@@ -5109,6 +5165,7 @@
         <zip>443047</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 6 ГУФСИН России по Самарской области»</name>
         <name>ФКУ «ИК № 6 УФСИН России по Самарской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Зелёная д. 6, п. Управленческий, г. Самара, Самарская область</location>
@@ -5116,6 +5173,7 @@
         <zip>443026</zip>
     </facility>
     <facility>
+        <name>ФКЛПУ «ОСБ ГУФСИН России по Самарской области»</name>
         <name>ФКЛПУ «ОСБ УФСИН России по Самарской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Физкультурная д. 134А, г. Самара, Самарская область</location>
@@ -5123,6 +5181,7 @@
         <zip>443009</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 10 ГУФСИН России по Самарской области»</name>
         <name>ФКУ «ИК № 10 УФСИН России по Самарской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Заводская д. 46, п. Волжский, Самарская область</location>
@@ -5130,6 +5189,7 @@
         <zip>446394</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 13 ГУФСИН России по Самарской области»</name>
         <name>ФКУ «ИК № 13 УФСИН России по Самарской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Набережная д. 35, с. Спиридоновка, Самарская область</location>
@@ -5137,6 +5197,7 @@
         <zip>443527</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 15 ГУФСИН России по Самарской области»</name>
         <name>ФКУ «ИК № 15 УФСИН России по Самарской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Утевская д. 18А, г. Самара, Самарская область</location>
@@ -5144,6 +5205,7 @@
         <zip>443047</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 16 ГУФСИН России по Самарской области»</name>
         <name>ФКУ «ИК № 16 УФСИН России по Самарской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Ровная д. 1, г. Тольятти, Самарская область</location>
@@ -5151,6 +5213,7 @@
         <zip>445015</zip>
     </facility>
     <facility>
+        <name>ФКЛПУ «ОТБ ГУФСИН России по Самарской области»</name>
         <name>ФКЛПУ «ОТБ УФСИН России по Самарской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Зелёная д. 4, п. Управленченский, г. Самара, Самарская область</location>
@@ -5158,6 +5221,7 @@
         <zip>443026</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 26 ГУФСИН России по Самарской области»</name>
         <name>ФКУ «ИК № 26 УФСИН России по Самарской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Советская уч. 1Д, с. Спиридоновка, Самарская область</location>
@@ -5165,6 +5229,7 @@
         <zip>443527</zip>
     </facility>
     <facility>
+        <name>ФКУ «КП № 27 ГУФСИН России по Самарской области»</name>
         <name>ФКУ «КП № 27 УФСИН России по Самарской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>пер. Измайловский д. 10, г. Самара, Самарская область</location>
@@ -5172,6 +5237,7 @@
         <zip>443117</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 28 ГУФСИН России по Самарской области»</name>
         <name>ФКУ «ИК № 28 УФСИН России по Самарской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>п. Северный, Самарская область</location>
@@ -5179,6 +5245,7 @@
         <zip>443043</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 29 ГУФСИН России по Самарской области»</name>
         <name>ФКУ «ИК № 29 УФСИН России по Самарской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Хрящёвское шоссе д. 5, г. Тольятти, Самарская область</location>
@@ -5668,6 +5735,7 @@
         <zip>215280</zip>
     </facility>
     <facility>
+        <name>ФКУ СИЗО-1 ГУФСИН России по Ставропольскому краю</name>
         <name>ФКУ СИЗО-1 УФСИН России по Ставропольскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location>пл. Воровского д. 6, г. Ставрополь, Ставропольский край</location>
@@ -5675,6 +5743,7 @@
         <zip>355002</zip>
     </facility>
     <facility>
+        <name>ФКУ СИЗО-2 ГУФСИН России по Ставропольскому краю</name>
         <name>ФКУ СИЗО-2 УФСИН России по Ставропольскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Теплосерная д. 123, г. Пятигорск, Ставропольский край</location>
@@ -5682,6 +5751,7 @@
         <zip>357501</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 1 ГУФСИН России по Ставропольскому краю»</name>
         <name>ФКУ «ИК № 1 УФСИН России по Ставропольскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>с. Кочубеевское, Ставропольский край</location>
@@ -5689,6 +5759,7 @@
         <zip>357000</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 2 ГУФСИН России по Ставропольскому краю»</name>
         <name>ФКУ «ИК № 2 УФСИН России по Ставропольскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Станционная д. 11, с. Кочубеевское, Ставропольский край</location>
@@ -5696,6 +5767,7 @@
         <zip>357000</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 3 ГУФСИН России по Ставропольскому краю»</name>
         <name>ФКУ «ИК № 3 УФСИН России по Ставропольскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Левобережная д. 19, с. Краснокумское, Ставропольский край</location>
@@ -5703,6 +5775,7 @@
         <zip>357834</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 4 ГУФСИН России по Ставропольскому краю»</name>
         <name>ФКУ «ИК № 4 УФСИН России по Ставропольскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Грейдерная д. 4, станица Александрийская, Ставропольский край</location>
@@ -5710,6 +5783,7 @@
         <zip>357840</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 5 ГУФСИН России по Ставропольскому краю»</name>
         <name>ФКУ «ИК № 5 УФСИН России по Ставропольскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>пл. Воровского д. 1, г. Ставрополь, Ставропольский край</location>
@@ -5717,6 +5791,7 @@
         <zip>355002</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 6 ГУФСИН России по Ставропольскому краю»</name>
         <name>ФКУ «ИК № 6 УФСИН России по Ставропольскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Тивилева д. 2, х. Дыдымкин, Ставропольский край</location>
@@ -5724,6 +5799,7 @@
         <zip>357873</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 7 ГУФСИН России по Ставропольскому краю»</name>
         <name>ФКУ «ИК № 7 УФСИН России по Ставропольскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Почтовая д. 78, г. Зеленокумск, Ставропольский край</location>
@@ -5731,6 +5807,7 @@
         <zip>357910</zip>
     </facility>
     <facility>
+        <name>ФКУ «ЛИУ № 8 ГУФСИН России по Ставропольскому краю»</name>
         <name>ФКУ «ЛИУ № 8 УФСИН России по Ставропольскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ЛИУ-8, г. Нефтекумск, Ставропольский край</location>
@@ -5738,6 +5815,7 @@
         <zip>356880</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 11 ГУФСИН России по Ставропольскому краю»</name>
         <name>ФКУ «ИК № 11 УФСИН России по Ставропольскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>г. Ставрополь-44, Ставропольский край</location>
@@ -5745,6 +5823,7 @@
         <zip>355044</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИЦ № 1 ГУФСИН России по Ставропольскому краю»</name>
         <name>ФКУ «ИЦ № 1 УФСИН России по Ставропольскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Однобокова д. 1, г. Георгиевск, Ставропольский край</location>
@@ -6286,12 +6365,14 @@
     </facility>
     <facility>
         <name>ФКУ СИЗО-1 УФСИН России по Хабаровскому краю</name>
+        <name>ФКУ СИЗО-1 УФСИН России по Хабаровскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Знаменьщиков д. 6, г. Хабаровск, Хабаровский край</location>
         <state>Россия</state>
         <zip>680038</zip>
     </facility>
     <facility>
+        <name>ФКУ СИЗО-2 УФСИН России по Хабаровскому краю</name>
         <name>ФКУ СИЗО-2 УФСИН России по Хабаровскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Пионерская д. 23 корп. 2, г. Комсомольск-на-Амуре, Хабаровский край</location>
@@ -6300,12 +6381,14 @@
     </facility>
     <facility>
         <name>ФКУ СИЗО-3 УФСИН России по Хабаровскому краю</name>
+        <name>ФКУ СИЗО-3 УФСИН России по Хабаровскому краю</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Гоголя д. 16, г. Николаевск-на-Амуре, Хабаровский край</location>
         <state>Россия</state>
         <zip>682469</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 1 ГУФСИН России по Хабаровскому краю»</name>
         <name>ФКУ «ИК № 1 УФСИН России по Хабаровскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Суворова д. 1, п. Ванино, Хабаровский край</location>
@@ -6313,6 +6396,7 @@
         <zip>682860</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 3 ГУФСИН России по Хабаровскому краю»</name>
         <name>ФКУ «ИК № 3 УФСИН России по Хабаровскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Целинная д. 33А, г. Хабаровск, Хабаровский край</location>
@@ -6320,6 +6404,7 @@
         <zip>680032</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 5 ГУФСИН России по Хабаровскому краю»</name>
         <name>ФКУ «ИК № 5 УФСИН России по Хабаровскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Кишинёвская д. 5, г. Советская Гавань, Хабаровский край</location>
@@ -6327,6 +6412,7 @@
         <zip>682817</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 6 ГУФСИН России по Хабаровскому краю»</name>
         <name>ФКУ «ИК № 6 УФСИН России по Хабаровскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>пер. Клубный д. 7, п. Эльбан, Хабаровский край</location>
@@ -6334,6 +6420,7 @@
         <zip>682610</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 7 ГУФСИН России по Хабаровскому краю»</name>
         <name>ФКУ «ИК № 7 УФСИН России по Хабаровскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Павловского д. 12, г. Комсомольск-на-Амуре, Хабаровский край</location>
@@ -6341,6 +6428,7 @@
         <zip>681005</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 8 ГУФСИН России по Хабаровскому краю»</name>
         <name>ФКУ «ИК № 8 УФСИН России по Хабаровскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Нижняя д. 2 корп. 2, п. Старт, г. Комсомольск-на-Амуре, Хабаровский край</location>
@@ -6348,6 +6436,7 @@
         <zip>681001</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 11 ГУФСИН России по Хабаровскому краю»</name>
         <name>ФКУ «ИК № 11 УФСИН России по Хабаровскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>Северное шоссе д. 42, г. Комсомольск-на-Амуре, Хабаровский край</location>
@@ -6355,6 +6444,7 @@
         <zip>681034</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 12 ГУФСИН России по Хабаровскому краю»</name>
         <name>ФКУ «ИК № 12 УФСИН России по Хабаровскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Петра Черкасова д. 31 ИК-12, п. Заозёрное, Хабаровский край</location>
@@ -6362,6 +6452,7 @@
         <zip>680518</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 13 ГУФСИН России по Хабаровскому краю»</name>
         <name>ФКУ «ИК № 13 УФСИН России по Хабаровскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Петра Черкасова д. 31 ИК-13, п. Заозёрное, Хабаровский край</location>
@@ -6369,6 +6460,7 @@
         <zip>680518</zip>
     </facility>
     <facility>
+        <name>ФКУ «ИК № 14 ГУФСИН России по Хабаровскому краю»</name>
         <name>ФКУ «ИК № 14 УФСИН России по Хабаровскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>шоссе Машиностроителей д. 10, г. Амурск, Хабаровский край</location>
@@ -6376,6 +6468,7 @@
         <zip>682640</zip>
     </facility>
     <facility>
+        <name>ФКУ «КП № 22 ГУФСИН России по Хабаровскому краю»</name>
         <name>ФКУ «КП № 22 УФСИН России по Хабаровскому краю»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Петра Черкасова д. 32, п. Заозёрное, Хабаровский край</location>

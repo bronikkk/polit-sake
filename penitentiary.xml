@@ -131,6 +131,7 @@
     </facility>
     <facility>
         <name>ФКЛПУ «КТБ № 12 УФСИН России по Алтайскому краю»</name>
+        <name>Алтайская КТБ</name>
         <jurisdiction>Russia</jurisdiction>
         <location>Канатный проезд д. 83, г. Барнаул, Алтайский край</location>
         <state>Россия</state>
@@ -293,6 +294,7 @@
     </facility>
     <facility>
         <name>ФКУ «ОБ УФСИН России по Архангельской области»</name>
+        <name>Архангельская ОБ</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Онежская д. 22, г. Архангельск, Архангельская область</location>
         <state>Россия</state>
@@ -349,6 +351,7 @@
     </facility>
     <facility>
         <name>ФКУ СИЗО-2 УФСИН России по Белгородской области</name>
+        <name>ФКУ СИЗО-2 УФСИН по Белгородской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Ленина д. 7, г. Старый Оскол, Белгородская область</location>
         <state>Россия</state>
@@ -356,6 +359,7 @@
     </facility>
     <facility>
         <name>ФКУ СИЗО-3 УФСИН России по Белгородской области</name>
+        <name>ФКУ СИЗО-3 УФСИН по Белгородской области</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Константина Заслонова д. 169А, г. Белгород, Белгородская область</location>
         <state>Россия</state>
@@ -363,6 +367,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 4 УФСИН России по Белгородской области»</name>
+        <name>ФКУ «ИК № 4 УФСИН по Белгородской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Привокзальная д. 2А, г. Алексеевка, Белгородская область</location>
         <state>Россия</state>
@@ -370,6 +375,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 5 УФСИН России по Белгородской области»</name>
+        <name>ФКУ «ИК № 5 УФСИН по Белгородской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Волчанская д. 286, г. Белгород, Белгородская область</location>
         <state>Россия</state>
@@ -377,6 +383,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 6 УФСИН России по Белгородской области»</name>
+        <name>ФКУ «ИК № 6 УФСИН по Белгородской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Тимирязева д. 1А ИК-6, г. Валуйки, Белгородская область</location>
         <state>Россия</state>
@@ -384,6 +391,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 7 УФСИН России по Белгородской области»</name>
+        <name>ФКУ «ИК № 7 УФСИН по Белгородской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Тимирязева д. 1А ИК-7, г. Валуйки, Белгородская область</location>
         <state>Россия</state>
@@ -391,6 +399,7 @@
     </facility>
     <facility>
         <name>ФКУ «КП № 8 УФСИН России по Белгородской области»</name>
+        <name>ФКУ «КП № 8 УФСИН по Белгородской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Волотовская д. 4, п. Чернянка, Белгородская область</location>
         <state>Россия</state>
@@ -398,6 +407,7 @@
     </facility>
     <facility>
         <name>ФКУ «ИК № 9 УФСИН России по Белгородской области»</name>
+        <name>ФКУ «ИК № 9 УФСИН по Белгородской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>микрорайон Раздолье, г. Валуйки, Белгородская область</location>
         <state>Россия</state>
@@ -405,6 +415,7 @@
     </facility>
     <facility>
         <name>ФКУ «Новооскольская ВК УФСИН России по Белгородской области»</name>
+        <name>ФКУ «Новооскольская ВК УФСИН по Белгородской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Красноармейская д. 12, г. Новый Оскол, Белгородская область</location>
         <state>Россия</state>
@@ -512,6 +523,8 @@
         <name>ФКУ «Тюрьма № 2 УФСИН России по Владимирской области» («Владимирский централ»)</name>
         <name>ФКУ «Тюрьма № 2 УФСИН России по Владимирской области»</name>
         <name>ФКУ «Тюрьма № 2 УФСИН по Владимирской области»</name>
+        <name>ФКУ «Тюрьма № 2 УФСИН по Владимирской области»</name>
+        <name>ФКУ «Тюрьма № 2 УФСИН Владимирской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул Большая Нижегородская д. 67, г. Владимир, Владимирская область</location>
         <state>Россия</state>
@@ -695,6 +708,7 @@
     </facility>
     <facility>
         <name>ФКУ «Волгоградская ПБСТИН УФСИН России по Волгоградской области»</name>
+        <name>Волгоградская ПБСТИН</name>
         <jurisdiction>Russia</jurisdiction>
         <location>с. Дворянское, Волгоградская область</location>
         <state>Россия</state>
@@ -766,6 +780,7 @@
     </facility>
     <facility>
         <name>ФКЛПУ «МБ № 10 УФСИН России по Вологодской области»</name>
+        <name>Вологодская МБ</name>
         <jurisdiction>Russia</jurisdiction>
         <location>Советский проспект д. 73, г. Вологда, Вологодская область</location>
         <state>Россия</state>
@@ -815,6 +830,7 @@
     </facility>
     <facility>
         <name>ФКУ «ОТБ № 1 УФСИН России по Воронежской области»</name>
+        <name>Воронежская ОТБ</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Пирогова д. 8А, г. Воронеж, Воронежская область</location>
         <state>Россия</state>
@@ -1406,7 +1422,8 @@
         <zip>238437</zip>
     </facility>
     <facility>
-        <name>ФКУ «ОО КПБСТИН УФСИН России по Калининградской области»</name>
+	<name>ФКУ «ОО КПБСТИН УФСИН России по Калининградской области»</name>
+        <name>Калининградская ПБСТИН</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Пригородная д. 2, г. Черняховск, Калининградская область</location>
         <state>Россия</state>
@@ -1932,6 +1949,7 @@
     </facility>
     <facility>
         <name>ФКУ «Костромская ПБСТИН УФСИН России по Костромской области»</name>
+        <name>Костромская ПБСТИН</name>
         <jurisdiction>Russia</jurisdiction>
         <location>п. Берёзовая Роща, Костромская область</location>
         <state>Россия</state>
@@ -2060,6 +2078,7 @@
     <facility>
         <name>ФКУ МОТБ ГУФСИН России по Краснодарскому краю</name>
         <name>ФКУ МОТБ УФСИН России по Краснодарскому краю</name>
+        <name>Краснодарская МОТБ</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Демьяна Бедного д. 88, г. Усть-Лабинск, Краснодарский край</location>
         <state>Россия</state>
@@ -2108,6 +2127,7 @@
     <facility>
         <name>ФКУ «Тюрьма ГУФСИН России по Красноярскому краю»</name>
         <name>ФКУ «Тюрьма УФСИН России по Красноярскому краю»</name>
+        <name>ФКУ «Тюрьма УФСИН Красноярского края»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Горького д. 114 Тюрьма, г. Минусинск, Красноярский край</location>
         <state>Россия</state>
@@ -2116,6 +2136,9 @@
     <facility>
         <name>ФКУ «Т № 2 ГУФСИН России по Красноярскому краю»</name>
         <name>ФКУ «Т № 2 УФСИН России по Красноярскому краю»</name>
+        <name>ФКУ «Тюрьма № 2 ГУФСИН России по Красноярскому краю»</name>
+        <name>ФКУ «Тюрьма № 2 УФСИН России по Красноярскому краю»</name>
+        <name>ФКУ «Тюрьма № 2 УФСИН Красноярского края»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Декабристов д. 11, г. Енисейск, Красноярский край</location>
         <state>Россия</state>
@@ -2326,6 +2349,7 @@
     <facility>
         <name>ФКЛПУ «КТБ № 1 ГУФСИН России по Красноярскому краю»</name>
         <name>ФКЛПУ «КТБ № 1 УФСИН России по Красноярскому краю»</name>
+        <name>Красноярская КТБ</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Маерчака д. 48, г. Красноярск, Красноярский край</location>
         <state>Россия</state>
@@ -2475,6 +2499,7 @@
     <facility>
         <name>ФКУ «Тюрьма № 2 УФСИН России по Липецкой области» («Липецкая крытка»)</name>
         <name>ФКУ «Тюрьма № 2 УФСИН России по Липецкой области»</name>
+        <name>ФКУ «Тюрьма № 2 УФСИН Липецкой области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Пролетарская д. 1Б, г. Елец, Липецкая область</location>
         <state>Россия</state>
@@ -3075,6 +3100,7 @@
     <facility>
         <name>ФКУ «Новосибирская ПБСТИН ГУФСИН России по Новосибирской области»</name>
         <name>ФКУ «Новосибирская ПБСТИН УФСИН России по Новосибирской области»</name>
+        <name>Новосибирская ПБСТИН</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Охотская д. 90, г. Новосибирск, Новосибирская область</location>
         <state>Россия</state>
@@ -3159,6 +3185,7 @@
     </facility>
     <facility>
         <name>ФКЛПУ «ОБ № 11 УФСИН России по Омской области»</name>
+        <name>Омская ОБ</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Телевизионная д. 17, г. Омск, Омская область</location>
         <state>Россия</state>
@@ -3328,6 +3355,7 @@
     </facility>
     <facility>
         <name>ФКУ «Орловская ПБСТИН УФСИН России по Орловской области»</name>
+        <name>Орловская ПБСТИН</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Ростовская д. 11, г. Орёл, Орловская область</location>
         <state>Россия</state>
@@ -3506,6 +3534,7 @@
     <facility>
         <name>ФКЛПУ «КТБ № 7 ГУФСИН России по Пермскому краю»</name>
         <name>ФКЛПУ «КТБ № 7 УФСИН России по Пермскому краю»</name>
+        <name>Пермская КТБ № 7</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Садовая д. 156, г. Губаха, Пермский край</location>
         <state>Россия</state>
@@ -3554,6 +3583,8 @@
     <facility>
         <name>ФКУ «ФКЛПУ КТБ № 17 ГУФСИН России по Пермскому краю»</name>
         <name>ФКУ «ФКЛПУ КТБ № 17 УФСИН России по Пермскому краю»</name>
+        <name>ФКУ «ФКЛПУ КТБ № 17 УФСИН России по Пермскому краю»</name>
+        <name>Пермская КТБ № 17</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Ковалёва д. 4А, п. Нижнее Мошево, Пермский край</location>
         <state>Россия</state>
@@ -4044,6 +4075,7 @@
     <facility>
         <name>ФКУ «ФКЛПУ РБ ГУФСИН России по Республике Башкортостан»</name>
         <name>ФКУ «ФКЛПУ РБ УФСИН России по Республике Башкортостан»</name>
+	<name>Башкортостанская РБ</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Достоевского д. 41, г. Уфа, Республика Башкортостан</location>
         <state>Россия</state>
@@ -4237,6 +4269,7 @@
     <facility>
         <name>ФКЛПУ «РБ № 2 УФСИН России по Республике Карелия»</name>
         <name>ФКЛПУ РБ-2 УФСИН России по Республике Карелия</name>
+        <name>Карельская РБ № 2</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Пригородная д. 1, г. Медвежьегорск, Республика Карелия</location>
         <state>Россия</state>
@@ -4812,6 +4845,7 @@
     <facility>
         <name>ФКУ «Казанская ПБСТИН ГУФСИН России по Республике Татарстан»</name>
         <name>ФКУ «Казанская ПБСТИН УФСИН России по Республике Татарстан»</name>
+        <name>Казанская ПБСТИН</name>
         <jurisdiction>Tatarstan, Russia</jurisdiction>
         <location>ул. Николая Ершова д. 49А, г. Казань, Республика Татарстан</location>
         <state>Россия</state>
@@ -5115,6 +5149,7 @@
     </facility>
     <facility>
         <name>ФКЛПУ «Б № 2 УФСИН России по Рязанской области»</name>
+        <name>Рязанская больница № 2</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Семашко д. 48А, г. Рязань, Рязанская область</location>
         <state>Россия</state>
@@ -5187,6 +5222,7 @@
     <facility>
         <name>ФКЛПУ «ОСБ ГУФСИН России по Самарской области»</name>
         <name>ФКЛПУ «ОСБ УФСИН России по Самарской области»</name>
+        <name>Самарская ОСБ</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Физкультурная д. 134А, г. Самара, Самарская область</location>
         <state>Россия</state>
@@ -5227,6 +5263,7 @@
     <facility>
         <name>ФКЛПУ «ОТБ ГУФСИН России по Самарской области»</name>
         <name>ФКЛПУ «ОТБ УФСИН России по Самарской области»</name>
+        <name>Самарская ОТБ</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Зелёная д. 4, п. Управленченский, г. Самара, Самарская область</location>
         <state>Россия</state>
@@ -5280,6 +5317,7 @@
     </facility>
     <facility>
         <name>ФКУ «Тюрьма УФСИН России по Саратовской области»</name>
+        <name>ФКУ «Тюрьма УФСИН Саратовской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Уральская д. 17, г. Балашов, Саратовская область</location>
         <state>Россия</state>
@@ -5287,6 +5325,7 @@
     </facility>
     <facility>
         <name>ФКУ «ОТБ № 1 УФСИН России по Саратовской области»</name>
+        <name>Саратовская ОТБ</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Азина ОТБ-1, г. Саратов, Саратовская область</location>
         <state>Россия</state>
@@ -5741,6 +5780,7 @@
     </facility>
     <facility>
         <name>ФКУ «Смоленская ПБСТИН УФСИН России по Смоленской области»</name>
+        <name>Смоленская ПБСТИН</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. К. Маркса д. 71, г. Сычёвка, Смоленская область</location>
         <state>Россия</state>
@@ -6314,6 +6354,7 @@
     </facility>
     <facility>
         <name>ФКУ «Тюрьма УФСИН России по Ульяновской области»</name>
+        <name>ФКУ «Тюрьма УФСИН Ульяновской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Калугина д. 66, г. Димитровград, Ульяновская область</location>
         <state>Россия</state>
@@ -6554,6 +6595,7 @@
     <facility>
         <name>ФКУ «Тюрьма ГУФСИН России по Челябинской области»</name>
         <name>ФКУ «Тюрьма УФСИН России по Челябинской области»</name>
+        <name>ФКУ «Тюрьма УФСИН Челябинской области»</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Северная д. 1, г. Верхнеуральск, Челябинская область</location>
         <state>Россия</state>
@@ -6579,6 +6621,7 @@
         <name>ФКЛПУ «СТБ № 3 ГУФСИН России по Челябинской области»</name>
         <name>ФКЛПУ «СТБ № 3 УФСИН России по Челябинской области»</name>
         <name>больница №3 УФСИН Челябинской области</name>
+        <name>Челябинская больница № 3</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Монтажников д. 7А, г. Челябинск, Челябинская область</location>
         <state>Россия</state>
@@ -6691,8 +6734,9 @@
     <facility>
         <name>ФКУ «ОПБ ГУФСИН России по Челябинской области»</name>
         <name>ФКУ «ОПБ УФСИН России по Челябинской области»</name>
+        <name>Челябинская ОПБ</name>
         <jurisdiction>Russia</jurisdiction>
-        <location>ул. Танкистов д. 19, Челябинская область</location>
+        <location>ул. Танкистов д. 19, г. Магнитогорск, Челябинская область</location>
         <state>Россия</state>
         <zip>455016</zip>
     </facility>
@@ -7013,6 +7057,7 @@
     <facility>
         <name>ФКЛПУ «ОБ им. Ф. П. Гааза УФСИН России по Санкт-Петербургу и Ленинградской области»</name>
         <name>ФКЛПУ «ОБ им. Ф. П. Гааза ГУФСИН России по Санкт-Петербургу и Ленинградской области»</name>
+        <name>Санкт-Петербургская ОБ им. Ф. П. Гааза</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Хохрякова д. 1, г. Санкт-Петербург</location>
         <state>Россия</state>
@@ -7143,6 +7188,7 @@
     </facility>
     <facility>
         <name>ФКУ «ФКЛПУ СПБ № 7 УФСИН России по Ярославской области»</name>
+        <name>Ярославская СПБ</name>
         <jurisdiction>Russia</jurisdiction>
         <location>ул. Целинная д. 22, г. Рыбинск, Ярославская область</location>
         <state>Россия</state>

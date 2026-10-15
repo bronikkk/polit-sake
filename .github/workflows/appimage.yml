@@ -27,15 +27,16 @@ jobs:
             qt6-tools-dev \
             qt6-tools-dev-tools \
             qt6-l10n-tools \
+            qt6-webengine-dev \
+            libqt6webenginecore6-bin \
+            libqt6webenginecore6 \
             imagemagick \
             file \
-            sed \
             wget \
             desktop-file-utils
 
       - name: Build application
         run: |
-          sed -i 's/DEFINES += USE_WEBENGINE//' polit-sake.pro
           qmake6 polit-sake.pro CONFIG+=release
           make -j"$(nproc)"
           test -x polit-sake
@@ -75,6 +76,20 @@ jobs:
           cp AppDir/usr/share/applications/polit-sake.desktop AppDir/polit-sake.desktop
           cp AppDir/usr/share/icons/hicolor/256x256/apps/polit-sake.png AppDir/polit-sake.png
 
+      - name: Bundle QtWebEngineProcess
+        run: |
+          PROCESS="$(find "$Qt6_DIR" /usr/lib/qt6 /usr/libexec \
+            -type f -name QtWebEngineProcess -print -quit 2>/dev/null || true)"
+
+          if [ -z "$PROCESS" ]; then
+            echo "::error::QtWebEngineProcess was not found"
+            exit 1
+          fi
+
+          mkdir -p AppDir/usr/libexec
+          install -m 755 "$PROCESS" AppDir/usr/libexec/QtWebEngineProcess
+          echo "Bundled: $PROCESS"
+
       - name: Bundle Qt and generate AppImage
         env:
           QMAKE: /usr/bin/qmake6
@@ -88,5 +103,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: polit-sake-AppImage
-          path: "*.AppImage"
+          path: "polit-sake*.AppImage"
           if-no-files-found: error

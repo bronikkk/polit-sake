@@ -21,7 +21,7 @@ QString MemoPZKConverter::convertToSearchURL(QString prisonerName)
     }
 
     if (result.endsWith("+")) {
-        result.removeLast();
+        result.chop(1);
     }
 
     return result;
@@ -110,7 +110,7 @@ QString MemoPZKConverter::convertToURL(QString prisonerName)
     }
 
     if (result.endsWith("-")) {
-        result.removeLast();
+        result.chop(1);
     }
 
     return result;

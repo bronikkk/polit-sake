@@ -1,4 +1,4 @@
-name: C/C++ CI
+name: C/C++ Linter
 
 on:
   push:
@@ -12,6 +12,8 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Install dependencies
-      run: sudo apt-get update && sudo apt-get -y install libxml2-utils
+      run: |
+        sudo apt-get update
+        sudo apt-get -y install libxml2-utils
     - name: Check XML file
       run: xmllint --noout penitentiary.xml

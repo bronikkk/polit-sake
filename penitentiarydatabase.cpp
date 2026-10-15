@@ -26,21 +26,21 @@ PenitentiaryDatabase::PenitentiaryDatabase(QWidget *parent, QString filename) : 
 
     while (!(xmlReader.atEnd())) {
         if (xmlReader.readNext() == QXmlStreamReader::StartElement) {
-            if (xmlReader.name() == "facility") {
+            if (xmlReader.name() == QLatin1String{"facility"}) {
                 names.clear();
                 location.clear();
                 state.clear();
                 zip.clear();
-            } else if (xmlReader.name() == "name") {
+            } else if (xmlReader.name() == QLatin1String{"name"}) {
                 names << xmlReader.readElementText();
-            } else if (xmlReader.name() == "location") {
+            } else if (xmlReader.name() == QLatin1String{"location"}) {
                 location = xmlReader.readElementText();
-            } else if (xmlReader.name() == "state") {
+            } else if (xmlReader.name() == QLatin1String{"state"}) {
                 state = xmlReader.readElementText();
-            } else if (xmlReader.name() == "zip") {
+            } else if (xmlReader.name() == QLatin1String{"zip"}) {
                 zip = xmlReader.readElementText();
             }
-        } else if (xmlReader.name() == "facility") {
+        } else if (xmlReader.name() == QLatin1String{"facility"}) {
             bool nameAlreadyAdded = false;
 
             for (const auto &name : std::as_const(names)) {

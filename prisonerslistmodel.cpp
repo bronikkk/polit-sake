@@ -7,10 +7,11 @@
 #include <QJsonArray>
 #include <QJsonDocument>
 #include <QJsonObject>
+#include <QNetworkAccessManager>
+#include <QNetworkReply>
+#include <QNetworkRequest>
+#include <QUrl>
 #include <QRegularExpression>
-#include <QtNetwork/QNetworkAccessManager>
-#include <QtNetwork/QNetworkReply>
-#include <QtNetwork/QNetworkRequestFactory>
 
 namespace {
 
@@ -38,20 +39,17 @@ QString appendToPrisonersList(QStringList &prisonersList, const QString &records
         fullURL += "?offset=" + recordsOffset;
     }
 
-    QNetworkRequestFactory networkRequestFactory{ {fullURL} };
+    QNetworkRequest networkRequest{QUrl{fullURL}};
 
     // Fill common headers
-    QHttpHeaders commonHeaders;
-    networkRequestFactory.setCommonHeaders(commonHeaders);
-
     QByteArray bearerToken = QString{PolitSake::airTableToken}.toLatin1();
-    networkRequestFactory.setBearerToken(bearerToken);
+    networkRequest.setRawHeader("Authorization", "Bearer " + bearerToken);
 
     QNetworkAccessManager networkAccessManager;
-    QNetworkReply *reply = networkAccessManager.get(networkRequestFactory.createRequest());
+    QNetworkReply *reply = networkAccessManager.get(networkRequest);
 
     QEventLoop loop;
-    loop.connect(&networkAccessManager, SIGNAL(finished(QNetworkReply*)), SLOT(quit()));
+    QObject::connect(reply, SIGNAL(finished()), &loop, SLOT(quit()));
     loop.exec();
 
     if (reply->error()) {
@@ -107,13 +105,13 @@ QString appendToPrisonersList(QStringList &prisonersList, const QString &records
         letterAddressString = letterAddressString.split('\n').first();
 
         if (letterAddressString.startsWith(",")) {
-            letterAddressString.removeFirst();
+            letterAddressString.remove(0, 1);
         }
 
         letterAddressString = letterAddressString.trimmed();
 
         if (letterAddressString.startsWith("\"")) {
-            letterAddressString.removeFirst();
+            letterAddressString.remove(0, 1);
         }
 
         int verticalBarIndex = letterAddressString.indexOf("| ФКУ");
@@ -124,11 +122,11 @@ QString appendToPrisonersList(QStringList &prisonersList, const QString &records
         letterAddressString = letterAddressString.trimmed();
 
         if (letterAddressString.endsWith("\"")) {
-            letterAddressString.removeLast();
+            letterAddressString.chop(1);
         }
 
         if (letterAddressString.endsWith(",")) {
-            letterAddressString.removeLast();
+            letterAddressString.chop(1);
         }
 
         verticalBarIndex = letterAddressString.lastIndexOf(" |");

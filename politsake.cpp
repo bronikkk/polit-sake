@@ -127,6 +127,7 @@ void PolitSake::searchPrisoner()
 
 namespace {
 
+#ifdef QT_WEBENGINEWIDGETS_LIB
 QString getFacilitySearchURL(QString facilityName)
 {
     // Displays the F-Atlas results at the top
@@ -134,6 +135,7 @@ QString getFacilitySearchURL(QString facilityName)
     result += facilityName;
     return result;
 }
+#endif
 
 } // namespace
 
@@ -153,8 +155,10 @@ void PolitSake::updateCurrentFacility(QModelIndex modelIndex)
 
     labelFacilityAddress->setText(facilityAddressText);
 
+#ifdef QT_WEBENGINEWIDGETS_LIB
     webEngineView->load(getFacilitySearchURL(facilityName));
     webEngineView->show();
+#endif
 }
 
 void PolitSake::updateCurrentPrisoner(QModelIndex modelIndex)

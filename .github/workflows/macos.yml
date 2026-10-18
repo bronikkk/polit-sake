@@ -1,0 +1,69 @@
+name: Build for macOS
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  macos:
+    runs-on: macos-15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verify Apple Silicon
+        run: test "$(uname -m)" = "arm64"
+
+      - name: Install Qt 6
+        run: |
+          brew install qt qtwebengine
+          echo "$(brew --prefix qt)/bin" >> "$GITHUB_PATH"
+
+      - name: Verify Qt tools
+        run: |
+          qmake -v
+          which macdeployqt
+
+      - name: Verify Qt WebEngine
+        run: brew list --versions qt qtwebengine
+
+      - name: Build application
+        run: |
+          set -e
+
+          mkdir -p build
+          cd build
+
+          qmake ../polit-sake.pro CONFIG+=release
+          make -j"$(sysctl -n hw.ncpu)"
+
+          APP="$(find . -maxdepth 1 -type d -name '*.app' -print -quit)"
+
+          if [ -z "$APP" ]; then
+            echo "::error::Application bundle was not created"
+            exit 1
+          fi
+
+          echo "APP=$APP" >> "$GITHUB_ENV"
+
+      - name: Package application
+        run: |
+          set -e
+
+          cd build
+          macdeployqt "$APP" -dmg
+
+          test -n "$(find . -maxdepth 1 -name '*.dmg' -print -quit)"
+
+      - name: Upload macOS application
+        uses: actions/upload-artifact@v4
+        with:
+          name: polit-sake-macOS-Apple-Silicon
+          path: build/*.dmg
+          if-no-files-found: error

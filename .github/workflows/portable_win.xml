@@ -1,0 +1,84 @@
+name: Build Windows PE
+
+on: push: branches: [main] tags: ["v*"] pull_request: workflow_dispatch:
+
+permissions: contents: read
+
+jobs: windows: runs-on: windows-2022
+
+steps:
+  - name: Checkout
+    uses: actions/checkout@v4
+
+  - name: Set up MSVC 2022
+    uses: TheMrMilchmann/setup-msvc-dev@v4
+    with:
+      arch: x64
+
+  - name: Install Qt 6
+    uses: jurplel/install-qt-action@v4
+    with:
+      version: "6.8.3"
+      host: windows
+      target: desktop
+      arch: win64_msvc2022_64
+      modules: qtwebengine
+
+  - name: Build application
+    shell: cmd
+    run: |
+      qmake polit-sake.pro "CONFIG+=release"
+      nmake
+      if not exist polit-sake.exe exit /b 1
+
+  - name: Deploy Qt dependencies
+    shell: pwsh
+    run: |
+      $ErrorActionPreference = "Stop"
+
+      $deploy = Join-Path $env:GITHUB_WORKSPACE "dist"
+      New-Item -ItemType Directory -Force -Path $deploy | Out-Null
+
+      Copy-Item polit-sake.exe $deploy
+
+      $windeployqt = (Get-Command windeployqt.exe -ErrorAction Stop).Source
+
+      & $windeployqt --release --compiler-runtime --dir $deploy "$deploy\polit-sake.exe"
+
+      if ($LASTEXITCODE -ne 0) {
+        throw "windeployqt failed with exit code $LASTEXITCODE"
+      }
+
+      # Qt WebEngine requires its helper, resources and locale data.
+      if (-not (Test-Path "$deploy\QtWebEngineProcess.exe")) {
+        throw "QtWebEngineProcess.exe was not deployed"
+      }
+
+  - name: Verify Windows PE executable
+    shell: pwsh
+    run: |
+      $exe = Resolve-Path "dist\polit-sake.exe"
+      $bytes = [System.IO.File]::ReadAllBytes($exe.Path)
+
+      if ($bytes.Length -lt 2 -or
+          $bytes[0] -ne 0x4D -or
+          $bytes[1] -ne 0x5A) {
+        throw "Output is not a valid Windows PE/DOS executable"
+      }
+
+      Write-Host "Verified Windows executable: $exe"
+
+  - name: Package portable build
+    shell: pwsh
+    run: |
+      Compress-Archive -Path "dist\*" `
+        -DestinationPath "polit-sake-windows-x64.zip" `
+        -CompressionLevel Optimal
+
+  - name: Upload Windows build
+    uses: actions/upload-artifact@v4
+    with:
+      name: polit-sake-windows-x64
+      path: polit-sake-windows-x64.zip
+      if-no-files-found: error
+      retention-days: 14

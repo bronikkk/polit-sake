@@ -46,6 +46,7 @@ private:
     // TODO: Fix this
     QModelIndex currentPrisonerIndex;
     QMap<QString, QString> prisonersToFacilities;
+    QMap<QString, QString> prisonersToYears;
 
     PenitentiaryDatabase *penitentiaryDatabase;
 

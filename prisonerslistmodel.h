@@ -8,7 +8,8 @@ class PrisonersListModel : public QStringListModel
 {
 public:
     PrisonersListModel(QWidget *parent, QListView *listView,
-                       QMap<QString, QString> &prisonersToFacilities);
+                       QMap<QString, QString> &prisonersToFacilities,
+                       QMap<QString, QString> &prisonersToYears);
 
     int getCheckedItemsNumber() const;
 

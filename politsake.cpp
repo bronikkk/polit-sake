@@ -201,10 +201,17 @@ void PolitSake::writeLetter()
         facilityName = *facilityNameIndex;
     }
 
+    auto birthYearIndex = prisonersToYears.find(currentPrisoner);
+    QString birthYear;
+    if (birthYearIndex != prisonersToYears.end()) {
+        birthYear = *birthYearIndex;
+    }
+
     PenitentiaryDatabase::Address facilityAddress = penitentiaryDatabase->getAddressForPenitentiary(
                                                         facilityName);
 
-    QString letterAddressText = QString{"%1\n%2"}.arg(currentPrisoner).arg(facilityName);
+    QString letterAddressText = birthYear.isEmpty() ? QString{"%1\n%2"}.arg(currentPrisoner).arg(
+                                    facilityName) : QString{"%1 (%2)\n%3"}.arg(currentPrisoner).arg(birthYear).arg(facilityName);
     if (!facilityAddress.zip.isEmpty()) {
         letterAddressText += QString{"\n%1\n%2 %3"}.arg(facilityAddress.location).arg(
                                  facilityAddress.zip).arg(facilityAddress.state);
@@ -217,7 +224,7 @@ void PolitSake::writeLetter()
 
 void PolitSake::generatePrisonersListModel()
 {
-    prisonersListModel = new PrisonersListModel{personsTab, prisonersListView, prisonersToFacilities};
+    prisonersListModel = new PrisonersListModel{personsTab, prisonersListView, prisonersToFacilities, prisonersToYears};
 
     if (prisonersListModel->getTotalItemsNumber() == 0) {
         // Should this be an error?

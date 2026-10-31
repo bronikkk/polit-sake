@@ -18,6 +18,10 @@ namespace {
 static constexpr auto arrestLocationField =
     "Текущее место меры пресечения";
 
+static constexpr auto birthYearAbbreviationField = "ГР";
+
+static constexpr auto birthYearField = "Год рождения";
+
 static constexpr auto initialsField = "ФИО";
 
 static constexpr auto letterAddressField = "Адрес для писем";
@@ -32,7 +36,8 @@ bool isAnonymous(QString name)
 }
 
 QString appendToPrisonersList(QStringList &prisonersList, const QString &recordsOffset,
-                              QSet<QString> &uniquePrisoners, QMap<QString, QString> &prisonersToFacilities)
+                              QSet<QString> &uniquePrisoners, QMap<QString, QString> &prisonersToFacilities,
+                              QMap<QString, QString> &prisonersToYears)
 {
     static QRegularExpression badQuotationMarks{"»«.*"};
 
@@ -155,6 +160,20 @@ QString appendToPrisonersList(QStringList &prisonersList, const QString &records
         prisonersList.append(initialsString);
 
         prisonersToFacilities[initialsString] = letterAddressString;
+
+        auto prisonerBirthYear = prisonerFields[birthYearField];
+
+        QString prisonerBirthYearString;
+        if (!prisonerBirthYear.isString()
+                || (prisonerBirthYearString = prisonerBirthYear.toString()).isEmpty()) {
+            prisonerBirthYear = prisonerFields[birthYearAbbreviationField];
+        }
+
+        if (prisonerBirthYear.isString()) {
+            prisonerBirthYearString = prisonerBirthYear.toString();
+        }
+
+        prisonersToYears[initialsString] = prisonerBirthYearString;
     }
 
     auto offsetObject = prisonersObject["offset"];
@@ -169,7 +188,8 @@ QString appendToPrisonersList(QStringList &prisonersList, const QString &records
 
 PrisonersListModel::PrisonersListModel(QWidget *parent,
                                        QListView *listView,
-                                       QMap<QString, QString> &prisonersToFacilities) : QStringListModel{parent}
+                                       QMap<QString, QString> &prisonersToFacilities,
+                                       QMap<QString, QString> &prisonersToYears) : QStringListModel{parent}
 {
     listView->setModel(this);
 
@@ -180,7 +200,7 @@ PrisonersListModel::PrisonersListModel(QWidget *parent,
 
     do {
         recordsOffset = appendToPrisonersList(prisonersList, recordsOffset, uniquePrisoners,
-                                              prisonersToFacilities);
+                                              prisonersToFacilities, prisonersToYears);
 
         prisonersList.sort();
         setStringList(prisonersList);

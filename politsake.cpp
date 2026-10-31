@@ -16,6 +16,13 @@ PolitSake::PolitSake()
     setWindowIcon(QIcon(":/pics/favicon.ico"));
     setWindowTitle(tr("PolitSake"));
 
+    auto reply = QMessageBox::question(this, tr("Disclaimer"),
+                                       tr("9 апреля 2026 года Верховный Суд РФ принял решение о признании «Международного общественного движения „Мемориал“» экстремистской организацией.\n\nВыйти из этого приложения?"),
+                                       QMessageBox::Yes | QMessageBox::No);
+    if (reply == QMessageBox::Yes) {
+        exit(1);
+    }
+
     personsTab = new QWidget{this};
     prisonsTab = new QWidget{this};
 

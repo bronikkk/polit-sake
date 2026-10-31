@@ -20,13 +20,15 @@ static constexpr auto arrestLocationField =
 
 static constexpr auto initialsField = "ФИО";
 
+static constexpr auto letterAddressField = "Адрес для писем";
+
 static constexpr auto prisonLocationField =
     "Текущее место отбывания наказания";
 
 bool isAnonymous(QString name)
 {
-    return name == "Пожелал остаться анонимным"
-           || name.startsWith("Неизвестное лицо");
+    return name.startsWith("N (") || name.startsWith("Неизвестное лицо")
+           || name == "Пожелал остаться анонимным";
 }
 
 QString appendToPrisonersList(QStringList &prisonersList, const QString &recordsOffset,
@@ -76,6 +78,11 @@ QString appendToPrisonersList(QStringList &prisonersList, const QString &records
         QString letterAddressString;
         if (!letterAddress.isString() || (letterAddressString = letterAddress.toString()).isEmpty()) {
             letterAddress = prisonerFields[arrestLocationField];
+        }
+
+        if (!letterAddress.isString() || (letterAddressString = letterAddress.toString()).isEmpty()) {
+            letterAddress = prisonerFields[letterAddressField];
+
             if (!letterAddress.isString()) {
                 continue;
             }

@@ -25,7 +25,9 @@ class PolitSake : public QTabWidget
 public:
     PolitSake();
 
+    // TODO: Get rid of the hardcoded URL of Memorial PZK database
     static constexpr auto prisonersListURL = "https://api.airtable.com/v0/appaVayeFV2RS6Ihv/PZK";
+
     static constexpr auto airTableToken =
         "patkxJoU705lxPpKs.befb0b2bed420853d25fb2908a2496b19df2f44c109d7b36c23cf0236fcf1c83";
 

@@ -201,6 +201,11 @@ void PolitSake::writeLetter()
         facilityName = *facilityNameIndex;
     }
 
+    // TODO: Get rid of the birth year in the facility name for some databases
+    if (facilityName.endsWith("г. р.")) {
+        facilityName.chop(facilityName.length() - facilityName.lastIndexOf(','));
+    }
+
     auto birthYearIndex = prisonersToYears.find(currentPrisoner);
     QString birthYear;
     if (birthYearIndex != prisonersToYears.end()) {

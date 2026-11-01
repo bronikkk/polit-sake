@@ -93,7 +93,7 @@ QString appendToPrisonersList(QStringList &prisonersList, const QString &records
             }
 
             letterAddressString = letterAddress.toString();
-            if (letterAddressString.isEmpty()) {
+            if (letterAddressString.isEmpty() || letterAddressString == "Неизвестно") {
                 continue;
             }
         }
@@ -166,11 +166,10 @@ QString appendToPrisonersList(QStringList &prisonersList, const QString &records
         QString prisonerBirthYearString;
         if (!prisonerBirthYear.isString()
                 || (prisonerBirthYearString = prisonerBirthYear.toString()).isEmpty()) {
-            prisonerBirthYear = prisonerFields[birthYearAbbreviationField];
-        }
-
-        if (prisonerBirthYear.isString()) {
-            prisonerBirthYearString = prisonerBirthYear.toString();
+            auto prisonerBirthYearNumber = prisonerFields[birthYearAbbreviationField].toInt();
+            if (prisonerBirthYearNumber > 0) {
+                prisonerBirthYearString = QString::number(prisonerBirthYearNumber);
+            }
         }
 
         prisonersToYears[initialsString] = prisonerBirthYearString;

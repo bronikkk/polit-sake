@@ -32,7 +32,7 @@ static constexpr auto prisonLocationField =
 bool isAnonymous(QString name)
 {
     return name.startsWith("N (") || name.startsWith("Неизвестное лицо")
-           || name == "Пожелал остаться анонимным";
+           || name == "Пожелал остаться анонимным" || name.contains('.');
 }
 
 QString appendToPrisonersList(QStringList &prisonersList, const QString &recordsOffset,

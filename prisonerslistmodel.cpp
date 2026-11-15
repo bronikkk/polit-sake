@@ -3,6 +3,7 @@
 #include "politsake.h"
 
 #include <QColor>
+#include <QCursor>
 #include <QEventLoop>
 #include <QJsonArray>
 #include <QJsonDocument>
@@ -197,6 +198,10 @@ PrisonersListModel::PrisonersListModel(QWidget *parent,
 
     QString recordsOffset;
 
+    static QCursor waitCursor{Qt::CursorShape::WaitCursor};
+
+    parent->setCursor(waitCursor);
+
     do {
         recordsOffset = appendToPrisonersList(prisonersList, recordsOffset, uniquePrisoners,
                                               prisonersToFacilities, prisonersToYears);
@@ -206,6 +211,8 @@ PrisonersListModel::PrisonersListModel(QWidget *parent,
     } while (!recordsOffset.isEmpty());
 
     totalItemsNumber = prisonersList.size();
+
+    parent->unsetCursor();
 
     listView->setEnabled(true);
 }

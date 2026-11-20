@@ -1,0 +1,35 @@
+name: XML Linter
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get -y install bash libxml2-utils
+
+      - name: Check for tabs
+        run: |
+          if grep -q $'\t' penitentiary.xml; then
+            echo "Error: Tabs found in penitentiary.xml"
+            exit 1
+          fi
+        shell: bash
+
+      - name: Validate XML
+        run: |
+          xmllint --noout penitentiary.xml
